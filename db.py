@@ -117,3 +117,27 @@ class db_ops():
         self.connection.commit()
         print("Created account")
 
+# 1. User Profile and Preferences Management
+# Register/Login: Create an account or log in with existing credentials.
+# Edit Profile: Update personal details (e.g., name, email).
+# Set Interests: Select topics of interest to enhance recommendations.
+# View Learning History: Access a history of viewed, enrolled, or completed courses.
+# 2. Course Exploration and Search
+# Search Courses: Find courses by keywords, topics, or categories.
+# Filter and Sort Courses: Filter courses by topic, rating, difficulty level, popularity, or duration.
+# View Course Details: Access course information, including description, topics covered, rating, and reviews.
+# Browse Recommended Courses: View courses recommended by the system based on user interests and past interactions.
+# 3. User-Course Interactions
+# Enroll in Course: Sign up for a course to access its content.
+# Rate a Course: Leave a rating and/or review after completing or viewing a course, contributing to personalized recommendations.
+# Add Course to Favorites: Bookmark courses for quick access.
+# View Course Progress: Track progress through enrolled courses (if applicable).
+# Complete Course: Mark a course as completed, which can also trigger new or refined recommendations.
+# 4. Recommendation System Interactions
+# Receive Personalized Recommendations: Access recommendations based on user profile, interests, and interactions with courses.
+# Rate/Interact with Recommendations: Engage with recommended courses to further refine the system’s accuracy.
+# View Similar Users’ Courses: Access courses taken by users with similar interests (collaborative filtering).
+# 5. User Feedback and System Improvement
+# Provide Feedback: Submit feedback on course recommendations to improve future suggestions.
+# Adjust Interests Based on Course Ratings: Allow users to confirm or adjust interests after rating courses highly, further refining their profile.
+
