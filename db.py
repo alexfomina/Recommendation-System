@@ -1,19 +1,23 @@
 from datetime import datetime
 import uuid
 import mysql.connector
+from flask import Flask, request, jsonify
 
-class db_ops():
+class db_ops:
+    _instance = None
 
-    def __init__(self):
-        self.connection = mysql.connector.connect(host = 'localhost',
-                                                user = 'root',
-                                                password = 'CPSC408!',
-                                                auth_plugin = 'mysql_native_password',
-                                                database = 'RecommendationApp')
-        #Cursor object to interact with database
-        self.cursor = self.connection.cursor()
-
-        print("Connection made")
+    def __new__(cls, *args, **kwargs):
+        if not cls._instance:
+            cls._instance = super().__new__(cls, *args, **kwargs)
+            # Initialize database connection here
+            cls._instance.connection = mysql.connector.connect(host = 'localhost',
+                                                                user = 'root',
+                                                                password = 'CPSC408!',
+                                                                auth_plugin = 'mysql_native_password',
+                                                                database = 'RecommendationApp')
+            cls._instance.cursor = cls._instance.connection.cursor()
+            print("Database connection established")
+        return cls._instance
     
     def create_tables(self):
 
@@ -102,7 +106,10 @@ class db_ops():
         self.cursor.execute(query)
         self.connection.commit()
         print("Created CourseTopic table")
-
+    #TODO- test if this works
+    """
+        Function to initialize user account
+    """
     def create_user_account(self, username, password, name, profile):
            #generate random id
         id = uuid.uuid4().int & (1 << 16) - 1
@@ -116,6 +123,28 @@ class db_ops():
         self.cursor.execute(query, params)
         self.connection.commit()
         print("Created account")
+    #TODO- test if this works
+    """
+        Function to check if a user account already exists
+    """
+    def check_user_account(self, username, password):
+        # Choose the appropriate table based on user_type
+        query = '''
+            SELECT EXISTS (SELECT 1 FROM USER WHERE username = %s AND password = %s);
+            '''
+        print("made it past query")
+        # Execute the query with parameters to check if the user exists
+        self.cursor.execute(query, (username, password))
+        
+        # Fetch the result
+        result = self.cursor.fetchone()
+
+        # Return True if user exists (1) or False if not (0)
+        print(result[0])
+        self.connection.commit()
+        return result[0] == 1
+    #def edit_account(self, param, username, password):
+        
 
 # 1. User Profile and Preferences Management
 # Register/Login: Create an account or log in with existing credentials.
