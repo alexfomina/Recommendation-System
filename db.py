@@ -11,7 +11,7 @@ class db_ops:
             # Initialize database connection here
             cls._instance.connection = mysql.connector.connect(host = 'localhost',
                                                                 user = 'root',
-                                                                password = 'CPSC408!',
+                                                                password = 'HenryCPSC408', #CPSC408!
                                                                 auth_plugin = 'mysql_native_password',
                                                                 database = 'RecommendationApp')
             cls._instance.cursor = cls._instance.connection.cursor()
@@ -20,6 +20,20 @@ class db_ops:
     
     def create_tables(self):
 
+        query = '''
+            CREATE TABLE UserInterests (
+            UserInterestID PK VARCHAR(60),
+            UserID FK VARCHAR(60),
+            TopicID FK VARCHAR(60),
+            InterestLevel INT
+            );
+            '''
+        #TODO: Change interestLevel in ER diagram from varchar to INT
+        #TODO: Not sure if 'number' and 'string' are even a datatypes in ones below
+        #TODO: Also PK and FK should maybe be changed to INT or we can change up how keys are generated
+        self.cursor.execute(query)
+        self.connection.commit()
+        print("Created User Interests table")
         query = '''
             CREATE TABLE Topic (
             TopicID VARCHAR(60) PRIMARY KEY,
@@ -145,31 +159,188 @@ class db_ops:
         self.connection.commit()
         return result[0] == 1
     
-    def get_user_details(self, username):
-        query = "SELECT Username, Name, Profile, DateCreated FROM User WHERE Username = %s"
-        self.cursor.execute(query, (username,))
-        result = self.cursor.fetchone()
-        if result:
-            return {
-                "Username": result[0],
-                "Name": result[1],
-                "Profile": result[2],
-                "DateCreated": result[3].strftime("%Y-%m-%d %H:%M:%S")
-            }
-        return None
-    def delete(self):
-        query = '''DROP DATABASE RECOMMENDATIONAPP;'''
-        self.cursor.execute(query)
-        self.connection.commit()
-    #def edit_account(self, param, username, password):
+    #TODO: Test if this works
+    #edit different values of a user account
+    def edit_account(self, userID, field_to_edit, new_value):
+        #TODO: Email can be an option here but need to add it to User table
+        '''
+        Parameter options
+
+        field_to_edit - (Name, Profile)
+        '''
         
+        valid_fields = ["Name", "Profile"]
+
+        if field_to_edit not in valid_fields:
+            raise ValueError(f"Can not edit field: {field_to_edit}")
+
+        #update User table based on which field should be updated
+        #use username and password to find user to update
+        query = f'''
+            UPDATE User
+            SET {field_to_edit} = %s
+            WHERE UserID = %s;
+            '''
+        #TODO: test this to see if f string is allowed while still using %s for fields
+        
+        self.cursor.execute(query, (new_value, userID))
+        self.connection.commit()
+
+    #TODO: Test if this works
+    #set user interest
+    def set_user_interest(self, userID, topic, interest_level):
+        
+        #generate random id
+        id = uuid.uuid4().int & (1 << 16) - 1
+
+        #get topicID from Topic table
+        topicID = db_ops.get_topicID(topic)
+
+        query = '''
+            INSERT INTO UserInterests
+            VALUES (%s,%s,%s,%s);
+            '''
+        
+        self.cursor.execute(query, (id, userID, topicID, interest_level))
+        self.connection.commit()
+
+    #function to get userID
+    def get_userID(self, username,password):
+        '''
+        Helper function that returns the userID given a username and password
+        '''
+
+        query = '''
+            SELECT UserID
+            FROM User
+            WHERE Username = %s AND Password = %s;
+            '''
+        
+        self.cursor.execute(query, (username, password))
+        
+        #get result
+        userID = self.cursor.fetchone
+
+        return userID
+    
+    #function to get topicID
+    def get_topicID(self, topicName):
+        '''
+        Helper function that returns topicID given topicName
+        '''
+
+        query = '''
+            SELECT TopicID
+            FROM Topic
+            WHERE topicName = %s;
+            '''
+        
+        self.cursor.execute(query, topicName)
+        
+        #get result
+        topicID = self.cursor.fetchone()
+
+        return topicID
+    
+    #Returns a history of viewed, enrolled, or completed courses 
+    #(Note: when storing values in InteractionType they must be stored as viewed, enrolled, completed)
+    def course_interaction_history(self, userID, interaction_type):
+        '''
+        Access interaction history
+
+        Parameter requirements:
+        interaction_type - (viewed, enrolled, completed)
+
+        Returns a list of tuples - (Course name, timestamp, rating) for each course
+        '''
+
+        valid_fields = ['viewed', 'enrolled', 'completed']
+
+        if interaction_type not in valid_fields:
+            raise ValueError(f"Non valid interaction type: {interaction_type}")
+
+        #selects the course names based on courseID as well as timestamp and rating of courses users have interacted with in a specific way
+        query = '''
+            SELECT (SELECT CourseName FROM Course WHERE Course.CourseID = UserItemInteraction.CourseID) AS CourseName, 
+            Timestamp, Rating
+            FROM UserItemInteraction
+            WHERE UserID = %s AND InteractionType = %s;
+            '''
+        
+        self.cursor.execute(query, (userID, interaction_type))
+
+        results = self.cursor.fetchall()
+
+        return results
+
+
+    #Find courses by keywords, topic, or category.
+    
+    #find courses from keywords
+    def search_course_keyword(self, search):
+        
+        #searches for any courses containing the keyword
+        query = '''
+            SELECT CourseName
+            FROM Course
+            WHERE CourseName LIKE CONCAT('%', %s, '%');
+            '''
+        
+        self.cursor.execute(query, search)
+        
+        results = self.cursor.fetchall()
+
+        #turn results from a list of tuples into just a list
+        list_results = [row[0] for row in results]
+
+        return list_results
+    
+    #find courses from category
+    def search_course_category(self, search):
+        #searches for any course category containing the keyword
+        query = '''
+            SELECT CourseName
+            FROM Course
+            WHERE Category LIKE CONCAT('%', %s, '%');
+            '''
+        
+        self.cursor.execute(query, search)
+        
+        results = self.cursor.fetchall()
+
+        #turn results from a list of tuples into just a list
+        list_results = [row[0] for row in results]
+
+        return list_results
+    
+    #find course from topic
+    def search_course_topic(self, search):
+        
+        #Selects courses that have a topic that includes part of the keyword
+        query = '''
+            SELECT DISTINCT CourseName
+            FROM Course
+            JOIN CourseTopic USING (CourseID)
+            JOIN Topic USING (TopicID)
+            WHERE TopicName LIKE CONCAT('%', %s, '%');
+            '''
+        
+        self.cursor.execute(query, search)
+        
+        results = self.cursor.fetchall()
+
+        #turn results from a list of tuples into just a list
+        list_results = [row[0] for row in results]
+
+        return list_results
+#test
 # 1. User Profile and Preferences Management
-# Register/Login: Create an account or log in with existing credentials.
-# Edit Profile: Update personal details (e.g., name, email).
-# Set Interests: Select topics of interest to enhance recommendations.
-# View Learning History: Access a history of viewed, enrolled, or completed courses.
+# Register/Login: Create an account(DONE) or log in with existing credentials.
+# Edit Profile: Update personal details (e.g., name, email).(DONE)
+# Set Interests: Select topics of interest to enhance recommendations.(DONE)
+# View Learning History: Access a history of viewed, enrolled, or completed courses.(DONE)
 # 2. Course Exploration and Search
-# Search Courses: Find courses by keywords, topics, or categories.
+# Search Courses: Find courses by keywords, topics, or categories.(DONE)
 # Filter and Sort Courses: Filter courses by topic, rating, difficulty level, popularity, or duration.
 # View Course Details: Access course information, including description, topics covered, rating, and reviews.
 # Browse Recommended Courses: View courses recommended by the system based on user interests and past interactions.
