@@ -1,7 +1,6 @@
 from datetime import datetime
 import uuid
 import mysql.connector
-from flask import Flask, request, jsonify
 
 class db_ops:
     _instance = None
@@ -22,29 +21,18 @@ class db_ops:
     def create_tables(self):
 
         query = '''
-        CREATE TABLE UserInterests (
-        UserInterestID PK VARCHAR(60),
-        UserID FK VARCHAR(60),
-        TopicID FK VARCHAR(60),
-        InterestLevel VARCHAR(60)
-        );
-        '''
-        self.cursor.execute(query)
-        self.connection.commit()
-        print("Created User Interests table")
-        query = '''
             CREATE TABLE Topic (
-            TopicID PK VARCHAR(60),
+            TopicID VARCHAR(60) PRIMARY KEY,
             TopicName VARCHAR(60)
             );
             '''
         self.cursor.execute(query)
         self.connection.commit()
-        print("Created User Topic table")
+        print("Created Topic table")
 
         query = '''
             CREATE TABLE Course (
-            CourseID PK VARCHAR(60),
+            CourseID VARCHAR(60) PRIMARY KEY,
             CourseName VARCHAR(60),
             Description VARCHAR(60),
             Category VARCHAR(60),
@@ -58,7 +46,7 @@ class db_ops:
 
         query = ''' 
             CREATE TABLE User (
-            UserID PK VARCHAR(60),
+            UserID VARCHAR(60) PRIMARY KEY,
             Username VARCHAR(60),
             Password VARCHAR(60),
             Name VARCHAR(60),
@@ -71,10 +59,23 @@ class db_ops:
         print("Created User table")
 
         query = '''
+        CREATE TABLE UserInterests (
+        UserInterestID VARCHAR(60) PRIMARY KEY ,
+        FOREIGN KEY (UserID) REFERENCES USER(UserID),
+        FOREIGN KEY (TopicID) REFERENCES VARCHAR(60),
+        InterestLevel VARCHAR(60)
+        );
+        '''
+        self.cursor.execute(query)
+        self.connection.commit()
+        print("Created User Interests table")
+
+
+        query = '''
             CREATE TABLE Recommendation (
-            RecommendationID PK string,
-            UserID FK string,
-            RecommendedCourseID FK string,
+            RecommendationID string PRIMARY KEY ,
+            FOREIGN KEY (UserID) REFERENCES USER(UserID),
+            FOREIGN KEY (CourseID) REFERENCES COURSE(CourseID),
             RecommendationScore number,
             RecommendationDate date,
             Rank number
@@ -86,8 +87,8 @@ class db_ops:
 
         query = '''
             CREATE TABLE UserItemInteraction (
-            UserID FK string,
-            CourseID FK string,
+            FOREIGN KEY (UserID) REFERENCES USER(UserID)
+            FOREIGN KEY (CourseID) REFERENCES COURSE(CourseID)
             InteractionType string,
             Timestamp datetime,
             Rating number
@@ -99,8 +100,8 @@ class db_ops:
 
         query = '''
             CREATE TABLE CourseTopic (
-            CourseID FK string,
-            TopicID FK string
+            FOREIGN KEY (CourseID) REFERENCES COURSE(CourseID),
+            FOREIGN KEY (TopicID) REFERENCES TOPIC(TopicID)
             );
             '''
         self.cursor.execute(query)
@@ -143,9 +144,25 @@ class db_ops:
         print(result[0])
         self.connection.commit()
         return result[0] == 1
+    
+    def get_user_details(self, username):
+        query = "SELECT Username, Name, Profile, DateCreated FROM User WHERE Username = %s"
+        self.cursor.execute(query, (username,))
+        result = self.cursor.fetchone()
+        if result:
+            return {
+                "Username": result[0],
+                "Name": result[1],
+                "Profile": result[2],
+                "DateCreated": result[3].strftime("%Y-%m-%d %H:%M:%S")
+            }
+        return None
+    def delete(self):
+        query = '''DROP DATABASE RECOMMENDATIONAPP;'''
+        self.cursor.execute(query)
+        self.connection.commit()
     #def edit_account(self, param, username, password):
         
-
 # 1. User Profile and Preferences Management
 # Register/Login: Create an account or log in with existing credentials.
 # Edit Profile: Update personal details (e.g., name, email).
