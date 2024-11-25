@@ -12,7 +12,7 @@ class db_ops:
             # Initialize database connection here
             cls._instance.connection = mysql.connector.connect(host = 'localhost',
                                                                 user = 'root',
-                                                                password = 'CPSC408!',
+                                                                password = 'HenryCPSC408', #CPSC408!
                                                                 auth_plugin = 'mysql_native_password',
                                                                 database = 'RecommendationApp')
             cls._instance.cursor = cls._instance.connection.cursor()
@@ -22,13 +22,16 @@ class db_ops:
     def create_tables(self):
 
         query = '''
-        CREATE TABLE UserInterests (
-        UserInterestID PK VARCHAR(60),
-        UserID FK VARCHAR(60),
-        TopicID FK VARCHAR(60),
-        InterestLevel VARCHAR(60)
-        );
-        '''
+            CREATE TABLE UserInterests (
+            UserInterestID PK VARCHAR(60),
+            UserID FK VARCHAR(60),
+            TopicID FK VARCHAR(60),
+            InterestLevel INT
+            );
+            '''
+        #TODO: Change interestLevel in ER diagram from varchar to INT
+        #TODO: Not sure if 'number' and 'string' are even a datatypes in ones below
+        #TODO: Also PK and FK should maybe be changed to INT or we can change up how keys are generated
         self.cursor.execute(query)
         self.connection.commit()
         print("Created User Interests table")
@@ -40,7 +43,7 @@ class db_ops:
             '''
         self.cursor.execute(query)
         self.connection.commit()
-        print("Created User Topic table")
+        print("Created Topic table")
 
         query = '''
             CREATE TABLE Course (
@@ -143,13 +146,97 @@ class db_ops:
         print(result[0])
         self.connection.commit()
         return result[0] == 1
-    #def edit_account(self, param, username, password):
+    
+    #TODO: Test if this works
+    #edit different values of a user account
+    def edit_account(self, username, password, field_to_edit, new_value):
+        #TODO: Email can be an option here but need to add it to User table
+        '''
+        Parameter options
+
+        field_to_edit - (Name, Profile)
+        '''
         
+        valid_fields = ["Name", "Profile"]
+
+        if field_to_edit not in valid_fields:
+            raise ValueError(f"Can not edit field: {field_to_edit}")
+
+        #update User table based on which field should be updated
+        #use username and password to find user to update
+        query = f'''
+            UPDATE User
+            SET {field_to_edit} = %s
+            WHERE Username = %s AND Password = %s;
+            '''
+        #TODO: test this to see if f string is allowed while still using %s for fields
+        
+        self.cursor.execute(query, (new_value, username, password))
+        self.connection.commit()
+
+    #TODO: Test if this works
+    #set user interest
+    def set_user_interest(self, username, password, topic, interest_level):
+        
+        #generate random id
+        id = uuid.uuid4().int & (1 << 16) - 1
+
+        #get userID from User table and topicID from Topic table
+        userID = db_ops.get_userID(username, password)
+        topicID = db_ops.get_topicID(topic)
+
+        query = '''
+            INSERT INTO UserInterests
+            VALUES (%s,%s,%s,%s);
+            '''
+        
+        self.cursor.execute(query, (id, userID, topicID, interest_level))
+        self.connection.commit()
+
+    #function to get userID
+    def get_userID(self, username,password):
+        '''
+        Helper function that returns the userID given a username and password
+        '''
+
+        query = '''
+            SELECT UserID
+            FROM User
+            WHERE Username = %s AND Password = %s;
+            '''
+        
+        self.cursor.execute(query, (username, password))
+        self.connection.commit()
+        
+        #get result
+        userID = self.cursor.fetchone
+
+        return userID
+    
+    #function to get topicID
+    def get_topicID(self, topicName):
+        '''
+        Helper function that returns topicID given topicName
+        '''
+
+        query = '''
+            SELECT TopicID
+            FROM Topic
+            WHERE topicName = %s;
+            '''
+        
+        self.cursor.execute(query, topicName)
+        self.connection.commit()
+        
+        #get result
+        topicID = self.cursor.fetchone
+
+        return topicID
 
 # 1. User Profile and Preferences Management
-# Register/Login: Create an account or log in with existing credentials.
-# Edit Profile: Update personal details (e.g., name, email).
-# Set Interests: Select topics of interest to enhance recommendations.
+# Register/Login: Create an account(DONE) or log in with existing credentials.
+# Edit Profile: Update personal details (e.g., name, email).(DONE)
+# Set Interests: Select topics of interest to enhance recommendations.(DONE)
 # View Learning History: Access a history of viewed, enrolled, or completed courses.
 # 2. Course Exploration and Search
 # Search Courses: Find courses by keywords, topics, or categories.

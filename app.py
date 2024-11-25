@@ -6,6 +6,11 @@ app = Flask(__name__)
 # Initialize a global db_ops object so it can be reused in all routes
 db = db_ops()
 
+@app.route('/')
+def home():
+    return "Welcome to the Flask App!"
+
+
 @app.route('/create_user', methods=['POST'])
 def create_user():
     # Get JSON data from the incoming request
