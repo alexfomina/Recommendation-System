@@ -1,5 +1,4 @@
 from datetime import datetime
-import uuid
 import mysql.connector
 
 class db_ops:
@@ -19,10 +18,6 @@ class db_ops:
         return cls._instance
     
     def create_tables(self):
-        
-        self.cursor.execute(query)
-        self.connection.commit()
-        print("Created User Interests table")
 
         #TODO: Update ER diagram data types
         query = '''
@@ -65,7 +60,7 @@ class db_ops:
 
         query = '''
             CREATE TABLE UserInterests (
-            UserInterestID PRIMARY KEY INT UNIQUE NOT NULL AUTO_INCREMENT,
+            UserInterestID INT PRIMARY KEY UNIQUE NOT NULL AUTO_INCREMENT,
             InterestLevel INT,
             UserID INT,
             TopicID INT,
@@ -78,28 +73,12 @@ class db_ops:
         self.connection.commit()
         print("Created User Interests table")
 
-
-        query = '''
-        CREATE TABLE UserInterests (
-        UserInterestID INT PRIMARY KEY UNIQUE NOT NULL AUTO_INCREMENT,
-        InterestLevel VARCHAR(60),
-        UserID INT,
-        TopicID INT,
-        FOREIGN KEY (UserID) REFERENCES USER(UserID),
-        FOREIGN KEY (TopicID) REFERENCES VARCHAR(60)
-        );
-        '''
-        self.cursor.execute(query)
-        self.connection.commit()
-        print("Created User Interests table")
-
-
         query = '''
             CREATE TABLE Recommendation (
             RecommendationID INT PRIMARY KEY UNIQUE NOT NULL AUTO_INCREMENT,
             RecommendationScore INT,
             RecommendationDate DATE,
-            Rank INT,
+            Ranking INT,
             UserID INT,
             CourseID INT,
             FOREIGN KEY (UserID) REFERENCES USER(UserID),
@@ -117,10 +96,9 @@ class db_ops:
             Rating INT,
             UserID INT,
             CourseID INT,
-            PRIMARY KEY (UserID, CourseID)
-            FOREIGN KEY (UserID) REFERENCES USER(UserID)
-            FOREIGN KEY (CourseID) REFERENCES COURSE(CourseID)
-
+            PRIMARY KEY (UserID, CourseID),
+            FOREIGN KEY (UserID) REFERENCES User(UserID),
+            FOREIGN KEY (CourseID) REFERENCES Course(CourseID)
             );
             '''
         self.cursor.execute(query)
@@ -131,14 +109,20 @@ class db_ops:
             CREATE TABLE CourseTopic (
             CourseID INT,
             TopicID INT,
-            PRIMARY KEY (CourseID, TopicID)
-            FOREIGN KEY (CourseID) REFERENCES COURSE(CourseID),
-            FOREIGN KEY (TopicID) REFERENCES TOPIC(TopicID)
+            PRIMARY KEY (CourseID, TopicID),
+            FOREIGN KEY (CourseID) REFERENCES Course(CourseID),
+            FOREIGN KEY (TopicID) REFERENCES Topic(TopicID)
             );
             '''
         self.cursor.execute(query)
         self.connection.commit()
         print("Created CourseTopic table")
+
+    
+    def delete_everything(self):
+        query = '''DROP DATABASE RecommendationApp;'''
+        self.cursor.execute(query)
+
     #TODO- test if this works
     """
         Function to initialize user account
