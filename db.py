@@ -19,24 +19,15 @@ class db_ops:
         return cls._instance
     
     def create_tables(self):
-
-        query = '''
-            CREATE TABLE UserInterests (
-            UserInterestID PK VARCHAR(60),
-            UserID FK VARCHAR(60),
-            TopicID FK VARCHAR(60),
-            InterestLevel INT
-            );
-            '''
-        #TODO: Change interestLevel in ER diagram from varchar to INT
-        #TODO: Not sure if 'number' and 'string' are even a datatypes in ones below
-        #TODO: Also PK and FK should maybe be changed to INT or we can change up how keys are generated
+        
         self.cursor.execute(query)
         self.connection.commit()
         print("Created User Interests table")
+
+        #TODO: Update ER diagram data types
         query = '''
             CREATE TABLE Topic (
-            TopicID VARCHAR(60) PRIMARY KEY,
+            TopicID INT PRIMARY KEY UNIQUE NOT NULL AUTO_INCREMENT,
             TopicName VARCHAR(60)
             );
             '''
@@ -46,7 +37,7 @@ class db_ops:
 
         query = '''
             CREATE TABLE Course (
-            CourseID VARCHAR(60) PRIMARY KEY,
+            CourseID INT PRIMARY KEY UNIQUE NOT NULL AUTO_INCREMENT,
             CourseName VARCHAR(60),
             Description VARCHAR(60),
             Category VARCHAR(60),
@@ -60,7 +51,7 @@ class db_ops:
 
         query = ''' 
             CREATE TABLE User (
-            UserID VARCHAR(60) PRIMARY KEY,
+            UserID INT PRIMARY KEY UNIQUE NOT NULL AUTO_INCREMENT,
             Username VARCHAR(60),
             Password VARCHAR(60),
             Name VARCHAR(60),
@@ -73,11 +64,29 @@ class db_ops:
         print("Created User table")
 
         query = '''
+            CREATE TABLE UserInterests (
+            UserInterestID PRIMARY KEY INT UNIQUE NOT NULL AUTO_INCREMENT,
+            InterestLevel INT,
+            UserID INT,
+            TopicID INT,
+            FOREIGN KEY (UserID) REFERENCES User(UserID),
+            FOREIGN KEY (TopicID) REFERENCES Topic(TopicID)
+            );
+            '''
+        
+        self.cursor.execute(query)
+        self.connection.commit()
+        print("Created User Interests table")
+
+
+        query = '''
         CREATE TABLE UserInterests (
-        UserInterestID VARCHAR(60) PRIMARY KEY ,
+        UserInterestID INT PRIMARY KEY UNIQUE NOT NULL AUTO_INCREMENT,
+        InterestLevel VARCHAR(60),
+        UserID INT,
+        TopicID INT,
         FOREIGN KEY (UserID) REFERENCES USER(UserID),
-        FOREIGN KEY (TopicID) REFERENCES VARCHAR(60),
-        InterestLevel VARCHAR(60)
+        FOREIGN KEY (TopicID) REFERENCES VARCHAR(60)
         );
         '''
         self.cursor.execute(query)
@@ -87,12 +96,14 @@ class db_ops:
 
         query = '''
             CREATE TABLE Recommendation (
-            RecommendationID string PRIMARY KEY ,
+            RecommendationID INT PRIMARY KEY UNIQUE NOT NULL AUTO_INCREMENT,
+            RecommendationScore INT,
+            RecommendationDate DATE,
+            Rank INT,
+            UserID INT,
+            CourseID INT,
             FOREIGN KEY (UserID) REFERENCES USER(UserID),
-            FOREIGN KEY (CourseID) REFERENCES COURSE(CourseID),
-            RecommendationScore number,
-            RecommendationDate date,
-            Rank number
+            FOREIGN KEY (CourseID) REFERENCES COURSE(CourseID)
             ); 
             '''
         self.cursor.execute(query)
@@ -101,11 +112,15 @@ class db_ops:
 
         query = '''
             CREATE TABLE UserItemInteraction (
+            InteractionType VARCHAR(20),
+            Timestamp DATETIME,
+            Rating INT,
+            UserID INT,
+            CourseID INT,
+            PRIMARY KEY (UserID, CourseID)
             FOREIGN KEY (UserID) REFERENCES USER(UserID)
             FOREIGN KEY (CourseID) REFERENCES COURSE(CourseID)
-            InteractionType string,
-            Timestamp datetime,
-            Rating number
+
             );
             '''
         self.cursor.execute(query)
@@ -114,6 +129,9 @@ class db_ops:
 
         query = '''
             CREATE TABLE CourseTopic (
+            CourseID INT,
+            TopicID INT,
+            PRIMARY KEY (CourseID, TopicID)
             FOREIGN KEY (CourseID) REFERENCES COURSE(CourseID),
             FOREIGN KEY (TopicID) REFERENCES TOPIC(TopicID)
             );
@@ -126,14 +144,12 @@ class db_ops:
         Function to initialize user account
     """
     def create_user_account(self, username, password, name, profile):
-           #generate random id
-        id = uuid.uuid4().int & (1 << 16) - 1
 
         query = '''
-        INSERT INTO user
-        VALUES (%s, %s, %s, %s, %s)
+        INSERT INTO User (username, password, name, profile)
+        VALUES (%s, %s, %s, %s)
         '''
-        params = (id, username, password, name, profile)
+        params = (username, password, name, profile)
 
         self.cursor.execute(query, params)
         self.connection.commit()
@@ -189,19 +205,16 @@ class db_ops:
     #TODO: Test if this works
     #set user interest
     def set_user_interest(self, userID, topic, interest_level):
-        
-        #generate random id
-        id = uuid.uuid4().int & (1 << 16) - 1
 
         #get topicID from Topic table
         topicID = db_ops.get_topicID(topic)
 
         query = '''
-            INSERT INTO UserInterests
-            VALUES (%s,%s,%s,%s);
+            INSERT INTO UserInterests (userID, topicID, interest_level)
+            VALUES (%s,%s,%s);
             '''
         
-        self.cursor.execute(query, (id, userID, topicID, interest_level))
+        self.cursor.execute(query, (userID, topicID, interest_level))
         self.connection.commit()
 
     #function to get userID
