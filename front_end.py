@@ -163,6 +163,14 @@ from db import db_ops
 
 # Initialize Database Operations
 db = db_ops()
+#db.delete_everything()
+#db.initialize_database()  # Ensure tables exist
+
+#db.create_tables() run once
+db.create_user_account("test_user", "password123", "Test User", "This is a test profile.")  # Add a test user
+db.populate_courses('courses.csv') #run once
+
+# Functions for App Logic
 
 # Pages
 def render_page(page):
