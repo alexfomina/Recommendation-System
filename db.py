@@ -389,6 +389,26 @@ class db_ops:
         #returns a list containing CourseName, Description, Category, Instructor, AverageRating
         return results
 
+    #returns a list of recommended course ids based on their ranking
+    def view_recommended_courses(self, userID):
+
+        query = '''
+            SELECT RecommendedCourseID
+            FROM Recommendation
+            WHERE UserID = %s
+            ORDER BY Ranking ASC;
+            '''
+        
+        self.cursor.execute(query, (userID,))
+        
+        results = self.cursor.fetchall()
+
+        #turn results from a list of tuples into just a list
+        list_results = [row[0] for row in results]
+
+        return list_results
+    
+
 
 
 #test
@@ -401,7 +421,7 @@ class db_ops:
 # Search Courses: Find courses by keywords, topics, or categories.(DONE)
 # Filter and Sort Courses: Filter courses by topic, rating (DONE), difficulty level, popularity, or duration.
 # View Course Details: Access course information, including description, topics covered, rating, and reviews.(DONE except returns CourseName, Description, Category, Instructor, AverageRating)
-# Browse Recommended Courses: View courses recommended by the system based on user interests and past interactions.
+# Browse Recommended Courses: View courses recommended by the system based on user interests and past interactions. (DONE)(The actual logic of the recommendation system still needs to be done)
 # 3. User-Course Interactions
 # Enroll in Course: Sign up for a course to access its content.
 # Rate a Course: Leave a rating and/or review after completing or viewing a course, contributing to personalized recommendations.
