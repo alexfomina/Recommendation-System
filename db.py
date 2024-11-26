@@ -1,5 +1,6 @@
 from datetime import datetime
 import mysql.connector
+import uuid
 
 class db_ops:
     _instance = None
@@ -10,7 +11,7 @@ class db_ops:
             # Initialize database connection here
             cls._instance.connection = mysql.connector.connect(host = 'localhost',
                                                                 user = 'root',
-                                                                password = 'HenryCPSC408', #CPSC408!
+                                                                password = 'CPSC408!' ,#'HenryCPSC408', #CPSC408!
                                                                 auth_plugin = 'mysql_native_password',
                                                                 database = 'RecommendationApp')
             cls._instance.cursor = cls._instance.connection.cursor()
@@ -128,12 +129,12 @@ class db_ops:
         Function to initialize user account
     """
     def create_user_account(self, username, password, name, profile):
-
+        id = uuid.uuid4().int & (1 << 16) - 1
         query = '''
-        INSERT INTO User (username, password, name, profile)
-        VALUES (%s, %s, %s, %s)
+        INSERT INTO User (UserID, username, password, name, profile)
+        VALUES (%s, %s, %s, %s, %s)
         '''
-        params = (username, password, name, profile)
+        params = (id, username, password, name, profile)
 
         self.cursor.execute(query, params)
         self.connection.commit()

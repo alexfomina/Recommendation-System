@@ -2,7 +2,7 @@ import mysql.connector
 
 conn = mysql.connector.connect(host = 'localhost',
                                user = 'root',
-                               password = 'HenryCPSC408', #CPSC408!
+                               password =  '#CPSC408!', #'HenryCPSC408', #CPSC408!
                                auth_plugin = 'mysql_native_password')
                                #database = "RecommendationApp")
 
