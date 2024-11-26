@@ -11,6 +11,7 @@ db = db_ops()
 
 #db.create_tables() run once
 db.create_user_account("test_user", "password123", "Test User", "This is a test profile.")  # Add a test user
+db.populate_courses('courses.csv') #run once
 
 # Functions for App Logic
 def handle_action(action, username, password, name=None, profile=None):

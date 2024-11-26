@@ -1,5 +1,6 @@
 from datetime import datetime
 import mysql.connector
+import csv
 
 class db_ops:
     _instance = None
@@ -436,3 +437,23 @@ class db_ops:
 # Provide Feedback: Submit feedback on course recommendations to improve future suggestions.
 # Adjust Interests Based on Course Ratings: Allow users to confirm or adjust interests after rating courses highly, further refining their profile.
 
+
+#Populate
+    
+    def populate_courses(self, csv_file):
+        query = '''
+                INSERT INTO Course VALUES (%s,%s,%s,%s,%s,%s);
+                '''
+
+        #open songs.csv file
+        with open(csv_file, mode = 'r') as file:
+            csvFile = csv.reader(file)
+
+            #skip header
+            next(csvFile)
+
+            for line in csvFile: #iterates through each row in the csv file
+                self.cursor.execute(query,line)
+        # batch commit
+        self.connection.commit()
+        print("Ingested your courses!")
