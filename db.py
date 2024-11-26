@@ -232,7 +232,7 @@ class db_ops:
             WHERE topicName = %s;
             '''
         
-        self.cursor.execute(query, topicName)
+        self.cursor.execute(query, (topicName,))
         
         #get result
         topicID = self.cursor.fetchone()
@@ -278,12 +278,12 @@ class db_ops:
         
         #searches for any courses containing the keyword
         query = '''
-            SELECT CourseName
+            SELECT CourseID
             FROM Course
             WHERE CourseName LIKE CONCAT('%', %s, '%');
             '''
         
-        self.cursor.execute(query, search)
+        self.cursor.execute(query, (search,))
         
         results = self.cursor.fetchall()
 
@@ -296,12 +296,12 @@ class db_ops:
     def search_course_category(self, search):
         #searches for any course category containing the keyword
         query = '''
-            SELECT CourseName
+            SELECT CourseID
             FROM Course
             WHERE Category LIKE CONCAT('%', %s, '%');
             '''
         
-        self.cursor.execute(query, search)
+        self.cursor.execute(query, (search,))
         
         results = self.cursor.fetchall()
 
@@ -315,14 +315,14 @@ class db_ops:
         
         #Selects courses that have a topic that includes part of the keyword
         query = '''
-            SELECT DISTINCT CourseName
+            SELECT DISTINCT CourseID
             FROM Course
             JOIN CourseTopic USING (CourseID)
             JOIN Topic USING (TopicID)
             WHERE TopicName LIKE CONCAT('%', %s, '%');
             '''
         
-        self.cursor.execute(query, search)
+        self.cursor.execute(query, (search,))
         
         results = self.cursor.fetchall()
 
@@ -330,6 +330,67 @@ class db_ops:
         list_results = [row[0] for row in results]
 
         return list_results
+    
+    #get course name given courseID
+    def get_course_name(self, courseID):
+
+        query = '''
+            SELECT CourseName
+            FROM Course
+            WHERE CourseID = %s;
+            '''
+        
+        self.cursor.execute(query, (courseID,))
+
+        results = self.cursor.fetchone()
+
+        #returns a course name
+        return results
+
+
+    #sort courses by rating
+    def sort_courses_rating(self):
+
+        query = '''
+            SELECT CourseName
+            FROM Course
+            ORDER BY AverageRating DESC;
+            '''
+        
+        self.cursor.execute(query)
+        
+        results = self.cursor.fetchall()
+
+        #turn results from a list of tuples into just a list
+        list_results = [row[0] for row in results]
+
+        #returns a list of courses in descending rating order
+        return list_results
+    
+
+    #view course info given course ID
+    def retrieve_course_info(self, courseID):
+        '''
+        Must input courseID to retrieve course info
+
+        Returns a tuple containing course name, description, category, instructor, and average rating in that order
+        '''
+
+        query = '''
+            SELECT CourseName, Description, Category, Instructor, AverageRating
+            FROM Course
+            WHERE CourseID = %s;
+            '''
+        
+        self.cursor.execute(query, (courseID,))
+
+        results = self.cursor.fetchone()
+
+        #returns a list containing CourseName, Description, Category, Instructor, AverageRating
+        return results
+
+
+
 #test
 # 1. User Profile and Preferences Management
 # Register/Login: Create an account(DONE) or log in with existing credentials.
@@ -338,8 +399,8 @@ class db_ops:
 # View Learning History: Access a history of viewed, enrolled, or completed courses.(DONE)
 # 2. Course Exploration and Search
 # Search Courses: Find courses by keywords, topics, or categories.(DONE)
-# Filter and Sort Courses: Filter courses by topic, rating, difficulty level, popularity, or duration.
-# View Course Details: Access course information, including description, topics covered, rating, and reviews.
+# Filter and Sort Courses: Filter courses by topic, rating (DONE), difficulty level, popularity, or duration.
+# View Course Details: Access course information, including description, topics covered, rating, and reviews.(DONE except returns CourseName, Description, Category, Instructor, AverageRating)
 # Browse Recommended Courses: View courses recommended by the system based on user interests and past interactions.
 # 3. User-Course Interactions
 # Enroll in Course: Sign up for a course to access its content.
