@@ -247,12 +247,12 @@ class db_ops:
         Access interaction history
 
         Parameter requirements:
-        interaction_type - (viewed, enrolled, completed)
+        interaction_type - (view, register, rate, favorite)
 
         Returns a list of tuples - (Course name, timestamp, rating) for each course
         '''
 
-        valid_fields = ['viewed', 'enrolled', 'completed']
+        valid_fields = ['view', 'register', 'rate', 'favorite']
 
         if interaction_type not in valid_fields:
             raise ValueError(f"Non valid interaction type: {interaction_type}")
@@ -409,14 +409,46 @@ class db_ops:
 
         return list_results
     
+    #add interaction
+    def add_interaction(self, interaction_type, userID, courseID, rating=None):
+        '''
+        Valid interaction types - register, view, rate, favorite
+        '''
+        
+        #check for valid interaction type
+        valid_interactions = ('register', 'view', 'rate', 'favorite')
+        if interaction_type not in valid_interactions:
+            raise ValueError(f"Invalid interaction type: {interaction_type}")
+
+        #set current date and time
+        timestamp = datetime.now()
+
+        #add interaction with or without rating depending on interaction type
+        if interaction_type == 'rate':
+            #check if interaction type is rate but no rating provided
+            if rating is None:
+                raise ValueError("Rating must be provided for 'rate' interaction type.")
+            query = '''
+                INSERT INTO UserItemInteraction (InteractionType, Timestamp, Rating, UserID, CourseID)
+                VALUES (%s, %s, %s, %s, %s)
+                '''
+            params = (interaction_type, timestamp, rating, userID, courseID)
+        else:
+            query = '''
+                INSERT INTO UserItemInteraction (InteractionType, Timestamp, UserID, CourseID)
+                VALUES (%s, %s, %s, %s)
+                '''
+            params = (interaction_type, timestamp, userID, courseID)
+        
+        self.cursor.execute(query, params)
+        self.connection.commit()
 
 
 
-#test
 # 1. User Profile and Preferences Management
 # Register/Login: Create an account(DONE) or log in with existing credentials.
 # Edit Profile: Update personal details (e.g., name, email).(DONE)
-# Set Interests: Select topics of interest to enhance recommendations.(DONE)
+# Set Interests Select topics of interest to enhance recommendations.(DONE)
 # View Learning History: Access a history of viewed, enrolled, or completed courses.(DONE)
 # 2. Course Exploration and Search
 # Search Courses: Find courses by keywords, topics, or categories.(DONE)
@@ -436,6 +468,8 @@ class db_ops:
 # 5. User Feedback and System Improvement
 # Provide Feedback: Submit feedback on course recommendations to improve future suggestions.
 # Adjust Interests Based on Course Ratings: Allow users to confirm or adjust interests after rating courses highly, further refining their profile.
+    
+#Register, rate, view, favorite a course (DONE)
 
 
 #Populate
