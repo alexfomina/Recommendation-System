@@ -208,13 +208,11 @@ class db_ops:
         '''
         Helper function that returns the userID given a username and password
         '''
-
         query = '''
             SELECT UserID
             FROM User
             WHERE Username = %s AND Password = %s;
             '''
-        
         self.cursor.execute(query, (username, password))
         
         #get result
