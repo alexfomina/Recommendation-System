@@ -187,6 +187,44 @@ class db_ops:
         self.cursor.execute(query, (new_value, userID))
         self.connection.commit()
 
+    #get users name
+    def get_users_name(self, userID):
+        '''
+        If you need userID call get_userID(username, password)
+        '''
+
+        query = '''
+            SELECT Name
+            FROM User
+            WHERE UserID = %s
+            '''
+
+        self.cursor.execute(query, (userID,))
+        self.connection.commit()
+
+        name = self.cursor.fetchone()
+
+        return name
+    
+    #get users profile
+    def get_users_name(self, userID):
+        '''
+        If you need userID call get_userID(username, password)
+        '''
+
+        query = '''
+            SELECT Profile
+            FROM User
+            WHERE UserID = %s
+            '''
+
+        self.cursor.execute(query, (userID,))
+        self.connection.commit()
+
+        profile = self.cursor.fetchone()
+
+        return profile
+
     #TODO: Test if this works
     #set user interest
     def set_user_interest(self, userID, topic, interest_level):
@@ -217,7 +255,7 @@ class db_ops:
         self.cursor.execute(query, (username, password))
         
         #get result
-        userID = self.cursor.fetchone
+        userID = self.cursor.fetchone()
 
         return userID
     
@@ -369,7 +407,7 @@ class db_ops:
         return list_results
     
 
-    #view course info given course ID
+    #view specific course info given course ID
     def retrieve_course_info(self, courseID):
         '''
         Must input courseID to retrieve course info
@@ -388,6 +426,20 @@ class db_ops:
         results = self.cursor.fetchone()
 
         #returns a list containing CourseName, Description, Category, Instructor, AverageRating
+        return results
+    
+    #view all course info
+    def retrieve_all_course_info(self):
+        query = '''
+            SELECT CourseName, Description, Category, Instructor, AverageRating
+            FROM Course
+            '''
+        
+        self.cursor.execute(query)
+
+        results = self.cursor.fetchall()
+
+        #returns a list of tuples containing all courses
         return results
 
     #returns a list of recommended course ids based on their ranking
@@ -470,13 +522,25 @@ class db_ops:
 # Adjust Interests Based on Course Ratings: Allow users to confirm or adjust interests after rating courses highly, further refining their profile.
     
 #Register, rate, view, favorite a course (DONE)
+#get all courses(DONE)
+#get every part of user account, (name, profile)
 
 
 #Populate
+    #Populate all
+    def populate(self):
+        db_ops.populate_courses('courses.csv')
     
+    def populate_users(self, csv_file):
+        query = '''
+            INSERT INTO User 
+            VALUES (%s,%s,%s,%s,%s,%s);
+            '''
+
     def populate_courses(self, csv_file):
         query = '''
-                INSERT INTO Course VALUES (%s,%s,%s,%s,%s,%s);
+                INSERT INTO Course 
+                VALUES (%s,%s,%s,%s,%s,%s);
                 '''
 
         #open songs.csv file
