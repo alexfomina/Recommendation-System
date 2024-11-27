@@ -130,12 +130,12 @@ class db_ops:
         Function to initialize user account
     """
     def create_user_account(self, username, password, name, profile):
-        id = uuid.uuid4().int & (1 << 16) - 1
+        #id = uuid.uuid4().int & (1 << 16) - 1
         query = '''
         INSERT INTO User (UserID, username, password, name, profile)
-        VALUES (%s, %s, %s, %s, %s)
+        VALUES (%s, %s, %s, %s)
         '''
-        params = (id, username, password, name, profile)
+        params = (username, password, name, profile)
 
         self.cursor.execute(query, params)
         self.connection.commit()
