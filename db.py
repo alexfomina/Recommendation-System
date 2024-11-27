@@ -529,20 +529,54 @@ class db_ops:
     #Populate all
     def populate(self):
         db_ops.populate_courses('courses.csv')
+        db_ops.populate_users('users_data.csv')
+        db_ops.populate_topic('topics.csv')
     
+    def populate_topic(self, csv_file):
+        query = '''
+            INSERT INTO Topic (TopicName)
+            VALUES (%s);
+            '''
+        
+        #open csv file
+        with open(csv_file, mode = 'r') as file:
+            csvFile = csv.reader(file)
+
+            #skip header
+            next(csvFile)
+
+            for line in csvFile: #iterates through each row in the csv file
+                self.cursor.execute(query,line)
+        # batch commit
+        self.connection.commit()
+        print("Ingested your topics!")
+
     def populate_users(self, csv_file):
         query = '''
-            INSERT INTO User 
-            VALUES (%s,%s,%s,%s,%s,%s);
+            INSERT INTO User (Username, Password, Name, Profile, DateCreated)
+            VALUES (%s,%s,%s,%s,%s);
             '''
+
+        #open csv file
+        with open(csv_file, mode = 'r') as file:
+            csvFile = csv.reader(file)
+
+            #skip header
+            next(csvFile)
+
+            for line in csvFile: #iterates through each row in the csv file
+                self.cursor.execute(query,line)
+        # batch commit
+        self.connection.commit()
+        print("Ingested your users!")
 
     def populate_courses(self, csv_file):
         query = '''
-                INSERT INTO Course 
-                VALUES (%s,%s,%s,%s,%s,%s);
+                INSERT INTO Course (CourseName, Description, Category, Instructor, AverageRating)
+                VALUES (%s,%s,%s,%s,%s);
                 '''
 
-        #open songs.csv file
+        #open csv file
         with open(csv_file, mode = 'r') as file:
             csvFile = csv.reader(file)
 
