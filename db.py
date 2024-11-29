@@ -531,7 +531,71 @@ class db_ops:
         db_ops.populate_courses('courses.csv')
         db_ops.populate_users('users_data.csv')
         db_ops.populate_topic('topics.csv')
+        db_ops.populate_coursetopic('')
+        db_ops.populate_user_interests('')
+        db_ops.populate_user_item_interaction('')
+
+
+
+    def populate_recommendation(self, csv_file)
     
+    def populate_user_item_interaction(self, csv_file):
+        query = '''
+            INSERT INTO UserInterests (UserID,CourseID,InteractionType,Timestamp,Rating)
+            VALUES (%s,%s,%s,%s,%s);
+            '''
+        
+        #open csv file
+        with open(csv_file, mode = 'r') as file:
+            csvFile = csv.reader(file)
+
+            #skip header
+            next(csvFile)
+
+            for line in csvFile: #iterates through each row in the csv file
+                self.cursor.execute(query,line)
+        # batch commit
+        self.connection.commit()
+        print("Ingested your UserItemInteraction!")
+
+    def populate_user_interests(self, csv_file):
+        query = '''
+            INSERT INTO UserInterests (UserID,TopicID,InterestLevel)
+            VALUES (%s,%s,%s);
+            '''
+        
+        #open csv file
+        with open(csv_file, mode = 'r') as file:
+            csvFile = csv.reader(file)
+
+            #skip header
+            next(csvFile)
+
+            for line in csvFile: #iterates through each row in the csv file
+                self.cursor.execute(query,line)
+        # batch commit
+        self.connection.commit()
+        print("Ingested your UserInterests!")
+
+    def populate_coursetopic(self, csv_file):
+        query = '''
+            INSERT INTO CourseTopic (CourseID,TopicID)
+            VALUES (%s,%s);
+            '''
+        
+        #open csv file
+        with open(csv_file, mode = 'r') as file:
+            csvFile = csv.reader(file)
+
+            #skip header
+            next(csvFile)
+
+            for line in csvFile: #iterates through each row in the csv file
+                self.cursor.execute(query,line)
+        # batch commit
+        self.connection.commit()
+        print("Ingested your CourseTopics!")
+
     def populate_topic(self, csv_file):
         query = '''
             INSERT INTO Topic (TopicName)
