@@ -1,31 +1,31 @@
 CourseName,Description,Category,Instructor,AverageRating
-Intro to Python,A beginner's guide to Python basics,Programming,John Doe,8.5
-Advanced Java,Deep dive into Java for experienced developers,Programming,Jane Smith,9.2
-Digital Marketing Basics,Learn the fundamentals of digital marketing,Marketing,Emily White,7.8
-Web Development Bootcamp,Full-stack web development course,Web Development,Mike Brown,9.5
-Data Science 101,Introduction to data science concepts,Data Science,Anna Taylor,8.7
+Intro to Python,A beginner's guide to Python basics,Computing,John Doe,8.5
+Advanced Java,Deep dive into Java for experienced developers,Computing,Jane Smith,9.2
+Digital Marketing Basics,Learn the fundamentals of digital marketing,Bussiness,Emily White,7.8
+Web Development Bootcamp,Full-stack web development course,Computing,Mike Brown,9.5
+Data Science 101,Introduction to data science concepts,Computing,Anna Taylor,8.7
 Graphic Design Fundamentals,Master design principles and tools,Design,Susan Clark,7.3
-Machine Learning,Hands-on machine learning with Python,AI & ML,James Wilson,9.0
-Cybersecurity Essentials,Learn the basics of securing systems,Cybersecurity,David Lee,8.0
-Creative Writing,Improve your creative writing skills,Writing,Alice Davis,7.5
-Photography Basics,Learn the art of photography,Photography,Chris Johnson,6.9
-Excel for Beginners,Master Excel for personal and professional use,Productivity,Karen Thomas,8.2
-Cloud Computing,Understanding cloud technologies and platforms,IT & Cloud,Robert Martinez,8.8
-Blockchain Basics,Learn the fundamentals of blockchain technology,Finance & Tech,Sarah Garcia,7.7
-Project Management,Become an expert in managing projects,Management,Daniel Lopez,8.9
-Ethical Hacking,Learn ethical hacking techniques,Security,Linda Hernandez,9.1
+Machine Learning,Hands-on machine learning with Python,Computing,James Wilson,9.0
+Cybersecurity Essentials,Learn the basics of securing systems,Computing,David Lee,8.0
+Creative Writing,Improve your creative writing skills,English,Alice Davis,7.5
+Photography Basics,Learn the art of photography,Art,Chris Johnson,6.9
+Excel for Beginners,Master Excel for personal and professional use,Bussiness,Karen Thomas,8.2
+Cloud Computing,Understanding cloud technologies and platforms,Computing,Robert Martinez,8.8
+Blockchain Basics,Learn the fundamentals of blockchain technology,Bussiness,Sarah Garcia,7.7
+Project Management,Become an expert in managing projects,Bussiness,Daniel Lopez,8.9
+Ethical Hacking,Learn ethical hacking techniques,Computing,Linda Hernandez,9.1
 UX Design Basics,Introduction to user experience design,Design,Barbara Clark,8.1
 Public Speaking,Master the art of public speaking,Communication,Michael Lewis,7.9
-Mobile App Development,Build mobile applications from scratch,App Development,Nancy Walker,8.6
-Quantum Computing 101,Understand the basics of quantum computing,Advanced Tech,Eric Hall,7.8
-SEO Strategies,Improve website visibility and traffic,Marketing,Debra Allen,8.4
-Game Development,Learn to create video games,Game Design,Richard Young,8.9
-AI for Beginners,An introduction to artificial intelligence,AI & ML,Patricia King,8.3
-Finance Fundamentals,Learn the basics of personal finance,Finance,Paul Wright,7.6
+Mobile App Development,Build mobile applications from scratch,Computing,Nancy Walker,8.6
+Quantum Computing 101,Understand the basics of quantum computing,Computing,Eric Hall,7.8
+SEO Strategies,Improve website visibility and traffic,Bussiness,Debra Allen,8.4
+Game Development,Learn to create video games,Computing,Richard Young,8.9
+AI for Beginners,An introduction to artificial intelligence,Computing,Patricia King,8.3
+Finance Fundamentals,Learn the basics of personal finance,Bussiness,Paul Wright,7.6
 Music Production,Create music using digital tools,Music,Brian Scott,8.0
-History of Art,A deep dive into art history,Art History,Mary Green,7.2
-Cooking Essentials,Master the basics of cooking,Culinary Arts,Betty Adams,8.1
-Statistics for Data Science,Learn statistical methods for data analysis,Data Science,Mark Nelson,9.3
+History of Art,A deep dive into art history,Art,Mary Green,7.2
+Cooking Essentials,Master the basics of cooking,Culinary,Betty Adams,8.1
+Statistics for Data Science,Learn statistical methods for data analysis,Computing,Mark Nelson,9.3
 Interior Design Basics,Explore the art of interior design,Design,Steven Perez,7.4
 Fitness and Wellness,Build a healthy lifestyle,Health & Fitness,Jessica Carter,7.8
-Social Media Marketing,Master social media marketing strategies,Marketing,Laura Ramirez,8.7
+Social Media Marketing,Master social media marketing strategies,Bussiness,Laura Ramirez,8.7

@@ -531,13 +531,12 @@ class db_ops:
         db_ops.populate_courses('courses.csv')
         db_ops.populate_users('users_data.csv')
         db_ops.populate_topic('topics.csv')
-        db_ops.populate_coursetopic('')
-        db_ops.populate_user_interests('')
+        db_ops.populate_coursetopic('coursetopic.csv')
+        db_ops.populate_user_interests('UserInterests.csv') #incomplete only has 106/250 users
         db_ops.populate_user_item_interaction('')
 
 
-
-    def populate_recommendation(self, csv_file)
+    
     
     def populate_user_item_interaction(self, csv_file):
         query = '''
