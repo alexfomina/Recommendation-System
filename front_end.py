@@ -78,6 +78,8 @@ def render_account():
     try:
         print("Inside try statement")
         # Retrieve user data
+        print(global_username)
+        print(global_password)
         name = db.get_users_name(global_username, global_password)
         profile = db.get_users_profile(global_username, global_password)
         print("Name " + name)

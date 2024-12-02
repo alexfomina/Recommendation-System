@@ -12,7 +12,7 @@ class db_ops:
             # Initialize database connection here
             cls._instance.connection = mysql.connector.connect(host = 'localhost',
                                                                 user = 'root',
-                                                                password = 'CPSC408!' ,#'HenryCPSC408', #CPSC408!
+                                                                password =  'HenryCPSC408', #CPSC408!
                                                                 auth_plugin = 'mysql_native_password',
                                                                 database = 'RecommendationApp')
             cls._instance.cursor = cls._instance.connection.cursor()
@@ -219,14 +219,14 @@ class db_ops:
             FROM User
             WHERE UserID = %s
         '''
-        self.cursor.execute(query, userIDUnpacked)
-        self.connection.commit()
+        self.cursor.execute(query, userID)
+        
         print("After query")
         name = self.cursor.fetchone()  # Fetch the result
         if name:
             #name = name[0]  # Unpack the first element of the tuple
             print("NAME: ", name)
-            return name
+            return name[0]
         else:
             print("No name found.")
             return None
@@ -248,14 +248,14 @@ class db_ops:
             FROM User
             WHERE UserID = %s
         '''
-        self.cursor.execute(query, userIDUnpacked)
-        self.connection.commit()
+        self.cursor.execute(query, userID)
+        
 
         profile = self.cursor.fetchone()  # Fetch the result
         if profile:
            # profile = profile[0]  # Unpack the first element of the tuple
             print("PROFILE: ", profile)
-            return profile
+            return profile[0]
         else:
             print("No profile found.")
             return None
