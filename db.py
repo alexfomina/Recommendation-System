@@ -130,13 +130,24 @@ class db_ops:
         Function to initialize user account
     """
     def create_user_account(self, username, password, name, profile):
+        # Generate a unique ID (optional if AUTO_INCREMENT is used)
         #id = uuid.uuid4().int & (1 << 16) - 1
-        query = '''
-        INSERT INTO User (UserID, username, password, name, profile)
-        VALUES (%s, %s, %s, %s)
-        '''
-        params = (username, password, name, profile)
+        # Format the current time in a MySQL-compatible format
+        current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
+        # Correct SQL query
+        query = '''
+        INSERT INTO User (Username, Password, Name, Profile, DateCreated)
+        VALUES (%s, %s, %s, %s, %s)
+        '''
+        # Parameters matching the query
+        params = (username, password, name, profile, current_time)
+
+        # Debug: Print query and params to verify correctness
+        print("Executing query:", query)
+        print("With params:", params)
+
+        # Execute the query
         self.cursor.execute(query, params)
         self.connection.commit()
         print("Created account")
@@ -189,42 +200,66 @@ class db_ops:
         self.connection.commit()
 
     #get users name
-    def get_users_name(self, userID):
-        '''
-        If you need userID call get_userID(username, password)
-        '''
+    def get_users_name(self, username, password):
+        userIDUnpacked = 0
+        """
+        Fetches the user's name based on their username and password.
+        """
+        print("Inside get users name")
+        userID = self.get_userID(username, password)
+        print("USER ID (Raw): ", userID)
 
+        # Handle potential tuple result from get_userID
+        if isinstance(userID, tuple):
+            userIDUnpacked = userID[0]
+        print("USER ID (Unpacked): ", userIDUnpacked)
+        print("Before query")
         query = '''
             SELECT Name
             FROM User
             WHERE UserID = %s
-            '''
-
-        self.cursor.execute(query, (userID,))
+        '''
+        self.cursor.execute(query, userIDUnpacked)
         self.connection.commit()
+        print("After query")
+        name = self.cursor.fetchone()  # Fetch the result
+        if name:
+            #name = name[0]  # Unpack the first element of the tuple
+            print("NAME: ", name)
+            return name
+        else:
+            print("No name found.")
+            return None
 
-        name = self.cursor.fetchone()
-
-        return name
     
     #get users profile
-    def get_users_name(self, userID):
-        '''
-        If you need userID call get_userID(username, password)
-        '''
+    def get_users_profile(self, username, password):
+        print("Inside get user profile")
+        """
+        Fetches the user's profile based on their username and password.
+        """
+        userID = self.get_userID(username, password)
+        print("USER ID: ", userID)
+        if isinstance(userID, tuple):
+            userIDUnpacked = userID[0]
 
         query = '''
             SELECT Profile
             FROM User
             WHERE UserID = %s
-            '''
-
-        self.cursor.execute(query, (userID,))
+        '''
+        self.cursor.execute(query, userIDUnpacked)
         self.connection.commit()
 
-        profile = self.cursor.fetchone()
+        profile = self.cursor.fetchone()  # Fetch the result
+        if profile:
+           # profile = profile[0]  # Unpack the first element of the tuple
+            print("PROFILE: ", profile)
+            return profile
+        else:
+            print("No profile found.")
+            return None
 
-        return profile
 
     #TODO: Test if this works
     #set user interest
