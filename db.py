@@ -552,6 +552,34 @@ class db_ops:
         self.cursor.execute(query, params)
         self.connection.commit()
 
+    def update_user_name(self, username, new_name):
+        query = '''
+            UPDATE User
+            SET Name = %s
+            WHERE Username = %s;
+        '''
+        try:
+            self.cursor.execute(query, (new_name, username))
+            self.connection.commit()
+            return True
+        except Exception as e:
+            print(f"Error updating name: {e}")
+            return False
+
+    # Update the user's profile
+    def update_user_profile(self, username, new_profile):
+        query = '''
+            UPDATE User
+            SET Profile = %s
+            WHERE Username = %s;
+        '''
+        try:
+            self.cursor.execute(query, (new_profile, username))
+            self.connection.commit()
+            return True
+        except Exception as e:
+            print(f"Error updating profile: {e}")
+            return False
 
 
 # 1. User Profile and Preferences Management
