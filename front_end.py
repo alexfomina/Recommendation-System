@@ -3,6 +3,9 @@ from db import db_ops
 
 # Initialize Database Operations
 db = db_ops()
+# db.create_tables()
+# db.populate()
+# db.delete_everything()
 
 # Global variables for username and password
 global_username = None
@@ -36,62 +39,69 @@ def handle_action(action, username, password, name=None, profile=None):
         return "❌ Invalid action.", None
 
 
+def fetch_courses():
+    """Fetches all courses sorted alphabetically by Course Name."""
+    try:
+        courses = db.get_courses()  # Ensure this method fetches course data
+        courses.sort(key=lambda x: x[0])  # Sort by Course Name (assume it's the first field)
+        return courses
+    except Exception as e:
+        return f"Error fetching courses: {e}"
+
+
 def render_page(page):
     """Renders the selected page."""
     if page == "Home":
         return (
             "<h1>Welcome to Home Page</h1>",
-            gr.update(visible=False),  # Hide auth_section
-            gr.update(visible=True),  # Show nav_buttons
-        )
-    elif page == "Course List":
-        return (
-            "<h1>View all courses</h1>",
             gr.update(visible=False),
             gr.update(visible=True),
         )
+    elif page == "Course List":
+        courses = fetch_courses()
+        if isinstance(courses, str):  # Handle error message
+            course_list = f"<p>{courses}</p>"
+        elif not courses:  # Handle empty course list
+            course_list = "<p>No courses found.</p>"
+        else:  # Render the sorted course list
+            course_list = "<h1>Course List</h1>"
+            for course in courses:
+                course_list += f"""
+                <div class='course-entry'>
+                    <p><strong>{course[0]} by {course[3]} ({course[2]})</strong></p>
+                    <button onclick="alert(`Course Name: {course[0]}\\nInstructor: {course[3]}\\nCategory: {course[2]}\\nDescription: {course[1]}\\nAverage Rating: {course[4]}`)">View More</button>
+                </div>
+                """
+        return course_list, gr.update(visible=False), gr.update(visible=True)
     elif page == "My Account":
-        # Process outputs from render_account
         content, auth_visible, nav_visible = render_account()
         return content, auth_visible, nav_visible
     else:
         return (
             "❌ Page not found.",
-            gr.update(visible=True),  # Show auth_section
-            gr.update(visible=False),  # Hide nav_buttons
+            gr.update(visible=True),
+            gr.update(visible=False),
         )
-
 
 
 def render_account():
-    print("Inside render account")
     """Fetches and displays user account information."""
     global global_username, global_password
     if not global_username or not global_password:
-        # Return values for content, auth_section visibility, nav_buttons visibility
         return (
             "<h1>My Account</h1><p>⚠️ Please log in to view account details.</p>",
-            gr.update(visible=True),  # Show auth_section
-            gr.update(visible=False),  # Hide nav_buttons
+            gr.update(visible=True),
+            gr.update(visible=False),
         )
-    
     try:
-        print("Inside try statement")
-        # Retrieve user data
-        print(global_username)
-        print(global_password)
         name = db.get_users_name(global_username, global_password)
         profile = db.get_users_profile(global_username, global_password)
-        print("Name " + name)
-        print("Profile " + profile)
     except Exception as e:
         return (
             f"<h1>My Account</h1><p>❌ Error fetching account details: {str(e)}</p>",
             gr.update(visible=True),
             gr.update(visible=False),
         )
-    
-    # If successful, return user data and updated visibility states
     return (
         f"<h1>My Account</h1><p>Welcome, {name}!</p><p>Profile: {profile}</p>",
         gr.update(visible=False),
@@ -100,8 +110,11 @@ def render_account():
 
 
 # Front-End Setup
-with gr.Blocks(css=".title {text-align: center; font-size: 2rem; color: #007BFF; margin-bottom: 1rem;}") as app:
-    # State for Page Navigation
+with gr.Blocks(css="""
+    .title { text-align: center; font-size: 2rem; color: #007BFF; margin-bottom: 1rem; }
+    .course-entry { margin-bottom: 10px; }
+    .course-list { margin-top: 20px; }
+""") as app:
     current_page = gr.State("Login")
 
     # Header
@@ -109,7 +122,7 @@ with gr.Blocks(css=".title {text-align: center; font-size: 2rem; color: #007BFF;
         gr.Markdown("<div class='title'>🧭 Welcome to CourseCompass 🧭</div>")
 
     # Dynamic Content
-    content = gr.Markdown("")
+    content = gr.Markdown("Welcome! Use the navigation buttons to explore.")
     nav_buttons = gr.Row(visible=False)
     auth_section = gr.Column(visible=True)
 
@@ -127,7 +140,7 @@ with gr.Blocks(css=".title {text-align: center; font-size: 2rem; color: #007BFF;
         )
         gr.Button("My Account").click(
             fn=lambda: render_page("My Account"),
-            inputs=[],
+            inputs=[], 
             outputs=[content, auth_section, nav_buttons]
         )
 
@@ -155,9 +168,7 @@ with gr.Blocks(css=".title {text-align: center; font-size: 2rem; color: #007BFF;
     ).then(
         fn=render_page,
         inputs=[current_page],
-        outputs=[content, auth_section, nav_buttons],  # Ensure these match render_page outputs
+        outputs=[content, auth_section, nav_buttons],
     )
 
-
-# Launch the App
 app.launch(share=True)

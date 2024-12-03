@@ -12,7 +12,7 @@ class db_ops:
             # Initialize database connection here
             cls._instance.connection = mysql.connector.connect(host = 'localhost',
                                                                 user = 'root',
-                                                                password =  'HenryCPSC408', #CPSC408!
+                                                                password =  'CPSC408!', #CPSC408!
                                                                 auth_plugin = 'mysql_native_password',
                                                                 database = 'RecommendationApp')
             cls._instance.cursor = cls._instance.connection.cursor()
@@ -420,6 +420,29 @@ class db_ops:
         #returns a course name
         return results
 
+    def get_courses(self, keyword=None):
+        """
+        Fetches all courses, optionally filtered by a keyword in the CourseName.
+        """
+        try:
+            query = '''
+                SELECT CourseName, Description, Category, Instructor, AverageRating
+                FROM Course
+            '''
+            params = ()
+            if keyword:
+                query += ' WHERE CourseName LIKE %s ORDER BY CourseName ASC'
+                params = (f"%{keyword}%",)
+            else:
+                query += ' ORDER BY CourseName ASC'
+
+            self.cursor.execute(query, params)
+            results = self.cursor.fetchall()
+            print("Fetched courses:", results)
+            return results
+        except Exception as e:
+            print(f"Error fetching courses: {e}")
+            return []
 
     #sort courses by rating
     def sort_courses_rating(self):
@@ -563,9 +586,9 @@ class db_ops:
 #Populate
     #Populate all
     def populate(self):
-        db_ops.populate_courses('courses.csv')
-        db_ops.populate_users('users_data.csv')
-        db_ops.populate_topic('topics.csv')
+        self.populate_courses('courses.csv')
+        self.populate_users('users_data.csv')
+        self.populate_topic('topics.csv')
         #db_ops.populate_coursetopic('coursetopic.csv')
         #db_ops.populate_user_interests('UserInterests.csv') #incomplete only has 106/250 users
         #db_ops.populate_user_item_interaction('')
@@ -669,6 +692,7 @@ class db_ops:
         print("Ingested your users!")
 
     def populate_courses(self, csv_file):
+        print("CSV FILE " + csv_file)
         query = '''
                 INSERT INTO Course (CourseName, Description, Category, Instructor, AverageRating)
                 VALUES (%s,%s,%s,%s,%s);
