@@ -1,0 +1,1777 @@
+Username,CourseName,InteractionType,Timestamp,Value
+jonathanfisher,Cooking Essentials,enroll,2024-12-06 03:45:32,
+jonathanfisher,Cooking Essentials,rating,2024-12-06 03:45:32,2.0
+jonathanfisher,Statistics for Data Science,view,2024-12-06 03:45:32,
+jonathanfisher,Statistics for Data Science,rating,2024-12-06 03:45:32,4.0
+jonathanfisher,Finance Fundamentals,complete,2024-12-06 03:45:32,
+jonathanfisher,Finance Fundamentals,rating,2024-12-06 03:45:32,5.0
+jonathanfisher,Data Science 101,enroll,2024-12-06 03:45:32,
+jonathanfisher,Data Science 101,rating,2024-12-06 03:45:32,2.0
+christinewood,Digital Marketing Basics,enroll,2024-12-06 03:45:32,
+christinewood,Digital Marketing Basics,rating,2024-12-06 03:45:32,2.0
+christinewood,AI for Beginners,enroll,2024-12-06 03:45:32,
+christinewood,AI for Beginners,rating,2024-12-06 03:45:32,2.0
+christinewood,SEO Strategies,complete,2024-12-06 03:45:32,
+christinewood,SEO Strategies,rating,2024-12-06 03:45:32,5.0
+christinewood,History of Art,complete,2024-12-06 03:45:32,
+christinewood,History of Art,rating,2024-12-06 03:45:32,5.0
+christinewood,Statistics for Data Science,view,2024-12-06 03:45:32,
+christinewood,Statistics for Data Science,rating,2024-12-06 03:45:32,2.0
+joshuahunt,Digital Marketing Basics,enroll,2024-12-06 03:45:32,
+joshuahunt,Digital Marketing Basics,rating,2024-12-06 03:45:32,2.0
+joshuahunt,Quantum Computing 101,complete,2024-12-06 03:45:32,
+joshuahunt,Quantum Computing 101,rating,2024-12-06 03:45:32,3.0
+joshuahunt,Finance Fundamentals,complete,2024-12-06 03:45:32,
+joshuahunt,Finance Fundamentals,rating,2024-12-06 03:45:32,2.0
+joshuahunt,Fitness and Wellness,enroll,2024-12-06 03:45:32,
+joshuahunt,Fitness and Wellness,rating,2024-12-06 03:45:32,4.0
+joshuahunt,History of Art,complete,2024-12-06 03:45:32,
+joshuahunt,History of Art,rating,2024-12-06 03:45:32,3.0
+hmartin,Project Management,complete,2024-12-06 03:45:32,
+hmartin,Project Management,rating,2024-12-06 03:45:32,1.0
+hmartin,AI for Beginners,view,2024-12-06 03:45:32,
+hmartin,AI for Beginners,rating,2024-12-06 03:45:32,1.0
+sosadebbie,Ethical Hacking,view,2024-12-06 03:45:32,
+sosadebbie,Ethical Hacking,rating,2024-12-06 03:45:32,5.0
+sosadebbie,History of Art,view,2024-12-06 03:45:32,
+sosadebbie,History of Art,rating,2024-12-06 03:45:32,4.0
+sosadebbie,Cooking Essentials,view,2024-12-06 03:45:32,
+sosadebbie,Cooking Essentials,rating,2024-12-06 03:45:32,5.0
+thomasnicole,Advanced Java,enroll,2024-12-06 03:45:32,
+thomasnicole,Advanced Java,rating,2024-12-06 03:45:32,5.0
+thomasnicole,Cooking Essentials,view,2024-12-06 03:45:32,
+thomasnicole,Cooking Essentials,rating,2024-12-06 03:45:32,3.0
+thomasnicole,Graphic Design Fundamentals,enroll,2024-12-06 03:45:32,
+thomasnicole,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,3.0
+thomasnicole,Ethical Hacking,view,2024-12-06 03:45:32,
+thomasnicole,Ethical Hacking,rating,2024-12-06 03:45:32,1.0
+joseph05,Project Management,enroll,2024-12-06 03:45:32,
+joseph05,Project Management,rating,2024-12-06 03:45:32,4.0
+joseph05,Intro to Python,view,2024-12-06 03:45:32,
+joseph05,Intro to Python,rating,2024-12-06 03:45:32,5.0
+sbowman,Creative Writing,complete,2024-12-06 03:45:32,
+sbowman,Creative Writing,rating,2024-12-06 03:45:32,3.0
+sbowman,Intro to Python,view,2024-12-06 03:45:32,
+sbowman,Intro to Python,rating,2024-12-06 03:45:32,4.0
+kimberlyfisher,Data Science 101,enroll,2024-12-06 03:45:32,
+kimberlyfisher,Data Science 101,rating,2024-12-06 03:45:32,1.0
+kimberlyfisher,AI for Beginners,complete,2024-12-06 03:45:32,
+kimberlyfisher,AI for Beginners,rating,2024-12-06 03:45:32,1.0
+kimberlyfisher,Intro to Python,enroll,2024-12-06 03:45:32,
+kimberlyfisher,Intro to Python,rating,2024-12-06 03:45:32,2.0
+kimberlyfisher,UX Design Basics,view,2024-12-06 03:45:32,
+kimberlyfisher,UX Design Basics,rating,2024-12-06 03:45:32,5.0
+kimberlyfisher,Machine Learning,view,2024-12-06 03:45:32,
+kimberlyfisher,Machine Learning,rating,2024-12-06 03:45:32,4.0
+fraziercatherine,Cooking Essentials,enroll,2024-12-06 03:45:32,
+fraziercatherine,Cooking Essentials,rating,2024-12-06 03:45:32,2.0
+fraziercatherine,Quantum Computing 101,complete,2024-12-06 03:45:32,
+fraziercatherine,Quantum Computing 101,rating,2024-12-06 03:45:32,1.0
+frice,UX Design Basics,view,2024-12-06 03:45:32,
+frice,UX Design Basics,rating,2024-12-06 03:45:32,5.0
+frice,Photography Basics,enroll,2024-12-06 03:45:32,
+frice,Photography Basics,rating,2024-12-06 03:45:32,4.0
+frice,Creative Writing,view,2024-12-06 03:45:32,
+frice,Creative Writing,rating,2024-12-06 03:45:32,1.0
+ostevens,AI for Beginners,view,2024-12-06 03:45:32,
+ostevens,AI for Beginners,rating,2024-12-06 03:45:32,1.0
+ostevens,Public Speaking,view,2024-12-06 03:45:32,
+ostevens,Public Speaking,rating,2024-12-06 03:45:32,5.0
+ostevens,Advanced Java,complete,2024-12-06 03:45:32,
+ostevens,Advanced Java,rating,2024-12-06 03:45:32,3.0
+ostevens,Graphic Design Fundamentals,complete,2024-12-06 03:45:32,
+ostevens,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,5.0
+lisa80,Quantum Computing 101,complete,2024-12-06 03:45:32,
+lisa80,Quantum Computing 101,rating,2024-12-06 03:45:32,1.0
+lisa80,Web Development Bootcamp,enroll,2024-12-06 03:45:32,
+lisa80,Web Development Bootcamp,rating,2024-12-06 03:45:32,1.0
+lisa80,Machine Learning,complete,2024-12-06 03:45:32,
+lisa80,Machine Learning,rating,2024-12-06 03:45:32,3.0
+lisa80,Creative Writing,complete,2024-12-06 03:45:32,
+lisa80,Creative Writing,rating,2024-12-06 03:45:32,1.0
+castroanna,SEO Strategies,enroll,2024-12-06 03:45:32,
+castroanna,SEO Strategies,rating,2024-12-06 03:45:32,5.0
+castroanna,History of Art,enroll,2024-12-06 03:45:32,
+castroanna,History of Art,rating,2024-12-06 03:45:32,5.0
+jeffreysmith,Finance Fundamentals,enroll,2024-12-06 03:45:32,
+jeffreysmith,Finance Fundamentals,rating,2024-12-06 03:45:32,2.0
+jeffreysmith,Digital Marketing Basics,enroll,2024-12-06 03:45:32,
+jeffreysmith,Digital Marketing Basics,rating,2024-12-06 03:45:32,3.0
+jeffreysmith,Creative Writing,view,2024-12-06 03:45:32,
+jeffreysmith,Creative Writing,rating,2024-12-06 03:45:32,5.0
+jeffreysmith,Cloud Computing,view,2024-12-06 03:45:32,
+jeffreysmith,Cloud Computing,rating,2024-12-06 03:45:32,1.0
+jeffreysmith,SEO Strategies,enroll,2024-12-06 03:45:32,
+jeffreysmith,SEO Strategies,rating,2024-12-06 03:45:32,2.0
+rcarpenter,AI for Beginners,enroll,2024-12-06 03:45:32,
+rcarpenter,AI for Beginners,rating,2024-12-06 03:45:32,2.0
+rcarpenter,UX Design Basics,view,2024-12-06 03:45:32,
+rcarpenter,UX Design Basics,rating,2024-12-06 03:45:32,1.0
+rcarpenter,Quantum Computing 101,enroll,2024-12-06 03:45:32,
+rcarpenter,Quantum Computing 101,rating,2024-12-06 03:45:32,2.0
+rcarpenter,Graphic Design Fundamentals,enroll,2024-12-06 03:45:32,
+rcarpenter,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,3.0
+rcarpenter,Excel for Beginners,complete,2024-12-06 03:45:32,
+rcarpenter,Excel for Beginners,rating,2024-12-06 03:45:32,3.0
+kathleenfrye,Intro to Python,enroll,2024-12-06 03:45:32,
+kathleenfrye,Intro to Python,rating,2024-12-06 03:45:32,4.0
+kathleenfrye,Excel for Beginners,enroll,2024-12-06 03:45:32,
+kathleenfrye,Excel for Beginners,rating,2024-12-06 03:45:32,1.0
+kathleenfrye,Game Development,view,2024-12-06 03:45:32,
+kathleenfrye,Game Development,rating,2024-12-06 03:45:32,4.0
+kathleenfrye,Advanced Java,view,2024-12-06 03:45:32,
+kathleenfrye,Advanced Java,rating,2024-12-06 03:45:32,1.0
+uwelch,Machine Learning,view,2024-12-06 03:45:32,
+uwelch,Machine Learning,rating,2024-12-06 03:45:32,5.0
+uwelch,Web Development Bootcamp,enroll,2024-12-06 03:45:32,
+uwelch,Web Development Bootcamp,rating,2024-12-06 03:45:32,2.0
+uwelch,Mobile App Development,complete,2024-12-06 03:45:32,
+uwelch,Mobile App Development,rating,2024-12-06 03:45:32,4.0
+uwelch,Music Production,complete,2024-12-06 03:45:32,
+uwelch,Music Production,rating,2024-12-06 03:45:32,5.0
+uwelch,Blockchain Basics,enroll,2024-12-06 03:45:32,
+uwelch,Blockchain Basics,rating,2024-12-06 03:45:32,5.0
+wilsonstanley,Quantum Computing 101,enroll,2024-12-06 03:45:32,
+wilsonstanley,Quantum Computing 101,rating,2024-12-06 03:45:32,4.0
+wilsonstanley,Photography Basics,complete,2024-12-06 03:45:32,
+wilsonstanley,Photography Basics,rating,2024-12-06 03:45:32,1.0
+wilsonstanley,Web Development Bootcamp,complete,2024-12-06 03:45:32,
+wilsonstanley,Web Development Bootcamp,rating,2024-12-06 03:45:32,5.0
+wilsonstanley,AI for Beginners,view,2024-12-06 03:45:32,
+wilsonstanley,AI for Beginners,rating,2024-12-06 03:45:32,1.0
+wilsonstanley,Blockchain Basics,enroll,2024-12-06 03:45:32,
+wilsonstanley,Blockchain Basics,rating,2024-12-06 03:45:32,4.0
+andreamccarthy,Machine Learning,enroll,2024-12-06 03:45:32,
+andreamccarthy,Machine Learning,rating,2024-12-06 03:45:32,1.0
+andreamccarthy,Creative Writing,complete,2024-12-06 03:45:32,
+andreamccarthy,Creative Writing,rating,2024-12-06 03:45:32,4.0
+andreamccarthy,Data Science 101,view,2024-12-06 03:45:32,
+andreamccarthy,Data Science 101,rating,2024-12-06 03:45:32,1.0
+jmccarthy,Cloud Computing,complete,2024-12-06 03:45:32,
+jmccarthy,Cloud Computing,rating,2024-12-06 03:45:32,2.0
+jmccarthy,Graphic Design Fundamentals,complete,2024-12-06 03:45:32,
+jmccarthy,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,4.0
+pfoster,Excel for Beginners,view,2024-12-06 03:45:32,
+pfoster,Excel for Beginners,rating,2024-12-06 03:45:32,3.0
+pfoster,Photography Basics,complete,2024-12-06 03:45:32,
+pfoster,Photography Basics,rating,2024-12-06 03:45:32,3.0
+paulwatson,Advanced Java,complete,2024-12-06 03:45:32,
+paulwatson,Advanced Java,rating,2024-12-06 03:45:32,4.0
+paulwatson,Project Management,enroll,2024-12-06 03:45:32,
+paulwatson,Project Management,rating,2024-12-06 03:45:32,3.0
+paulwatson,UX Design Basics,complete,2024-12-06 03:45:32,
+paulwatson,UX Design Basics,rating,2024-12-06 03:45:32,5.0
+paulwatson,Fitness and Wellness,complete,2024-12-06 03:45:32,
+paulwatson,Fitness and Wellness,rating,2024-12-06 03:45:32,4.0
+christopherpotter,Advanced Java,enroll,2024-12-06 03:45:32,
+christopherpotter,Advanced Java,rating,2024-12-06 03:45:32,3.0
+christopherpotter,Machine Learning,view,2024-12-06 03:45:32,
+christopherpotter,Machine Learning,rating,2024-12-06 03:45:32,3.0
+christopherpotter,Mobile App Development,complete,2024-12-06 03:45:32,
+christopherpotter,Mobile App Development,rating,2024-12-06 03:45:32,1.0
+madeline47,Statistics for Data Science,view,2024-12-06 03:45:32,
+madeline47,Statistics for Data Science,rating,2024-12-06 03:45:32,5.0
+madeline47,Blockchain Basics,complete,2024-12-06 03:45:32,
+madeline47,Blockchain Basics,rating,2024-12-06 03:45:32,2.0
+madeline47,Graphic Design Fundamentals,enroll,2024-12-06 03:45:32,
+madeline47,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,4.0
+madeline47,Ethical Hacking,view,2024-12-06 03:45:32,
+madeline47,Ethical Hacking,rating,2024-12-06 03:45:32,1.0
+adamssharon,Cooking Essentials,complete,2024-12-06 03:45:32,
+adamssharon,Cooking Essentials,rating,2024-12-06 03:45:32,3.0
+adamssharon,Machine Learning,enroll,2024-12-06 03:45:32,
+adamssharon,Machine Learning,rating,2024-12-06 03:45:32,2.0
+adamssharon,Cloud Computing,view,2024-12-06 03:45:32,
+adamssharon,Cloud Computing,rating,2024-12-06 03:45:32,1.0
+adamssharon,Social Media Marketing,enroll,2024-12-06 03:45:32,
+adamssharon,Social Media Marketing,rating,2024-12-06 03:45:32,3.0
+adamssharon,Advanced Java,complete,2024-12-06 03:45:32,
+adamssharon,Advanced Java,rating,2024-12-06 03:45:32,5.0
+gina35,Excel for Beginners,view,2024-12-06 03:45:32,
+gina35,Excel for Beginners,rating,2024-12-06 03:45:32,3.0
+gina35,Game Development,complete,2024-12-06 03:45:32,
+gina35,Game Development,rating,2024-12-06 03:45:32,1.0
+gina35,History of Art,view,2024-12-06 03:45:32,
+gina35,History of Art,rating,2024-12-06 03:45:32,1.0
+gina35,AI for Beginners,complete,2024-12-06 03:45:32,
+gina35,AI for Beginners,rating,2024-12-06 03:45:32,5.0
+caseycampbell,Public Speaking,enroll,2024-12-06 03:45:32,
+caseycampbell,Public Speaking,rating,2024-12-06 03:45:32,3.0
+caseycampbell,Cybersecurity Essentials,view,2024-12-06 03:45:32,
+caseycampbell,Cybersecurity Essentials,rating,2024-12-06 03:45:32,2.0
+adam37,SEO Strategies,enroll,2024-12-06 03:45:32,
+adam37,SEO Strategies,rating,2024-12-06 03:45:32,3.0
+adam37,Cloud Computing,enroll,2024-12-06 03:45:32,
+adam37,Cloud Computing,rating,2024-12-06 03:45:32,4.0
+adam37,UX Design Basics,view,2024-12-06 03:45:32,
+adam37,UX Design Basics,rating,2024-12-06 03:45:32,5.0
+richardsonchristopher,AI for Beginners,view,2024-12-06 03:45:32,
+richardsonchristopher,AI for Beginners,rating,2024-12-06 03:45:32,3.0
+richardsonchristopher,Project Management,enroll,2024-12-06 03:45:32,
+richardsonchristopher,Project Management,rating,2024-12-06 03:45:32,5.0
+richardsonchristopher,Cloud Computing,enroll,2024-12-06 03:45:32,
+richardsonchristopher,Cloud Computing,rating,2024-12-06 03:45:32,3.0
+brownlori,Excel for Beginners,complete,2024-12-06 03:45:32,
+brownlori,Excel for Beginners,rating,2024-12-06 03:45:32,3.0
+brownlori,Game Development,complete,2024-12-06 03:45:32,
+brownlori,Game Development,rating,2024-12-06 03:45:32,4.0
+lauren09,Finance Fundamentals,enroll,2024-12-06 03:45:32,
+lauren09,Finance Fundamentals,rating,2024-12-06 03:45:32,1.0
+lauren09,Excel for Beginners,view,2024-12-06 03:45:32,
+lauren09,Excel for Beginners,rating,2024-12-06 03:45:32,3.0
+florespaul,Digital Marketing Basics,enroll,2024-12-06 03:45:32,
+florespaul,Digital Marketing Basics,rating,2024-12-06 03:45:32,1.0
+florespaul,Excel for Beginners,enroll,2024-12-06 03:45:32,
+florespaul,Excel for Beginners,rating,2024-12-06 03:45:32,2.0
+florespaul,AI for Beginners,complete,2024-12-06 03:45:32,
+florespaul,AI for Beginners,rating,2024-12-06 03:45:32,1.0
+florespaul,Photography Basics,complete,2024-12-06 03:45:32,
+florespaul,Photography Basics,rating,2024-12-06 03:45:32,4.0
+russell43,Web Development Bootcamp,complete,2024-12-06 03:45:32,
+russell43,Web Development Bootcamp,rating,2024-12-06 03:45:32,4.0
+russell43,Data Science 101,view,2024-12-06 03:45:32,
+russell43,Data Science 101,rating,2024-12-06 03:45:32,5.0
+fharris,Finance Fundamentals,complete,2024-12-06 03:45:32,
+fharris,Finance Fundamentals,rating,2024-12-06 03:45:32,2.0
+fharris,Social Media Marketing,view,2024-12-06 03:45:32,
+fharris,Social Media Marketing,rating,2024-12-06 03:45:32,5.0
+fharris,Digital Marketing Basics,complete,2024-12-06 03:45:32,
+fharris,Digital Marketing Basics,rating,2024-12-06 03:45:32,2.0
+fharris,Excel for Beginners,view,2024-12-06 03:45:32,
+fharris,Excel for Beginners,rating,2024-12-06 03:45:32,1.0
+fharris,Quantum Computing 101,complete,2024-12-06 03:45:32,
+fharris,Quantum Computing 101,rating,2024-12-06 03:45:32,4.0
+dorothypearson,Cooking Essentials,enroll,2024-12-06 03:45:32,
+dorothypearson,Cooking Essentials,rating,2024-12-06 03:45:32,5.0
+dorothypearson,Statistics for Data Science,view,2024-12-06 03:45:32,
+dorothypearson,Statistics for Data Science,rating,2024-12-06 03:45:32,4.0
+dorothypearson,Game Development,complete,2024-12-06 03:45:32,
+dorothypearson,Game Development,rating,2024-12-06 03:45:32,1.0
+dorothypearson,Music Production,complete,2024-12-06 03:45:32,
+dorothypearson,Music Production,rating,2024-12-06 03:45:32,2.0
+dorothypearson,Fitness and Wellness,view,2024-12-06 03:45:32,
+dorothypearson,Fitness and Wellness,rating,2024-12-06 03:45:32,1.0
+alexisreynolds,Mobile App Development,view,2024-12-06 03:45:32,
+alexisreynolds,Mobile App Development,rating,2024-12-06 03:45:32,5.0
+alexisreynolds,Advanced Java,enroll,2024-12-06 03:45:32,
+alexisreynolds,Advanced Java,rating,2024-12-06 03:45:32,5.0
+alexisreynolds,Web Development Bootcamp,enroll,2024-12-06 03:45:32,
+alexisreynolds,Web Development Bootcamp,rating,2024-12-06 03:45:32,1.0
+hmorales,SEO Strategies,view,2024-12-06 03:45:32,
+hmorales,SEO Strategies,rating,2024-12-06 03:45:32,3.0
+hmorales,Ethical Hacking,complete,2024-12-06 03:45:32,
+hmorales,Ethical Hacking,rating,2024-12-06 03:45:32,4.0
+hmorales,Interior Design Basics,complete,2024-12-06 03:45:32,
+hmorales,Interior Design Basics,rating,2024-12-06 03:45:32,5.0
+jnguyen,Cooking Essentials,view,2024-12-06 03:45:32,
+jnguyen,Cooking Essentials,rating,2024-12-06 03:45:32,1.0
+jnguyen,Ethical Hacking,view,2024-12-06 03:45:32,
+jnguyen,Ethical Hacking,rating,2024-12-06 03:45:32,5.0
+jnguyen,Mobile App Development,complete,2024-12-06 03:45:32,
+jnguyen,Mobile App Development,rating,2024-12-06 03:45:32,5.0
+ncooper,Fitness and Wellness,view,2024-12-06 03:45:32,
+ncooper,Fitness and Wellness,rating,2024-12-06 03:45:32,5.0
+ncooper,Interior Design Basics,enroll,2024-12-06 03:45:32,
+ncooper,Interior Design Basics,rating,2024-12-06 03:45:32,3.0
+ncooper,Machine Learning,enroll,2024-12-06 03:45:32,
+ncooper,Machine Learning,rating,2024-12-06 03:45:32,2.0
+ncooper,Mobile App Development,view,2024-12-06 03:45:32,
+ncooper,Mobile App Development,rating,2024-12-06 03:45:32,4.0
+allenbrittany,Machine Learning,view,2024-12-06 03:45:32,
+allenbrittany,Machine Learning,rating,2024-12-06 03:45:32,1.0
+allenbrittany,UX Design Basics,enroll,2024-12-06 03:45:32,
+allenbrittany,UX Design Basics,rating,2024-12-06 03:45:32,4.0
+ugrant,Advanced Java,complete,2024-12-06 03:45:32,
+ugrant,Advanced Java,rating,2024-12-06 03:45:32,2.0
+ugrant,Finance Fundamentals,complete,2024-12-06 03:45:32,
+ugrant,Finance Fundamentals,rating,2024-12-06 03:45:32,1.0
+ugrant,Photography Basics,enroll,2024-12-06 03:45:32,
+ugrant,Photography Basics,rating,2024-12-06 03:45:32,4.0
+ugrant,Interior Design Basics,complete,2024-12-06 03:45:32,
+ugrant,Interior Design Basics,rating,2024-12-06 03:45:32,3.0
+vmartinez,Web Development Bootcamp,enroll,2024-12-06 03:45:32,
+vmartinez,Web Development Bootcamp,rating,2024-12-06 03:45:32,3.0
+vmartinez,Social Media Marketing,view,2024-12-06 03:45:32,
+vmartinez,Social Media Marketing,rating,2024-12-06 03:45:32,5.0
+vmartinez,Project Management,enroll,2024-12-06 03:45:32,
+vmartinez,Project Management,rating,2024-12-06 03:45:32,3.0
+vmartinez,Mobile App Development,complete,2024-12-06 03:45:32,
+vmartinez,Mobile App Development,rating,2024-12-06 03:45:32,1.0
+vmartinez,Graphic Design Fundamentals,view,2024-12-06 03:45:32,
+vmartinez,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,3.0
+laura77,Music Production,enroll,2024-12-06 03:45:32,
+laura77,Music Production,rating,2024-12-06 03:45:32,5.0
+laura77,Statistics for Data Science,enroll,2024-12-06 03:45:32,
+laura77,Statistics for Data Science,rating,2024-12-06 03:45:32,3.0
+curtisochoa,Mobile App Development,enroll,2024-12-06 03:45:32,
+curtisochoa,Mobile App Development,rating,2024-12-06 03:45:32,1.0
+curtisochoa,Intro to Python,enroll,2024-12-06 03:45:32,
+curtisochoa,Intro to Python,rating,2024-12-06 03:45:32,1.0
+curtisochoa,Ethical Hacking,enroll,2024-12-06 03:45:32,
+curtisochoa,Ethical Hacking,rating,2024-12-06 03:45:32,3.0
+curtisochoa,Cloud Computing,enroll,2024-12-06 03:45:32,
+curtisochoa,Cloud Computing,rating,2024-12-06 03:45:32,1.0
+curtisochoa,Project Management,view,2024-12-06 03:45:32,
+curtisochoa,Project Management,rating,2024-12-06 03:45:32,3.0
+tonynunez,Mobile App Development,complete,2024-12-06 03:45:32,
+tonynunez,Mobile App Development,rating,2024-12-06 03:45:32,1.0
+tonynunez,Cybersecurity Essentials,complete,2024-12-06 03:45:32,
+tonynunez,Cybersecurity Essentials,rating,2024-12-06 03:45:32,1.0
+tonynunez,Fitness and Wellness,complete,2024-12-06 03:45:32,
+tonynunez,Fitness and Wellness,rating,2024-12-06 03:45:32,2.0
+tonynunez,Digital Marketing Basics,complete,2024-12-06 03:45:32,
+tonynunez,Digital Marketing Basics,rating,2024-12-06 03:45:32,4.0
+gregory11,Project Management,enroll,2024-12-06 03:45:32,
+gregory11,Project Management,rating,2024-12-06 03:45:32,1.0
+gregory11,Finance Fundamentals,complete,2024-12-06 03:45:32,
+gregory11,Finance Fundamentals,rating,2024-12-06 03:45:32,2.0
+gregory11,Fitness and Wellness,complete,2024-12-06 03:45:32,
+gregory11,Fitness and Wellness,rating,2024-12-06 03:45:32,2.0
+gregory11,History of Art,view,2024-12-06 03:45:32,
+gregory11,History of Art,rating,2024-12-06 03:45:32,4.0
+gregory11,UX Design Basics,complete,2024-12-06 03:45:32,
+gregory11,UX Design Basics,rating,2024-12-06 03:45:32,5.0
+danielle47,Finance Fundamentals,view,2024-12-06 03:45:32,
+danielle47,Finance Fundamentals,rating,2024-12-06 03:45:32,1.0
+danielle47,Fitness and Wellness,complete,2024-12-06 03:45:32,
+danielle47,Fitness and Wellness,rating,2024-12-06 03:45:32,5.0
+mitchelljoshua,Creative Writing,complete,2024-12-06 03:45:32,
+mitchelljoshua,Creative Writing,rating,2024-12-06 03:45:32,4.0
+mitchelljoshua,Social Media Marketing,complete,2024-12-06 03:45:32,
+mitchelljoshua,Social Media Marketing,rating,2024-12-06 03:45:32,3.0
+kristensheppard,Social Media Marketing,enroll,2024-12-06 03:45:32,
+kristensheppard,Social Media Marketing,rating,2024-12-06 03:45:32,2.0
+kristensheppard,UX Design Basics,enroll,2024-12-06 03:45:32,
+kristensheppard,UX Design Basics,rating,2024-12-06 03:45:32,5.0
+kristensheppard,Fitness and Wellness,enroll,2024-12-06 03:45:32,
+kristensheppard,Fitness and Wellness,rating,2024-12-06 03:45:32,4.0
+hernandezbradley,UX Design Basics,complete,2024-12-06 03:45:32,
+hernandezbradley,UX Design Basics,rating,2024-12-06 03:45:32,5.0
+hernandezbradley,Statistics for Data Science,view,2024-12-06 03:45:32,
+hernandezbradley,Statistics for Data Science,rating,2024-12-06 03:45:32,4.0
+hernandezbradley,History of Art,enroll,2024-12-06 03:45:32,
+hernandezbradley,History of Art,rating,2024-12-06 03:45:32,4.0
+hernandezbradley,Advanced Java,view,2024-12-06 03:45:32,
+hernandezbradley,Advanced Java,rating,2024-12-06 03:45:32,4.0
+hernandezbradley,Web Development Bootcamp,view,2024-12-06 03:45:32,
+hernandezbradley,Web Development Bootcamp,rating,2024-12-06 03:45:32,5.0
+benjaminwilliams,Finance Fundamentals,enroll,2024-12-06 03:45:32,
+benjaminwilliams,Finance Fundamentals,rating,2024-12-06 03:45:32,4.0
+benjaminwilliams,Machine Learning,complete,2024-12-06 03:45:32,
+benjaminwilliams,Machine Learning,rating,2024-12-06 03:45:32,5.0
+benjaminwilliams,Project Management,enroll,2024-12-06 03:45:32,
+benjaminwilliams,Project Management,rating,2024-12-06 03:45:32,5.0
+benjaminwilliams,History of Art,view,2024-12-06 03:45:32,
+benjaminwilliams,History of Art,rating,2024-12-06 03:45:32,3.0
+benjaminwilliams,Creative Writing,enroll,2024-12-06 03:45:32,
+benjaminwilliams,Creative Writing,rating,2024-12-06 03:45:32,3.0
+karensweeney,Public Speaking,complete,2024-12-06 03:45:32,
+karensweeney,Public Speaking,rating,2024-12-06 03:45:32,1.0
+karensweeney,Ethical Hacking,view,2024-12-06 03:45:32,
+karensweeney,Ethical Hacking,rating,2024-12-06 03:45:32,2.0
+karensweeney,Mobile App Development,view,2024-12-06 03:45:32,
+karensweeney,Mobile App Development,rating,2024-12-06 03:45:32,3.0
+karensweeney,Photography Basics,view,2024-12-06 03:45:32,
+karensweeney,Photography Basics,rating,2024-12-06 03:45:32,4.0
+daisymejia,Cloud Computing,enroll,2024-12-06 03:45:32,
+daisymejia,Cloud Computing,rating,2024-12-06 03:45:32,3.0
+daisymejia,SEO Strategies,view,2024-12-06 03:45:32,
+daisymejia,SEO Strategies,rating,2024-12-06 03:45:32,1.0
+daisymejia,Public Speaking,enroll,2024-12-06 03:45:32,
+daisymejia,Public Speaking,rating,2024-12-06 03:45:32,3.0
+daisymejia,Social Media Marketing,enroll,2024-12-06 03:45:32,
+daisymejia,Social Media Marketing,rating,2024-12-06 03:45:32,4.0
+mcdonaldcatherine,AI for Beginners,view,2024-12-06 03:45:32,
+mcdonaldcatherine,AI for Beginners,rating,2024-12-06 03:45:32,2.0
+mcdonaldcatherine,Mobile App Development,enroll,2024-12-06 03:45:32,
+mcdonaldcatherine,Mobile App Development,rating,2024-12-06 03:45:32,4.0
+mcdonaldcatherine,Cooking Essentials,enroll,2024-12-06 03:45:32,
+mcdonaldcatherine,Cooking Essentials,rating,2024-12-06 03:45:32,1.0
+amays,Cooking Essentials,enroll,2024-12-06 03:45:32,
+amays,Cooking Essentials,rating,2024-12-06 03:45:32,4.0
+amays,Finance Fundamentals,view,2024-12-06 03:45:32,
+amays,Finance Fundamentals,rating,2024-12-06 03:45:32,1.0
+amays,Web Development Bootcamp,enroll,2024-12-06 03:45:32,
+amays,Web Development Bootcamp,rating,2024-12-06 03:45:32,2.0
+amays,SEO Strategies,view,2024-12-06 03:45:32,
+amays,SEO Strategies,rating,2024-12-06 03:45:32,5.0
+shawdanielle,Data Science 101,view,2024-12-06 03:45:32,
+shawdanielle,Data Science 101,rating,2024-12-06 03:45:32,4.0
+shawdanielle,AI for Beginners,enroll,2024-12-06 03:45:32,
+shawdanielle,AI for Beginners,rating,2024-12-06 03:45:32,4.0
+bellalyssa,Interior Design Basics,enroll,2024-12-06 03:45:32,
+bellalyssa,Interior Design Basics,rating,2024-12-06 03:45:32,5.0
+bellalyssa,Digital Marketing Basics,enroll,2024-12-06 03:45:32,
+bellalyssa,Digital Marketing Basics,rating,2024-12-06 03:45:32,3.0
+bellalyssa,Quantum Computing 101,view,2024-12-06 03:45:32,
+bellalyssa,Quantum Computing 101,rating,2024-12-06 03:45:32,3.0
+atate,Digital Marketing Basics,enroll,2024-12-06 03:45:32,
+atate,Digital Marketing Basics,rating,2024-12-06 03:45:32,5.0
+atate,Graphic Design Fundamentals,view,2024-12-06 03:45:32,
+atate,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,2.0
+sarahlivingston,History of Art,complete,2024-12-06 03:45:32,
+sarahlivingston,History of Art,rating,2024-12-06 03:45:32,1.0
+sarahlivingston,Music Production,enroll,2024-12-06 03:45:32,
+sarahlivingston,Music Production,rating,2024-12-06 03:45:32,4.0
+sarahlivingston,Game Development,enroll,2024-12-06 03:45:32,
+sarahlivingston,Game Development,rating,2024-12-06 03:45:32,3.0
+sarahlivingston,Machine Learning,complete,2024-12-06 03:45:32,
+sarahlivingston,Machine Learning,rating,2024-12-06 03:45:32,4.0
+sarahlivingston,Cloud Computing,enroll,2024-12-06 03:45:32,
+sarahlivingston,Cloud Computing,rating,2024-12-06 03:45:32,5.0
+santiagomartin,Advanced Java,complete,2024-12-06 03:45:32,
+santiagomartin,Advanced Java,rating,2024-12-06 03:45:32,1.0
+santiagomartin,Public Speaking,view,2024-12-06 03:45:32,
+santiagomartin,Public Speaking,rating,2024-12-06 03:45:32,3.0
+herreraamy,Finance Fundamentals,enroll,2024-12-06 03:45:32,
+herreraamy,Finance Fundamentals,rating,2024-12-06 03:45:32,3.0
+herreraamy,Data Science 101,complete,2024-12-06 03:45:32,
+herreraamy,Data Science 101,rating,2024-12-06 03:45:32,5.0
+herreraamy,Cybersecurity Essentials,view,2024-12-06 03:45:32,
+herreraamy,Cybersecurity Essentials,rating,2024-12-06 03:45:32,5.0
+herreraamy,Cloud Computing,complete,2024-12-06 03:45:32,
+herreraamy,Cloud Computing,rating,2024-12-06 03:45:32,4.0
+linda03,Cooking Essentials,enroll,2024-12-06 03:45:32,
+linda03,Cooking Essentials,rating,2024-12-06 03:45:32,4.0
+linda03,Cybersecurity Essentials,enroll,2024-12-06 03:45:32,
+linda03,Cybersecurity Essentials,rating,2024-12-06 03:45:32,4.0
+linda03,Project Management,view,2024-12-06 03:45:32,
+linda03,Project Management,rating,2024-12-06 03:45:32,4.0
+linda03,Web Development Bootcamp,view,2024-12-06 03:45:32,
+linda03,Web Development Bootcamp,rating,2024-12-06 03:45:32,4.0
+esmith,Cooking Essentials,view,2024-12-06 03:45:32,
+esmith,Cooking Essentials,rating,2024-12-06 03:45:32,1.0
+esmith,Interior Design Basics,enroll,2024-12-06 03:45:32,
+esmith,Interior Design Basics,rating,2024-12-06 03:45:32,2.0
+hernandeztyler,Interior Design Basics,complete,2024-12-06 03:45:32,
+hernandeztyler,Interior Design Basics,rating,2024-12-06 03:45:32,5.0
+hernandeztyler,Ethical Hacking,complete,2024-12-06 03:45:32,
+hernandeztyler,Ethical Hacking,rating,2024-12-06 03:45:32,5.0
+edwardsdaniel,Blockchain Basics,view,2024-12-06 03:45:32,
+edwardsdaniel,Blockchain Basics,rating,2024-12-06 03:45:32,3.0
+edwardsdaniel,Graphic Design Fundamentals,complete,2024-12-06 03:45:32,
+edwardsdaniel,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,2.0
+edwardsdaniel,Project Management,view,2024-12-06 03:45:32,
+edwardsdaniel,Project Management,rating,2024-12-06 03:45:32,4.0
+edwardsdaniel,Public Speaking,enroll,2024-12-06 03:45:32,
+edwardsdaniel,Public Speaking,rating,2024-12-06 03:45:32,1.0
+elizabethvargas,History of Art,complete,2024-12-06 03:45:32,
+elizabethvargas,History of Art,rating,2024-12-06 03:45:32,3.0
+elizabethvargas,Finance Fundamentals,complete,2024-12-06 03:45:32,
+elizabethvargas,Finance Fundamentals,rating,2024-12-06 03:45:32,2.0
+elizabethvargas,Music Production,view,2024-12-06 03:45:32,
+elizabethvargas,Music Production,rating,2024-12-06 03:45:32,4.0
+kimberly40,SEO Strategies,complete,2024-12-06 03:45:32,
+kimberly40,SEO Strategies,rating,2024-12-06 03:45:32,2.0
+kimberly40,Photography Basics,enroll,2024-12-06 03:45:32,
+kimberly40,Photography Basics,rating,2024-12-06 03:45:32,1.0
+holly22,History of Art,complete,2024-12-06 03:45:32,
+holly22,History of Art,rating,2024-12-06 03:45:32,4.0
+holly22,Project Management,view,2024-12-06 03:45:32,
+holly22,Project Management,rating,2024-12-06 03:45:32,5.0
+holly22,Excel for Beginners,view,2024-12-06 03:45:32,
+holly22,Excel for Beginners,rating,2024-12-06 03:45:32,3.0
+holly22,Data Science 101,enroll,2024-12-06 03:45:32,
+holly22,Data Science 101,rating,2024-12-06 03:45:32,4.0
+holly22,Game Development,enroll,2024-12-06 03:45:32,
+holly22,Game Development,rating,2024-12-06 03:45:32,1.0
+moraleschelsea,Web Development Bootcamp,complete,2024-12-06 03:45:32,
+moraleschelsea,Web Development Bootcamp,rating,2024-12-06 03:45:32,3.0
+moraleschelsea,Social Media Marketing,view,2024-12-06 03:45:32,
+moraleschelsea,Social Media Marketing,rating,2024-12-06 03:45:32,3.0
+moraleschelsea,Advanced Java,complete,2024-12-06 03:45:32,
+moraleschelsea,Advanced Java,rating,2024-12-06 03:45:32,2.0
+joshuabuck,Cooking Essentials,complete,2024-12-06 03:45:32,
+joshuabuck,Cooking Essentials,rating,2024-12-06 03:45:32,5.0
+joshuabuck,Mobile App Development,view,2024-12-06 03:45:32,
+joshuabuck,Mobile App Development,rating,2024-12-06 03:45:32,1.0
+joshuabuck,Ethical Hacking,enroll,2024-12-06 03:45:32,
+joshuabuck,Ethical Hacking,rating,2024-12-06 03:45:32,3.0
+joshuabuck,Game Development,enroll,2024-12-06 03:45:32,
+joshuabuck,Game Development,rating,2024-12-06 03:45:32,5.0
+joshuabuck,Digital Marketing Basics,enroll,2024-12-06 03:45:32,
+joshuabuck,Digital Marketing Basics,rating,2024-12-06 03:45:32,1.0
+judithhill,Fitness and Wellness,view,2024-12-06 03:45:32,
+judithhill,Fitness and Wellness,rating,2024-12-06 03:45:32,3.0
+judithhill,Cooking Essentials,enroll,2024-12-06 03:45:32,
+judithhill,Cooking Essentials,rating,2024-12-06 03:45:32,2.0
+judithhill,Statistics for Data Science,complete,2024-12-06 03:45:32,
+judithhill,Statistics for Data Science,rating,2024-12-06 03:45:32,5.0
+judithhill,Blockchain Basics,view,2024-12-06 03:45:32,
+judithhill,Blockchain Basics,rating,2024-12-06 03:45:32,4.0
+ybaker,SEO Strategies,view,2024-12-06 03:45:32,
+ybaker,SEO Strategies,rating,2024-12-06 03:45:32,3.0
+ybaker,Fitness and Wellness,view,2024-12-06 03:45:32,
+ybaker,Fitness and Wellness,rating,2024-12-06 03:45:32,5.0
+ybaker,Web Development Bootcamp,complete,2024-12-06 03:45:32,
+ybaker,Web Development Bootcamp,rating,2024-12-06 03:45:32,4.0
+christian96,Finance Fundamentals,enroll,2024-12-06 03:45:32,
+christian96,Finance Fundamentals,rating,2024-12-06 03:45:32,2.0
+christian96,Project Management,complete,2024-12-06 03:45:32,
+christian96,Project Management,rating,2024-12-06 03:45:32,5.0
+christian96,Cooking Essentials,complete,2024-12-06 03:45:32,
+christian96,Cooking Essentials,rating,2024-12-06 03:45:32,2.0
+christian96,Fitness and Wellness,view,2024-12-06 03:45:32,
+christian96,Fitness and Wellness,rating,2024-12-06 03:45:32,5.0
+qwilliams,Cloud Computing,enroll,2024-12-06 03:45:32,
+qwilliams,Cloud Computing,rating,2024-12-06 03:45:32,3.0
+qwilliams,Fitness and Wellness,complete,2024-12-06 03:45:32,
+qwilliams,Fitness and Wellness,rating,2024-12-06 03:45:32,3.0
+qwilliams,AI for Beginners,enroll,2024-12-06 03:45:32,
+qwilliams,AI for Beginners,rating,2024-12-06 03:45:32,3.0
+laurahall,UX Design Basics,complete,2024-12-06 03:45:32,
+laurahall,UX Design Basics,rating,2024-12-06 03:45:32,4.0
+laurahall,Social Media Marketing,complete,2024-12-06 03:45:32,
+laurahall,Social Media Marketing,rating,2024-12-06 03:45:32,4.0
+laurahall,Blockchain Basics,view,2024-12-06 03:45:32,
+laurahall,Blockchain Basics,rating,2024-12-06 03:45:32,2.0
+laurahall,History of Art,complete,2024-12-06 03:45:32,
+laurahall,History of Art,rating,2024-12-06 03:45:32,2.0
+hcampbell,Blockchain Basics,enroll,2024-12-06 03:45:32,
+hcampbell,Blockchain Basics,rating,2024-12-06 03:45:32,5.0
+hcampbell,AI for Beginners,view,2024-12-06 03:45:32,
+hcampbell,AI for Beginners,rating,2024-12-06 03:45:32,1.0
+hcampbell,Web Development Bootcamp,enroll,2024-12-06 03:45:32,
+hcampbell,Web Development Bootcamp,rating,2024-12-06 03:45:32,1.0
+hcampbell,Social Media Marketing,complete,2024-12-06 03:45:32,
+hcampbell,Social Media Marketing,rating,2024-12-06 03:45:32,5.0
+helen76,Blockchain Basics,view,2024-12-06 03:45:32,
+helen76,Blockchain Basics,rating,2024-12-06 03:45:32,3.0
+helen76,Project Management,complete,2024-12-06 03:45:32,
+helen76,Project Management,rating,2024-12-06 03:45:32,2.0
+cindy54,Machine Learning,complete,2024-12-06 03:45:32,
+cindy54,Machine Learning,rating,2024-12-06 03:45:32,1.0
+cindy54,Music Production,view,2024-12-06 03:45:32,
+cindy54,Music Production,rating,2024-12-06 03:45:32,3.0
+nicole46,Advanced Java,enroll,2024-12-06 03:45:32,
+nicole46,Advanced Java,rating,2024-12-06 03:45:32,1.0
+nicole46,AI for Beginners,complete,2024-12-06 03:45:32,
+nicole46,AI for Beginners,rating,2024-12-06 03:45:32,4.0
+nicole46,Excel for Beginners,enroll,2024-12-06 03:45:32,
+nicole46,Excel for Beginners,rating,2024-12-06 03:45:32,3.0
+nicole46,Game Development,enroll,2024-12-06 03:45:32,
+nicole46,Game Development,rating,2024-12-06 03:45:32,2.0
+nicole46,SEO Strategies,view,2024-12-06 03:45:32,
+nicole46,SEO Strategies,rating,2024-12-06 03:45:32,1.0
+jennycraig,SEO Strategies,complete,2024-12-06 03:45:32,
+jennycraig,SEO Strategies,rating,2024-12-06 03:45:32,1.0
+jennycraig,Data Science 101,complete,2024-12-06 03:45:32,
+jennycraig,Data Science 101,rating,2024-12-06 03:45:32,2.0
+jennycraig,Photography Basics,view,2024-12-06 03:45:32,
+jennycraig,Photography Basics,rating,2024-12-06 03:45:32,3.0
+jennycraig,Intro to Python,view,2024-12-06 03:45:32,
+jennycraig,Intro to Python,rating,2024-12-06 03:45:32,4.0
+andrewserik,Photography Basics,enroll,2024-12-06 03:45:32,
+andrewserik,Photography Basics,rating,2024-12-06 03:45:32,4.0
+andrewserik,AI for Beginners,view,2024-12-06 03:45:32,
+andrewserik,AI for Beginners,rating,2024-12-06 03:45:32,4.0
+andrewserik,Interior Design Basics,view,2024-12-06 03:45:32,
+andrewserik,Interior Design Basics,rating,2024-12-06 03:45:32,1.0
+andrewserik,UX Design Basics,complete,2024-12-06 03:45:32,
+andrewserik,UX Design Basics,rating,2024-12-06 03:45:32,5.0
+andrewserik,Public Speaking,complete,2024-12-06 03:45:32,
+andrewserik,Public Speaking,rating,2024-12-06 03:45:32,1.0
+heatherthomas,History of Art,enroll,2024-12-06 03:45:32,
+heatherthomas,History of Art,rating,2024-12-06 03:45:32,5.0
+heatherthomas,Public Speaking,complete,2024-12-06 03:45:32,
+heatherthomas,Public Speaking,rating,2024-12-06 03:45:32,5.0
+heatherthomas,Project Management,view,2024-12-06 03:45:32,
+heatherthomas,Project Management,rating,2024-12-06 03:45:32,2.0
+brianpetersen,Music Production,enroll,2024-12-06 03:45:32,
+brianpetersen,Music Production,rating,2024-12-06 03:45:32,1.0
+brianpetersen,Ethical Hacking,complete,2024-12-06 03:45:32,
+brianpetersen,Ethical Hacking,rating,2024-12-06 03:45:32,3.0
+brianpetersen,Fitness and Wellness,view,2024-12-06 03:45:32,
+brianpetersen,Fitness and Wellness,rating,2024-12-06 03:45:32,3.0
+brianpetersen,Mobile App Development,complete,2024-12-06 03:45:32,
+brianpetersen,Mobile App Development,rating,2024-12-06 03:45:32,3.0
+brianpetersen,Machine Learning,view,2024-12-06 03:45:32,
+brianpetersen,Machine Learning,rating,2024-12-06 03:45:32,5.0
+yferrell,Statistics for Data Science,view,2024-12-06 03:45:32,
+yferrell,Statistics for Data Science,rating,2024-12-06 03:45:32,4.0
+yferrell,Graphic Design Fundamentals,view,2024-12-06 03:45:32,
+yferrell,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,2.0
+yferrell,Machine Learning,view,2024-12-06 03:45:32,
+yferrell,Machine Learning,rating,2024-12-06 03:45:32,2.0
+yferrell,SEO Strategies,view,2024-12-06 03:45:32,
+yferrell,SEO Strategies,rating,2024-12-06 03:45:32,1.0
+brownrachel,Blockchain Basics,view,2024-12-06 03:45:32,
+brownrachel,Blockchain Basics,rating,2024-12-06 03:45:32,1.0
+brownrachel,Interior Design Basics,enroll,2024-12-06 03:45:32,
+brownrachel,Interior Design Basics,rating,2024-12-06 03:45:32,5.0
+brownrachel,Advanced Java,view,2024-12-06 03:45:32,
+brownrachel,Advanced Java,rating,2024-12-06 03:45:32,5.0
+brownrachel,Cooking Essentials,enroll,2024-12-06 03:45:32,
+brownrachel,Cooking Essentials,rating,2024-12-06 03:45:32,4.0
+brownrachel,Fitness and Wellness,view,2024-12-06 03:45:32,
+brownrachel,Fitness and Wellness,rating,2024-12-06 03:45:32,5.0
+dawsonkayla,Interior Design Basics,view,2024-12-06 03:45:32,
+dawsonkayla,Interior Design Basics,rating,2024-12-06 03:45:32,3.0
+dawsonkayla,Advanced Java,enroll,2024-12-06 03:45:32,
+dawsonkayla,Advanced Java,rating,2024-12-06 03:45:32,3.0
+lflowers,Cloud Computing,view,2024-12-06 03:45:32,
+lflowers,Cloud Computing,rating,2024-12-06 03:45:32,3.0
+lflowers,UX Design Basics,enroll,2024-12-06 03:45:32,
+lflowers,UX Design Basics,rating,2024-12-06 03:45:32,3.0
+lflowers,Data Science 101,enroll,2024-12-06 03:45:32,
+lflowers,Data Science 101,rating,2024-12-06 03:45:32,2.0
+lschmidt,Cybersecurity Essentials,complete,2024-12-06 03:45:32,
+lschmidt,Cybersecurity Essentials,rating,2024-12-06 03:45:32,3.0
+lschmidt,Public Speaking,complete,2024-12-06 03:45:32,
+lschmidt,Public Speaking,rating,2024-12-06 03:45:32,4.0
+lschmidt,Game Development,complete,2024-12-06 03:45:32,
+lschmidt,Game Development,rating,2024-12-06 03:45:32,5.0
+kjones,Project Management,complete,2024-12-06 03:45:32,
+kjones,Project Management,rating,2024-12-06 03:45:32,1.0
+kjones,Graphic Design Fundamentals,complete,2024-12-06 03:45:32,
+kjones,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,1.0
+kjones,Excel for Beginners,view,2024-12-06 03:45:32,
+kjones,Excel for Beginners,rating,2024-12-06 03:45:32,1.0
+kjones,Cybersecurity Essentials,enroll,2024-12-06 03:45:32,
+kjones,Cybersecurity Essentials,rating,2024-12-06 03:45:32,1.0
+kjones,SEO Strategies,view,2024-12-06 03:45:32,
+kjones,SEO Strategies,rating,2024-12-06 03:45:32,1.0
+vickieedwards,Creative Writing,view,2024-12-06 03:45:32,
+vickieedwards,Creative Writing,rating,2024-12-06 03:45:32,1.0
+vickieedwards,Advanced Java,view,2024-12-06 03:45:32,
+vickieedwards,Advanced Java,rating,2024-12-06 03:45:32,1.0
+vickieedwards,Cooking Essentials,complete,2024-12-06 03:45:32,
+vickieedwards,Cooking Essentials,rating,2024-12-06 03:45:32,3.0
+glloyd,Digital Marketing Basics,enroll,2024-12-06 03:45:32,
+glloyd,Digital Marketing Basics,rating,2024-12-06 03:45:32,3.0
+glloyd,Creative Writing,complete,2024-12-06 03:45:32,
+glloyd,Creative Writing,rating,2024-12-06 03:45:32,1.0
+glloyd,AI for Beginners,view,2024-12-06 03:45:32,
+glloyd,AI for Beginners,rating,2024-12-06 03:45:32,1.0
+glloyd,Mobile App Development,enroll,2024-12-06 03:45:32,
+glloyd,Mobile App Development,rating,2024-12-06 03:45:32,1.0
+glloyd,Data Science 101,complete,2024-12-06 03:45:32,
+glloyd,Data Science 101,rating,2024-12-06 03:45:32,1.0
+justinwyatt,Cooking Essentials,view,2024-12-06 03:45:32,
+justinwyatt,Cooking Essentials,rating,2024-12-06 03:45:32,5.0
+justinwyatt,Music Production,view,2024-12-06 03:45:32,
+justinwyatt,Music Production,rating,2024-12-06 03:45:32,5.0
+justinwyatt,AI for Beginners,enroll,2024-12-06 03:45:32,
+justinwyatt,AI for Beginners,rating,2024-12-06 03:45:32,1.0
+michaelsmith,Public Speaking,complete,2024-12-06 03:45:32,
+michaelsmith,Public Speaking,rating,2024-12-06 03:45:32,2.0
+michaelsmith,Blockchain Basics,complete,2024-12-06 03:45:32,
+michaelsmith,Blockchain Basics,rating,2024-12-06 03:45:32,1.0
+michaelsmith,SEO Strategies,complete,2024-12-06 03:45:32,
+michaelsmith,SEO Strategies,rating,2024-12-06 03:45:32,1.0
+michaelsmith,Web Development Bootcamp,view,2024-12-06 03:45:32,
+michaelsmith,Web Development Bootcamp,rating,2024-12-06 03:45:32,2.0
+ramirezmelissa,Graphic Design Fundamentals,view,2024-12-06 03:45:32,
+ramirezmelissa,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,1.0
+ramirezmelissa,Music Production,enroll,2024-12-06 03:45:32,
+ramirezmelissa,Music Production,rating,2024-12-06 03:45:32,3.0
+loripatterson,Quantum Computing 101,complete,2024-12-06 03:45:32,
+loripatterson,Quantum Computing 101,rating,2024-12-06 03:45:32,5.0
+loripatterson,Creative Writing,complete,2024-12-06 03:45:32,
+loripatterson,Creative Writing,rating,2024-12-06 03:45:32,4.0
+loripatterson,Fitness and Wellness,complete,2024-12-06 03:45:32,
+loripatterson,Fitness and Wellness,rating,2024-12-06 03:45:32,2.0
+loripatterson,Interior Design Basics,view,2024-12-06 03:45:32,
+loripatterson,Interior Design Basics,rating,2024-12-06 03:45:32,2.0
+loripatterson,Game Development,view,2024-12-06 03:45:32,
+loripatterson,Game Development,rating,2024-12-06 03:45:32,4.0
+salinassamantha,Statistics for Data Science,view,2024-12-06 03:45:32,
+salinassamantha,Statistics for Data Science,rating,2024-12-06 03:45:32,3.0
+salinassamantha,Game Development,complete,2024-12-06 03:45:32,
+salinassamantha,Game Development,rating,2024-12-06 03:45:32,4.0
+fdaniel,Advanced Java,view,2024-12-06 03:45:32,
+fdaniel,Advanced Java,rating,2024-12-06 03:45:32,3.0
+fdaniel,Blockchain Basics,enroll,2024-12-06 03:45:32,
+fdaniel,Blockchain Basics,rating,2024-12-06 03:45:32,5.0
+fdaniel,Fitness and Wellness,enroll,2024-12-06 03:45:32,
+fdaniel,Fitness and Wellness,rating,2024-12-06 03:45:32,3.0
+fdaniel,Excel for Beginners,enroll,2024-12-06 03:45:32,
+fdaniel,Excel for Beginners,rating,2024-12-06 03:45:32,2.0
+mannjacob,SEO Strategies,complete,2024-12-06 03:45:32,
+mannjacob,SEO Strategies,rating,2024-12-06 03:45:32,5.0
+mannjacob,Fitness and Wellness,complete,2024-12-06 03:45:32,
+mannjacob,Fitness and Wellness,rating,2024-12-06 03:45:32,4.0
+mannjacob,Machine Learning,complete,2024-12-06 03:45:32,
+mannjacob,Machine Learning,rating,2024-12-06 03:45:32,3.0
+mannjacob,Advanced Java,view,2024-12-06 03:45:32,
+mannjacob,Advanced Java,rating,2024-12-06 03:45:32,1.0
+walldana,Blockchain Basics,complete,2024-12-06 03:45:32,
+walldana,Blockchain Basics,rating,2024-12-06 03:45:32,5.0
+walldana,Creative Writing,enroll,2024-12-06 03:45:32,
+walldana,Creative Writing,rating,2024-12-06 03:45:32,4.0
+harrisvincent,UX Design Basics,complete,2024-12-06 03:45:32,
+harrisvincent,UX Design Basics,rating,2024-12-06 03:45:32,1.0
+harrisvincent,Cybersecurity Essentials,view,2024-12-06 03:45:32,
+harrisvincent,Cybersecurity Essentials,rating,2024-12-06 03:45:32,3.0
+harrisvincent,Music Production,complete,2024-12-06 03:45:32,
+harrisvincent,Music Production,rating,2024-12-06 03:45:32,1.0
+harrisvincent,SEO Strategies,complete,2024-12-06 03:45:32,
+harrisvincent,SEO Strategies,rating,2024-12-06 03:45:32,4.0
+westbrian,Public Speaking,complete,2024-12-06 03:45:32,
+westbrian,Public Speaking,rating,2024-12-06 03:45:32,5.0
+westbrian,Advanced Java,view,2024-12-06 03:45:32,
+westbrian,Advanced Java,rating,2024-12-06 03:45:32,4.0
+kellyanderson,AI for Beginners,complete,2024-12-06 03:45:32,
+kellyanderson,AI for Beginners,rating,2024-12-06 03:45:32,1.0
+kellyanderson,Cooking Essentials,enroll,2024-12-06 03:45:32,
+kellyanderson,Cooking Essentials,rating,2024-12-06 03:45:32,2.0
+kellyanderson,Graphic Design Fundamentals,complete,2024-12-06 03:45:32,
+kellyanderson,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,1.0
+kellyanderson,Data Science 101,enroll,2024-12-06 03:45:32,
+kellyanderson,Data Science 101,rating,2024-12-06 03:45:32,1.0
+evanramos,Finance Fundamentals,enroll,2024-12-06 03:45:32,
+evanramos,Finance Fundamentals,rating,2024-12-06 03:45:32,3.0
+evanramos,Digital Marketing Basics,enroll,2024-12-06 03:45:32,
+evanramos,Digital Marketing Basics,rating,2024-12-06 03:45:32,4.0
+sjones,UX Design Basics,enroll,2024-12-06 03:45:32,
+sjones,UX Design Basics,rating,2024-12-06 03:45:32,4.0
+sjones,Ethical Hacking,complete,2024-12-06 03:45:32,
+sjones,Ethical Hacking,rating,2024-12-06 03:45:32,2.0
+sjones,SEO Strategies,complete,2024-12-06 03:45:32,
+sjones,SEO Strategies,rating,2024-12-06 03:45:32,3.0
+sjones,Excel for Beginners,enroll,2024-12-06 03:45:32,
+sjones,Excel for Beginners,rating,2024-12-06 03:45:32,1.0
+sjones,Interior Design Basics,enroll,2024-12-06 03:45:32,
+sjones,Interior Design Basics,rating,2024-12-06 03:45:32,1.0
+guerrerojonathan,Ethical Hacking,complete,2024-12-06 03:45:32,
+guerrerojonathan,Ethical Hacking,rating,2024-12-06 03:45:32,4.0
+guerrerojonathan,Quantum Computing 101,complete,2024-12-06 03:45:32,
+guerrerojonathan,Quantum Computing 101,rating,2024-12-06 03:45:32,2.0
+guerrerojonathan,AI for Beginners,complete,2024-12-06 03:45:32,
+guerrerojonathan,AI for Beginners,rating,2024-12-06 03:45:32,2.0
+golson,Cooking Essentials,complete,2024-12-06 03:45:32,
+golson,Cooking Essentials,rating,2024-12-06 03:45:32,2.0
+golson,Digital Marketing Basics,view,2024-12-06 03:45:32,
+golson,Digital Marketing Basics,rating,2024-12-06 03:45:32,5.0
+golson,Cybersecurity Essentials,complete,2024-12-06 03:45:32,
+golson,Cybersecurity Essentials,rating,2024-12-06 03:45:32,1.0
+golson,SEO Strategies,view,2024-12-06 03:45:32,
+golson,SEO Strategies,rating,2024-12-06 03:45:32,4.0
+watkinsjohn,Music Production,view,2024-12-06 03:45:32,
+watkinsjohn,Music Production,rating,2024-12-06 03:45:32,4.0
+watkinsjohn,Digital Marketing Basics,view,2024-12-06 03:45:32,
+watkinsjohn,Digital Marketing Basics,rating,2024-12-06 03:45:32,1.0
+ginablake,Advanced Java,view,2024-12-06 03:45:32,
+ginablake,Advanced Java,rating,2024-12-06 03:45:32,2.0
+ginablake,Ethical Hacking,complete,2024-12-06 03:45:32,
+ginablake,Ethical Hacking,rating,2024-12-06 03:45:32,2.0
+ginablake,Social Media Marketing,complete,2024-12-06 03:45:32,
+ginablake,Social Media Marketing,rating,2024-12-06 03:45:32,5.0
+ginablake,Data Science 101,complete,2024-12-06 03:45:32,
+ginablake,Data Science 101,rating,2024-12-06 03:45:32,4.0
+ginablake,Finance Fundamentals,view,2024-12-06 03:45:32,
+ginablake,Finance Fundamentals,rating,2024-12-06 03:45:32,1.0
+braunkimberly,Statistics for Data Science,view,2024-12-06 03:45:32,
+braunkimberly,Statistics for Data Science,rating,2024-12-06 03:45:32,3.0
+braunkimberly,Intro to Python,complete,2024-12-06 03:45:32,
+braunkimberly,Intro to Python,rating,2024-12-06 03:45:32,4.0
+braunkimberly,Creative Writing,view,2024-12-06 03:45:32,
+braunkimberly,Creative Writing,rating,2024-12-06 03:45:32,2.0
+urichardson,Ethical Hacking,enroll,2024-12-06 03:45:32,
+urichardson,Ethical Hacking,rating,2024-12-06 03:45:32,1.0
+urichardson,Blockchain Basics,enroll,2024-12-06 03:45:32,
+urichardson,Blockchain Basics,rating,2024-12-06 03:45:32,5.0
+urichardson,Machine Learning,view,2024-12-06 03:45:32,
+urichardson,Machine Learning,rating,2024-12-06 03:45:32,3.0
+heatherkaufman,Cooking Essentials,complete,2024-12-06 03:45:32,
+heatherkaufman,Cooking Essentials,rating,2024-12-06 03:45:32,2.0
+heatherkaufman,Music Production,complete,2024-12-06 03:45:32,
+heatherkaufman,Music Production,rating,2024-12-06 03:45:32,3.0
+heatherkaufman,Quantum Computing 101,view,2024-12-06 03:45:32,
+heatherkaufman,Quantum Computing 101,rating,2024-12-06 03:45:32,2.0
+heatherkaufman,Excel for Beginners,view,2024-12-06 03:45:32,
+heatherkaufman,Excel for Beginners,rating,2024-12-06 03:45:32,4.0
+lcollins,Web Development Bootcamp,enroll,2024-12-06 03:45:32,
+lcollins,Web Development Bootcamp,rating,2024-12-06 03:45:32,5.0
+lcollins,Blockchain Basics,view,2024-12-06 03:45:32,
+lcollins,Blockchain Basics,rating,2024-12-06 03:45:32,4.0
+lcollins,Machine Learning,enroll,2024-12-06 03:45:32,
+lcollins,Machine Learning,rating,2024-12-06 03:45:32,1.0
+deborahgreen,Web Development Bootcamp,view,2024-12-06 03:45:32,
+deborahgreen,Web Development Bootcamp,rating,2024-12-06 03:45:32,3.0
+deborahgreen,UX Design Basics,view,2024-12-06 03:45:32,
+deborahgreen,UX Design Basics,rating,2024-12-06 03:45:32,3.0
+deborahgreen,Ethical Hacking,enroll,2024-12-06 03:45:32,
+deborahgreen,Ethical Hacking,rating,2024-12-06 03:45:32,3.0
+mooretodd,Advanced Java,complete,2024-12-06 03:45:32,
+mooretodd,Advanced Java,rating,2024-12-06 03:45:32,5.0
+mooretodd,Blockchain Basics,complete,2024-12-06 03:45:32,
+mooretodd,Blockchain Basics,rating,2024-12-06 03:45:32,1.0
+mooretodd,Quantum Computing 101,enroll,2024-12-06 03:45:32,
+mooretodd,Quantum Computing 101,rating,2024-12-06 03:45:32,1.0
+mooretodd,Digital Marketing Basics,view,2024-12-06 03:45:32,
+mooretodd,Digital Marketing Basics,rating,2024-12-06 03:45:32,5.0
+fwilliams,Fitness and Wellness,enroll,2024-12-06 03:45:32,
+fwilliams,Fitness and Wellness,rating,2024-12-06 03:45:32,2.0
+fwilliams,Interior Design Basics,enroll,2024-12-06 03:45:32,
+fwilliams,Interior Design Basics,rating,2024-12-06 03:45:32,1.0
+fwilliams,Cybersecurity Essentials,view,2024-12-06 03:45:32,
+fwilliams,Cybersecurity Essentials,rating,2024-12-06 03:45:32,1.0
+mprice,Intro to Python,enroll,2024-12-06 03:45:32,
+mprice,Intro to Python,rating,2024-12-06 03:45:32,4.0
+mprice,Fitness and Wellness,enroll,2024-12-06 03:45:32,
+mprice,Fitness and Wellness,rating,2024-12-06 03:45:32,5.0
+beansara,Quantum Computing 101,enroll,2024-12-06 03:45:32,
+beansara,Quantum Computing 101,rating,2024-12-06 03:45:32,3.0
+beansara,Advanced Java,view,2024-12-06 03:45:32,
+beansara,Advanced Java,rating,2024-12-06 03:45:32,3.0
+beansara,AI for Beginners,enroll,2024-12-06 03:45:32,
+beansara,AI for Beginners,rating,2024-12-06 03:45:32,5.0
+beansara,SEO Strategies,view,2024-12-06 03:45:32,
+beansara,SEO Strategies,rating,2024-12-06 03:45:32,4.0
+beansara,UX Design Basics,enroll,2024-12-06 03:45:32,
+beansara,UX Design Basics,rating,2024-12-06 03:45:32,5.0
+jasminerandall,Quantum Computing 101,complete,2024-12-06 03:45:32,
+jasminerandall,Quantum Computing 101,rating,2024-12-06 03:45:32,1.0
+jasminerandall,Machine Learning,enroll,2024-12-06 03:45:32,
+jasminerandall,Machine Learning,rating,2024-12-06 03:45:32,2.0
+sayala,Machine Learning,enroll,2024-12-06 03:45:32,
+sayala,Machine Learning,rating,2024-12-06 03:45:32,4.0
+sayala,Ethical Hacking,enroll,2024-12-06 03:45:32,
+sayala,Ethical Hacking,rating,2024-12-06 03:45:32,5.0
+sayala,Quantum Computing 101,view,2024-12-06 03:45:32,
+sayala,Quantum Computing 101,rating,2024-12-06 03:45:32,2.0
+sayala,Intro to Python,enroll,2024-12-06 03:45:32,
+sayala,Intro to Python,rating,2024-12-06 03:45:32,1.0
+sayala,Data Science 101,view,2024-12-06 03:45:32,
+sayala,Data Science 101,rating,2024-12-06 03:45:32,4.0
+amberryan,Fitness and Wellness,enroll,2024-12-06 03:45:32,
+amberryan,Fitness and Wellness,rating,2024-12-06 03:45:32,3.0
+amberryan,UX Design Basics,complete,2024-12-06 03:45:32,
+amberryan,UX Design Basics,rating,2024-12-06 03:45:32,1.0
+amberryan,Graphic Design Fundamentals,view,2024-12-06 03:45:32,
+amberryan,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,4.0
+amberryan,SEO Strategies,complete,2024-12-06 03:45:32,
+amberryan,SEO Strategies,rating,2024-12-06 03:45:32,1.0
+friedmanvictoria,Advanced Java,complete,2024-12-06 03:45:32,
+friedmanvictoria,Advanced Java,rating,2024-12-06 03:45:32,5.0
+friedmanvictoria,Blockchain Basics,view,2024-12-06 03:45:32,
+friedmanvictoria,Blockchain Basics,rating,2024-12-06 03:45:32,1.0
+westrada,Finance Fundamentals,complete,2024-12-06 03:45:32,
+westrada,Finance Fundamentals,rating,2024-12-06 03:45:32,2.0
+westrada,Web Development Bootcamp,complete,2024-12-06 03:45:32,
+westrada,Web Development Bootcamp,rating,2024-12-06 03:45:32,3.0
+westrada,Machine Learning,view,2024-12-06 03:45:32,
+westrada,Machine Learning,rating,2024-12-06 03:45:32,4.0
+westrada,Excel for Beginners,view,2024-12-06 03:45:32,
+westrada,Excel for Beginners,rating,2024-12-06 03:45:32,1.0
+westrada,Cybersecurity Essentials,complete,2024-12-06 03:45:32,
+westrada,Cybersecurity Essentials,rating,2024-12-06 03:45:32,5.0
+wilsonbelinda,Advanced Java,complete,2024-12-06 03:45:32,
+wilsonbelinda,Advanced Java,rating,2024-12-06 03:45:32,4.0
+wilsonbelinda,Blockchain Basics,enroll,2024-12-06 03:45:32,
+wilsonbelinda,Blockchain Basics,rating,2024-12-06 03:45:32,2.0
+wilsonbelinda,Project Management,view,2024-12-06 03:45:32,
+wilsonbelinda,Project Management,rating,2024-12-06 03:45:32,5.0
+wilsonbelinda,Interior Design Basics,enroll,2024-12-06 03:45:32,
+wilsonbelinda,Interior Design Basics,rating,2024-12-06 03:45:32,4.0
+wilsonbelinda,Finance Fundamentals,view,2024-12-06 03:45:32,
+wilsonbelinda,Finance Fundamentals,rating,2024-12-06 03:45:32,1.0
+cohenjennifer,Excel for Beginners,enroll,2024-12-06 03:45:32,
+cohenjennifer,Excel for Beginners,rating,2024-12-06 03:45:32,4.0
+cohenjennifer,Fitness and Wellness,enroll,2024-12-06 03:45:32,
+cohenjennifer,Fitness and Wellness,rating,2024-12-06 03:45:32,4.0
+michael55,Machine Learning,complete,2024-12-06 03:45:32,
+michael55,Machine Learning,rating,2024-12-06 03:45:32,5.0
+michael55,Fitness and Wellness,enroll,2024-12-06 03:45:32,
+michael55,Fitness and Wellness,rating,2024-12-06 03:45:32,3.0
+michael55,AI for Beginners,complete,2024-12-06 03:45:32,
+michael55,AI for Beginners,rating,2024-12-06 03:45:32,1.0
+briandecker,History of Art,complete,2024-12-06 03:45:32,
+briandecker,History of Art,rating,2024-12-06 03:45:32,5.0
+briandecker,Finance Fundamentals,complete,2024-12-06 03:45:32,
+briandecker,Finance Fundamentals,rating,2024-12-06 03:45:32,5.0
+briandecker,Data Science 101,view,2024-12-06 03:45:32,
+briandecker,Data Science 101,rating,2024-12-06 03:45:32,3.0
+huberchristopher,Mobile App Development,complete,2024-12-06 03:45:32,
+huberchristopher,Mobile App Development,rating,2024-12-06 03:45:32,4.0
+huberchristopher,Digital Marketing Basics,enroll,2024-12-06 03:45:32,
+huberchristopher,Digital Marketing Basics,rating,2024-12-06 03:45:32,3.0
+huberchristopher,Ethical Hacking,complete,2024-12-06 03:45:32,
+huberchristopher,Ethical Hacking,rating,2024-12-06 03:45:32,3.0
+huberchristopher,History of Art,enroll,2024-12-06 03:45:32,
+huberchristopher,History of Art,rating,2024-12-06 03:45:32,2.0
+craigphillips,Project Management,complete,2024-12-06 03:45:32,
+craigphillips,Project Management,rating,2024-12-06 03:45:32,1.0
+craigphillips,Interior Design Basics,enroll,2024-12-06 03:45:32,
+craigphillips,Interior Design Basics,rating,2024-12-06 03:45:32,2.0
+craigphillips,Finance Fundamentals,complete,2024-12-06 03:45:32,
+craigphillips,Finance Fundamentals,rating,2024-12-06 03:45:32,3.0
+craigphillips,Photography Basics,view,2024-12-06 03:45:32,
+craigphillips,Photography Basics,rating,2024-12-06 03:45:32,2.0
+craigphillips,Data Science 101,complete,2024-12-06 03:45:32,
+craigphillips,Data Science 101,rating,2024-12-06 03:45:32,1.0
+kennethdavis,SEO Strategies,enroll,2024-12-06 03:45:32,
+kennethdavis,SEO Strategies,rating,2024-12-06 03:45:32,1.0
+kennethdavis,Project Management,view,2024-12-06 03:45:32,
+kennethdavis,Project Management,rating,2024-12-06 03:45:32,2.0
+kennethdavis,Music Production,complete,2024-12-06 03:45:32,
+kennethdavis,Music Production,rating,2024-12-06 03:45:32,2.0
+kennethdavis,Quantum Computing 101,complete,2024-12-06 03:45:32,
+kennethdavis,Quantum Computing 101,rating,2024-12-06 03:45:32,4.0
+jbarnes,Public Speaking,enroll,2024-12-06 03:45:32,
+jbarnes,Public Speaking,rating,2024-12-06 03:45:32,3.0
+jbarnes,Ethical Hacking,enroll,2024-12-06 03:45:32,
+jbarnes,Ethical Hacking,rating,2024-12-06 03:45:32,1.0
+jbarnes,Intro to Python,complete,2024-12-06 03:45:32,
+jbarnes,Intro to Python,rating,2024-12-06 03:45:32,5.0
+lowegabriel,Graphic Design Fundamentals,enroll,2024-12-06 03:45:32,
+lowegabriel,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,1.0
+lowegabriel,Web Development Bootcamp,view,2024-12-06 03:45:32,
+lowegabriel,Web Development Bootcamp,rating,2024-12-06 03:45:32,1.0
+lowegabriel,Data Science 101,enroll,2024-12-06 03:45:32,
+lowegabriel,Data Science 101,rating,2024-12-06 03:45:32,5.0
+lowegabriel,Statistics for Data Science,enroll,2024-12-06 03:45:32,
+lowegabriel,Statistics for Data Science,rating,2024-12-06 03:45:32,5.0
+amymitchell,SEO Strategies,complete,2024-12-06 03:45:32,
+amymitchell,SEO Strategies,rating,2024-12-06 03:45:32,3.0
+amymitchell,UX Design Basics,enroll,2024-12-06 03:45:32,
+amymitchell,UX Design Basics,rating,2024-12-06 03:45:32,4.0
+amymitchell,Creative Writing,view,2024-12-06 03:45:32,
+amymitchell,Creative Writing,rating,2024-12-06 03:45:32,1.0
+amymitchell,AI for Beginners,enroll,2024-12-06 03:45:32,
+amymitchell,AI for Beginners,rating,2024-12-06 03:45:32,4.0
+polsen,Machine Learning,view,2024-12-06 03:45:32,
+polsen,Machine Learning,rating,2024-12-06 03:45:32,3.0
+polsen,Music Production,complete,2024-12-06 03:45:32,
+polsen,Music Production,rating,2024-12-06 03:45:32,1.0
+polsen,Game Development,view,2024-12-06 03:45:32,
+polsen,Game Development,rating,2024-12-06 03:45:32,4.0
+polsen,Data Science 101,view,2024-12-06 03:45:32,
+polsen,Data Science 101,rating,2024-12-06 03:45:32,5.0
+kimberly32,Excel for Beginners,complete,2024-12-06 03:45:32,
+kimberly32,Excel for Beginners,rating,2024-12-06 03:45:32,3.0
+kimberly32,Mobile App Development,complete,2024-12-06 03:45:32,
+kimberly32,Mobile App Development,rating,2024-12-06 03:45:32,4.0
+kimberly32,Finance Fundamentals,view,2024-12-06 03:45:32,
+kimberly32,Finance Fundamentals,rating,2024-12-06 03:45:32,2.0
+davisalyssa,Cooking Essentials,enroll,2024-12-06 03:45:32,
+davisalyssa,Cooking Essentials,rating,2024-12-06 03:45:32,2.0
+davisalyssa,SEO Strategies,complete,2024-12-06 03:45:32,
+davisalyssa,SEO Strategies,rating,2024-12-06 03:45:32,2.0
+davisalyssa,Machine Learning,view,2024-12-06 03:45:32,
+davisalyssa,Machine Learning,rating,2024-12-06 03:45:32,2.0
+davisalyssa,Music Production,enroll,2024-12-06 03:45:32,
+davisalyssa,Music Production,rating,2024-12-06 03:45:32,1.0
+sharonharris,Statistics for Data Science,view,2024-12-06 03:45:32,
+sharonharris,Statistics for Data Science,rating,2024-12-06 03:45:32,4.0
+sharonharris,Public Speaking,view,2024-12-06 03:45:32,
+sharonharris,Public Speaking,rating,2024-12-06 03:45:32,4.0
+angela39,Machine Learning,enroll,2024-12-06 03:45:32,
+angela39,Machine Learning,rating,2024-12-06 03:45:32,4.0
+angela39,Excel for Beginners,view,2024-12-06 03:45:32,
+angela39,Excel for Beginners,rating,2024-12-06 03:45:32,3.0
+angela39,Interior Design Basics,view,2024-12-06 03:45:32,
+angela39,Interior Design Basics,rating,2024-12-06 03:45:32,4.0
+rayruth,Creative Writing,view,2024-12-06 03:45:32,
+rayruth,Creative Writing,rating,2024-12-06 03:45:32,3.0
+rayruth,Digital Marketing Basics,enroll,2024-12-06 03:45:32,
+rayruth,Digital Marketing Basics,rating,2024-12-06 03:45:32,3.0
+rayruth,Blockchain Basics,enroll,2024-12-06 03:45:32,
+rayruth,Blockchain Basics,rating,2024-12-06 03:45:32,3.0
+rayruth,Intro to Python,view,2024-12-06 03:45:32,
+rayruth,Intro to Python,rating,2024-12-06 03:45:32,1.0
+huntisaac,Social Media Marketing,enroll,2024-12-06 03:45:32,
+huntisaac,Social Media Marketing,rating,2024-12-06 03:45:32,1.0
+huntisaac,Advanced Java,enroll,2024-12-06 03:45:32,
+huntisaac,Advanced Java,rating,2024-12-06 03:45:32,4.0
+huntisaac,Cloud Computing,complete,2024-12-06 03:45:32,
+huntisaac,Cloud Computing,rating,2024-12-06 03:45:32,4.0
+huntisaac,Machine Learning,view,2024-12-06 03:45:32,
+huntisaac,Machine Learning,rating,2024-12-06 03:45:32,4.0
+huntisaac,Public Speaking,enroll,2024-12-06 03:45:32,
+huntisaac,Public Speaking,rating,2024-12-06 03:45:32,2.0
+wleon,Machine Learning,enroll,2024-12-06 03:45:32,
+wleon,Machine Learning,rating,2024-12-06 03:45:32,1.0
+wleon,Ethical Hacking,complete,2024-12-06 03:45:32,
+wleon,Ethical Hacking,rating,2024-12-06 03:45:32,3.0
+wleon,Graphic Design Fundamentals,enroll,2024-12-06 03:45:32,
+wleon,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,3.0
+jennifermorse,Fitness and Wellness,view,2024-12-06 03:45:32,
+jennifermorse,Fitness and Wellness,rating,2024-12-06 03:45:32,3.0
+jennifermorse,Cooking Essentials,complete,2024-12-06 03:45:32,
+jennifermorse,Cooking Essentials,rating,2024-12-06 03:45:32,5.0
+jennifermorse,Statistics for Data Science,view,2024-12-06 03:45:32,
+jennifermorse,Statistics for Data Science,rating,2024-12-06 03:45:32,1.0
+jennifermorse,AI for Beginners,view,2024-12-06 03:45:32,
+jennifermorse,AI for Beginners,rating,2024-12-06 03:45:32,3.0
+jasminechurch,Music Production,enroll,2024-12-06 03:45:32,
+jasminechurch,Music Production,rating,2024-12-06 03:45:32,1.0
+jasminechurch,Graphic Design Fundamentals,complete,2024-12-06 03:45:32,
+jasminechurch,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,5.0
+jasminechurch,Intro to Python,view,2024-12-06 03:45:32,
+jasminechurch,Intro to Python,rating,2024-12-06 03:45:32,1.0
+jasminechurch,Cloud Computing,enroll,2024-12-06 03:45:32,
+jasminechurch,Cloud Computing,rating,2024-12-06 03:45:32,2.0
+jasminechurch,Fitness and Wellness,enroll,2024-12-06 03:45:32,
+jasminechurch,Fitness and Wellness,rating,2024-12-06 03:45:32,1.0
+johnwallace,Ethical Hacking,complete,2024-12-06 03:45:32,
+johnwallace,Ethical Hacking,rating,2024-12-06 03:45:32,1.0
+johnwallace,Interior Design Basics,complete,2024-12-06 03:45:32,
+johnwallace,Interior Design Basics,rating,2024-12-06 03:45:32,2.0
+johnwallace,Fitness and Wellness,complete,2024-12-06 03:45:32,
+johnwallace,Fitness and Wellness,rating,2024-12-06 03:45:32,4.0
+johnwallace,Data Science 101,complete,2024-12-06 03:45:32,
+johnwallace,Data Science 101,rating,2024-12-06 03:45:32,1.0
+johnwallace,Creative Writing,complete,2024-12-06 03:45:32,
+johnwallace,Creative Writing,rating,2024-12-06 03:45:32,4.0
+ccarter,Music Production,complete,2024-12-06 03:45:32,
+ccarter,Music Production,rating,2024-12-06 03:45:32,4.0
+ccarter,Web Development Bootcamp,enroll,2024-12-06 03:45:32,
+ccarter,Web Development Bootcamp,rating,2024-12-06 03:45:32,1.0
+ccarter,Intro to Python,view,2024-12-06 03:45:32,
+ccarter,Intro to Python,rating,2024-12-06 03:45:32,4.0
+ccarter,Machine Learning,enroll,2024-12-06 03:45:32,
+ccarter,Machine Learning,rating,2024-12-06 03:45:32,4.0
+ccarter,Data Science 101,view,2024-12-06 03:45:32,
+ccarter,Data Science 101,rating,2024-12-06 03:45:32,5.0
+kstewart,Cooking Essentials,complete,2024-12-06 03:45:32,
+kstewart,Cooking Essentials,rating,2024-12-06 03:45:32,4.0
+kstewart,Graphic Design Fundamentals,enroll,2024-12-06 03:45:32,
+kstewart,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,3.0
+kstewart,Finance Fundamentals,view,2024-12-06 03:45:32,
+kstewart,Finance Fundamentals,rating,2024-12-06 03:45:32,5.0
+kstewart,SEO Strategies,view,2024-12-06 03:45:32,
+kstewart,SEO Strategies,rating,2024-12-06 03:45:32,1.0
+billysmith,Game Development,complete,2024-12-06 03:45:32,
+billysmith,Game Development,rating,2024-12-06 03:45:32,4.0
+billysmith,Interior Design Basics,view,2024-12-06 03:45:32,
+billysmith,Interior Design Basics,rating,2024-12-06 03:45:32,4.0
+billysmith,Public Speaking,enroll,2024-12-06 03:45:32,
+billysmith,Public Speaking,rating,2024-12-06 03:45:32,4.0
+lucasjennifer,Web Development Bootcamp,complete,2024-12-06 03:45:32,
+lucasjennifer,Web Development Bootcamp,rating,2024-12-06 03:45:32,2.0
+lucasjennifer,Cooking Essentials,complete,2024-12-06 03:45:32,
+lucasjennifer,Cooking Essentials,rating,2024-12-06 03:45:32,3.0
+james98,Cybersecurity Essentials,enroll,2024-12-06 03:45:32,
+james98,Cybersecurity Essentials,rating,2024-12-06 03:45:32,2.0
+james98,Public Speaking,view,2024-12-06 03:45:32,
+james98,Public Speaking,rating,2024-12-06 03:45:32,3.0
+james98,Graphic Design Fundamentals,view,2024-12-06 03:45:32,
+james98,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,1.0
+aguilarjennifer,Digital Marketing Basics,view,2024-12-06 03:45:32,
+aguilarjennifer,Digital Marketing Basics,rating,2024-12-06 03:45:32,1.0
+aguilarjennifer,Machine Learning,complete,2024-12-06 03:45:32,
+aguilarjennifer,Machine Learning,rating,2024-12-06 03:45:32,2.0
+qaguirre,UX Design Basics,view,2024-12-06 03:45:32,
+qaguirre,UX Design Basics,rating,2024-12-06 03:45:32,1.0
+qaguirre,Fitness and Wellness,view,2024-12-06 03:45:32,
+qaguirre,Fitness and Wellness,rating,2024-12-06 03:45:32,4.0
+qaguirre,Excel for Beginners,enroll,2024-12-06 03:45:32,
+qaguirre,Excel for Beginners,rating,2024-12-06 03:45:32,3.0
+qaguirre,AI for Beginners,enroll,2024-12-06 03:45:32,
+qaguirre,AI for Beginners,rating,2024-12-06 03:45:32,4.0
+brittney80,Ethical Hacking,view,2024-12-06 03:45:32,
+brittney80,Ethical Hacking,rating,2024-12-06 03:45:32,5.0
+brittney80,Game Development,complete,2024-12-06 03:45:32,
+brittney80,Game Development,rating,2024-12-06 03:45:32,3.0
+brittney80,Creative Writing,view,2024-12-06 03:45:32,
+brittney80,Creative Writing,rating,2024-12-06 03:45:32,1.0
+brittney80,History of Art,enroll,2024-12-06 03:45:32,
+brittney80,History of Art,rating,2024-12-06 03:45:32,5.0
+brittney80,Graphic Design Fundamentals,enroll,2024-12-06 03:45:32,
+brittney80,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,3.0
+halldustin,Cooking Essentials,view,2024-12-06 03:45:32,
+halldustin,Cooking Essentials,rating,2024-12-06 03:45:32,4.0
+halldustin,Web Development Bootcamp,view,2024-12-06 03:45:32,
+halldustin,Web Development Bootcamp,rating,2024-12-06 03:45:32,3.0
+halldustin,SEO Strategies,complete,2024-12-06 03:45:32,
+halldustin,SEO Strategies,rating,2024-12-06 03:45:32,4.0
+smithchristopher,Music Production,complete,2024-12-06 03:45:32,
+smithchristopher,Music Production,rating,2024-12-06 03:45:32,4.0
+smithchristopher,Statistics for Data Science,view,2024-12-06 03:45:32,
+smithchristopher,Statistics for Data Science,rating,2024-12-06 03:45:32,3.0
+bobbyjackson,UX Design Basics,enroll,2024-12-06 03:45:32,
+bobbyjackson,UX Design Basics,rating,2024-12-06 03:45:32,1.0
+bobbyjackson,Cybersecurity Essentials,enroll,2024-12-06 03:45:32,
+bobbyjackson,Cybersecurity Essentials,rating,2024-12-06 03:45:32,2.0
+bobbyjackson,Cloud Computing,complete,2024-12-06 03:45:32,
+bobbyjackson,Cloud Computing,rating,2024-12-06 03:45:32,5.0
+bobbyjackson,Cooking Essentials,view,2024-12-06 03:45:32,
+bobbyjackson,Cooking Essentials,rating,2024-12-06 03:45:32,2.0
+bobbyjackson,Digital Marketing Basics,enroll,2024-12-06 03:45:32,
+bobbyjackson,Digital Marketing Basics,rating,2024-12-06 03:45:32,1.0
+adriandavis,Statistics for Data Science,view,2024-12-06 03:45:32,
+adriandavis,Statistics for Data Science,rating,2024-12-06 03:45:32,4.0
+adriandavis,Public Speaking,complete,2024-12-06 03:45:32,
+adriandavis,Public Speaking,rating,2024-12-06 03:45:32,4.0
+adriandavis,Quantum Computing 101,view,2024-12-06 03:45:32,
+adriandavis,Quantum Computing 101,rating,2024-12-06 03:45:32,3.0
+adriandavis,UX Design Basics,view,2024-12-06 03:45:32,
+adriandavis,UX Design Basics,rating,2024-12-06 03:45:32,3.0
+patrick75,Game Development,enroll,2024-12-06 03:45:32,
+patrick75,Game Development,rating,2024-12-06 03:45:32,2.0
+patrick75,Social Media Marketing,complete,2024-12-06 03:45:32,
+patrick75,Social Media Marketing,rating,2024-12-06 03:45:32,5.0
+patrick75,Mobile App Development,view,2024-12-06 03:45:32,
+patrick75,Mobile App Development,rating,2024-12-06 03:45:32,4.0
+patrick75,Creative Writing,enroll,2024-12-06 03:45:32,
+patrick75,Creative Writing,rating,2024-12-06 03:45:32,1.0
+lawrencereed,UX Design Basics,complete,2024-12-06 03:45:32,
+lawrencereed,UX Design Basics,rating,2024-12-06 03:45:32,1.0
+lawrencereed,Cybersecurity Essentials,enroll,2024-12-06 03:45:32,
+lawrencereed,Cybersecurity Essentials,rating,2024-12-06 03:45:32,2.0
+lawrencereed,Quantum Computing 101,complete,2024-12-06 03:45:32,
+lawrencereed,Quantum Computing 101,rating,2024-12-06 03:45:32,2.0
+lawrencereed,Graphic Design Fundamentals,enroll,2024-12-06 03:45:32,
+lawrencereed,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,3.0
+lauren54,Digital Marketing Basics,view,2024-12-06 03:45:32,
+lauren54,Digital Marketing Basics,rating,2024-12-06 03:45:32,2.0
+lauren54,Web Development Bootcamp,view,2024-12-06 03:45:32,
+lauren54,Web Development Bootcamp,rating,2024-12-06 03:45:32,5.0
+lauren54,Machine Learning,enroll,2024-12-06 03:45:32,
+lauren54,Machine Learning,rating,2024-12-06 03:45:32,4.0
+mariegonzalez,Excel for Beginners,view,2024-12-06 03:45:32,
+mariegonzalez,Excel for Beginners,rating,2024-12-06 03:45:32,4.0
+mariegonzalez,Digital Marketing Basics,enroll,2024-12-06 03:45:32,
+mariegonzalez,Digital Marketing Basics,rating,2024-12-06 03:45:32,3.0
+mariegonzalez,Project Management,enroll,2024-12-06 03:45:32,
+mariegonzalez,Project Management,rating,2024-12-06 03:45:32,2.0
+dunlapmargaret,Music Production,complete,2024-12-06 03:45:32,
+dunlapmargaret,Music Production,rating,2024-12-06 03:45:32,3.0
+dunlapmargaret,Finance Fundamentals,view,2024-12-06 03:45:32,
+dunlapmargaret,Finance Fundamentals,rating,2024-12-06 03:45:32,4.0
+dunlapmargaret,Fitness and Wellness,view,2024-12-06 03:45:32,
+dunlapmargaret,Fitness and Wellness,rating,2024-12-06 03:45:32,2.0
+dunlapmargaret,Graphic Design Fundamentals,complete,2024-12-06 03:45:32,
+dunlapmargaret,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,2.0
+christylowery,Mobile App Development,view,2024-12-06 03:45:32,
+christylowery,Mobile App Development,rating,2024-12-06 03:45:32,4.0
+christylowery,Project Management,enroll,2024-12-06 03:45:32,
+christylowery,Project Management,rating,2024-12-06 03:45:32,3.0
+christylowery,Ethical Hacking,complete,2024-12-06 03:45:32,
+christylowery,Ethical Hacking,rating,2024-12-06 03:45:32,4.0
+christylowery,Graphic Design Fundamentals,complete,2024-12-06 03:45:32,
+christylowery,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,4.0
+christylowery,Photography Basics,view,2024-12-06 03:45:32,
+christylowery,Photography Basics,rating,2024-12-06 03:45:32,4.0
+jlarson,Cooking Essentials,complete,2024-12-06 03:45:32,
+jlarson,Cooking Essentials,rating,2024-12-06 03:45:32,3.0
+jlarson,Creative Writing,view,2024-12-06 03:45:32,
+jlarson,Creative Writing,rating,2024-12-06 03:45:32,4.0
+jlarson,Mobile App Development,complete,2024-12-06 03:45:32,
+jlarson,Mobile App Development,rating,2024-12-06 03:45:32,5.0
+jlarson,Interior Design Basics,complete,2024-12-06 03:45:32,
+jlarson,Interior Design Basics,rating,2024-12-06 03:45:32,2.0
+jlarson,SEO Strategies,complete,2024-12-06 03:45:32,
+jlarson,SEO Strategies,rating,2024-12-06 03:45:32,3.0
+cyoung,History of Art,view,2024-12-06 03:45:32,
+cyoung,History of Art,rating,2024-12-06 03:45:32,5.0
+cyoung,Public Speaking,view,2024-12-06 03:45:32,
+cyoung,Public Speaking,rating,2024-12-06 03:45:32,3.0
+cyoung,Creative Writing,enroll,2024-12-06 03:45:32,
+cyoung,Creative Writing,rating,2024-12-06 03:45:32,2.0
+cyoung,Machine Learning,view,2024-12-06 03:45:32,
+cyoung,Machine Learning,rating,2024-12-06 03:45:32,3.0
+mccarthychristina,Web Development Bootcamp,enroll,2024-12-06 03:45:32,
+mccarthychristina,Web Development Bootcamp,rating,2024-12-06 03:45:32,5.0
+mccarthychristina,Fitness and Wellness,complete,2024-12-06 03:45:32,
+mccarthychristina,Fitness and Wellness,rating,2024-12-06 03:45:32,4.0
+mccarthychristina,Quantum Computing 101,enroll,2024-12-06 03:45:32,
+mccarthychristina,Quantum Computing 101,rating,2024-12-06 03:45:32,1.0
+mccarthychristina,Finance Fundamentals,view,2024-12-06 03:45:32,
+mccarthychristina,Finance Fundamentals,rating,2024-12-06 03:45:32,5.0
+markchung,Quantum Computing 101,view,2024-12-06 03:45:32,
+markchung,Quantum Computing 101,rating,2024-12-06 03:45:32,3.0
+markchung,Cloud Computing,complete,2024-12-06 03:45:32,
+markchung,Cloud Computing,rating,2024-12-06 03:45:32,4.0
+markchung,Digital Marketing Basics,complete,2024-12-06 03:45:32,
+markchung,Digital Marketing Basics,rating,2024-12-06 03:45:32,5.0
+markchung,SEO Strategies,complete,2024-12-06 03:45:32,
+markchung,SEO Strategies,rating,2024-12-06 03:45:32,4.0
+ggarcia,Intro to Python,complete,2024-12-06 03:45:32,
+ggarcia,Intro to Python,rating,2024-12-06 03:45:32,4.0
+ggarcia,Game Development,enroll,2024-12-06 03:45:32,
+ggarcia,Game Development,rating,2024-12-06 03:45:32,2.0
+ggarcia,Cooking Essentials,complete,2024-12-06 03:45:32,
+ggarcia,Cooking Essentials,rating,2024-12-06 03:45:32,2.0
+ggarcia,UX Design Basics,complete,2024-12-06 03:45:32,
+ggarcia,UX Design Basics,rating,2024-12-06 03:45:32,5.0
+jacqueline18,Mobile App Development,view,2024-12-06 03:45:32,
+jacqueline18,Mobile App Development,rating,2024-12-06 03:45:32,4.0
+jacqueline18,Public Speaking,enroll,2024-12-06 03:45:32,
+jacqueline18,Public Speaking,rating,2024-12-06 03:45:32,5.0
+jacqueline18,Creative Writing,enroll,2024-12-06 03:45:32,
+jacqueline18,Creative Writing,rating,2024-12-06 03:45:32,1.0
+jacqueline18,Graphic Design Fundamentals,complete,2024-12-06 03:45:32,
+jacqueline18,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,5.0
+alexpham,Cooking Essentials,enroll,2024-12-06 03:45:32,
+alexpham,Cooking Essentials,rating,2024-12-06 03:45:32,4.0
+alexpham,Machine Learning,complete,2024-12-06 03:45:32,
+alexpham,Machine Learning,rating,2024-12-06 03:45:32,2.0
+alexpham,Digital Marketing Basics,complete,2024-12-06 03:45:32,
+alexpham,Digital Marketing Basics,rating,2024-12-06 03:45:32,5.0
+bvalenzuela,Music Production,enroll,2024-12-06 03:45:32,
+bvalenzuela,Music Production,rating,2024-12-06 03:45:32,5.0
+bvalenzuela,Machine Learning,complete,2024-12-06 03:45:32,
+bvalenzuela,Machine Learning,rating,2024-12-06 03:45:32,1.0
+tiffany87,Fitness and Wellness,complete,2024-12-06 03:45:32,
+tiffany87,Fitness and Wellness,rating,2024-12-06 03:45:32,5.0
+tiffany87,Interior Design Basics,view,2024-12-06 03:45:32,
+tiffany87,Interior Design Basics,rating,2024-12-06 03:45:32,1.0
+tiffany87,Cybersecurity Essentials,complete,2024-12-06 03:45:32,
+tiffany87,Cybersecurity Essentials,rating,2024-12-06 03:45:32,2.0
+briangonzalez,Social Media Marketing,complete,2024-12-06 03:45:32,
+briangonzalez,Social Media Marketing,rating,2024-12-06 03:45:32,5.0
+briangonzalez,Digital Marketing Basics,view,2024-12-06 03:45:32,
+briangonzalez,Digital Marketing Basics,rating,2024-12-06 03:45:32,5.0
+jonesdillon,Intro to Python,view,2024-12-06 03:45:32,
+jonesdillon,Intro to Python,rating,2024-12-06 03:45:32,2.0
+jonesdillon,Advanced Java,enroll,2024-12-06 03:45:32,
+jonesdillon,Advanced Java,rating,2024-12-06 03:45:32,4.0
+jonesdillon,Ethical Hacking,enroll,2024-12-06 03:45:32,
+jonesdillon,Ethical Hacking,rating,2024-12-06 03:45:32,4.0
+rodriguezkelly,UX Design Basics,complete,2024-12-06 03:45:32,
+rodriguezkelly,UX Design Basics,rating,2024-12-06 03:45:32,3.0
+rodriguezkelly,Finance Fundamentals,enroll,2024-12-06 03:45:32,
+rodriguezkelly,Finance Fundamentals,rating,2024-12-06 03:45:32,3.0
+rodriguezkelly,Project Management,enroll,2024-12-06 03:45:32,
+rodriguezkelly,Project Management,rating,2024-12-06 03:45:32,4.0
+rodriguezkelly,Blockchain Basics,enroll,2024-12-06 03:45:32,
+rodriguezkelly,Blockchain Basics,rating,2024-12-06 03:45:32,5.0
+zcampbell,Mobile App Development,enroll,2024-12-06 03:45:32,
+zcampbell,Mobile App Development,rating,2024-12-06 03:45:32,1.0
+zcampbell,Cooking Essentials,enroll,2024-12-06 03:45:32,
+zcampbell,Cooking Essentials,rating,2024-12-06 03:45:32,4.0
+zcampbell,Data Science 101,complete,2024-12-06 03:45:32,
+zcampbell,Data Science 101,rating,2024-12-06 03:45:32,2.0
+zcampbell,Graphic Design Fundamentals,enroll,2024-12-06 03:45:32,
+zcampbell,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,3.0
+zcampbell,Cybersecurity Essentials,complete,2024-12-06 03:45:32,
+zcampbell,Cybersecurity Essentials,rating,2024-12-06 03:45:32,1.0
+zshelton,Mobile App Development,complete,2024-12-06 03:45:32,
+zshelton,Mobile App Development,rating,2024-12-06 03:45:32,4.0
+zshelton,Statistics for Data Science,view,2024-12-06 03:45:32,
+zshelton,Statistics for Data Science,rating,2024-12-06 03:45:32,5.0
+zshelton,Blockchain Basics,complete,2024-12-06 03:45:32,
+zshelton,Blockchain Basics,rating,2024-12-06 03:45:32,3.0
+zshelton,Web Development Bootcamp,complete,2024-12-06 03:45:32,
+zshelton,Web Development Bootcamp,rating,2024-12-06 03:45:32,3.0
+gary07,AI for Beginners,complete,2024-12-06 03:45:32,
+gary07,AI for Beginners,rating,2024-12-06 03:45:32,4.0
+gary07,Cloud Computing,enroll,2024-12-06 03:45:32,
+gary07,Cloud Computing,rating,2024-12-06 03:45:32,4.0
+christinamiller,UX Design Basics,view,2024-12-06 03:45:32,
+christinamiller,UX Design Basics,rating,2024-12-06 03:45:32,5.0
+christinamiller,History of Art,enroll,2024-12-06 03:45:32,
+christinamiller,History of Art,rating,2024-12-06 03:45:32,3.0
+christinamiller,Intro to Python,view,2024-12-06 03:45:32,
+christinamiller,Intro to Python,rating,2024-12-06 03:45:32,2.0
+christinamiller,Cloud Computing,view,2024-12-06 03:45:32,
+christinamiller,Cloud Computing,rating,2024-12-06 03:45:32,2.0
+christinamiller,Finance Fundamentals,view,2024-12-06 03:45:32,
+christinamiller,Finance Fundamentals,rating,2024-12-06 03:45:32,2.0
+amberperez,AI for Beginners,complete,2024-12-06 03:45:32,
+amberperez,AI for Beginners,rating,2024-12-06 03:45:32,5.0
+amberperez,Mobile App Development,enroll,2024-12-06 03:45:32,
+amberperez,Mobile App Development,rating,2024-12-06 03:45:32,4.0
+amberperez,Game Development,view,2024-12-06 03:45:32,
+amberperez,Game Development,rating,2024-12-06 03:45:32,3.0
+amberperez,Social Media Marketing,enroll,2024-12-06 03:45:32,
+amberperez,Social Media Marketing,rating,2024-12-06 03:45:32,5.0
+amberperez,Blockchain Basics,enroll,2024-12-06 03:45:32,
+amberperez,Blockchain Basics,rating,2024-12-06 03:45:32,1.0
+eanderson,SEO Strategies,complete,2024-12-06 03:45:32,
+eanderson,SEO Strategies,rating,2024-12-06 03:45:32,2.0
+eanderson,Photography Basics,view,2024-12-06 03:45:32,
+eanderson,Photography Basics,rating,2024-12-06 03:45:32,2.0
+eanderson,UX Design Basics,complete,2024-12-06 03:45:32,
+eanderson,UX Design Basics,rating,2024-12-06 03:45:32,4.0
+eanderson,Music Production,enroll,2024-12-06 03:45:32,
+eanderson,Music Production,rating,2024-12-06 03:45:32,2.0
+eanderson,Blockchain Basics,complete,2024-12-06 03:45:32,
+eanderson,Blockchain Basics,rating,2024-12-06 03:45:32,2.0
+joseph51,Creative Writing,view,2024-12-06 03:45:32,
+joseph51,Creative Writing,rating,2024-12-06 03:45:32,1.0
+joseph51,Advanced Java,complete,2024-12-06 03:45:32,
+joseph51,Advanced Java,rating,2024-12-06 03:45:32,4.0
+joseph51,SEO Strategies,enroll,2024-12-06 03:45:32,
+joseph51,SEO Strategies,rating,2024-12-06 03:45:32,4.0
+megangibson,AI for Beginners,enroll,2024-12-06 03:45:32,
+megangibson,AI for Beginners,rating,2024-12-06 03:45:32,3.0
+megangibson,Music Production,complete,2024-12-06 03:45:32,
+megangibson,Music Production,rating,2024-12-06 03:45:32,5.0
+megangibson,SEO Strategies,enroll,2024-12-06 03:45:32,
+megangibson,SEO Strategies,rating,2024-12-06 03:45:32,2.0
+megangibson,Blockchain Basics,complete,2024-12-06 03:45:32,
+megangibson,Blockchain Basics,rating,2024-12-06 03:45:32,3.0
+caitlinturner,Public Speaking,complete,2024-12-06 03:45:32,
+caitlinturner,Public Speaking,rating,2024-12-06 03:45:32,5.0
+caitlinturner,AI for Beginners,enroll,2024-12-06 03:45:32,
+caitlinturner,AI for Beginners,rating,2024-12-06 03:45:32,5.0
+caitlinturner,Ethical Hacking,view,2024-12-06 03:45:32,
+caitlinturner,Ethical Hacking,rating,2024-12-06 03:45:32,3.0
+caitlinturner,Data Science 101,view,2024-12-06 03:45:32,
+caitlinturner,Data Science 101,rating,2024-12-06 03:45:32,3.0
+caitlinturner,Project Management,enroll,2024-12-06 03:45:32,
+caitlinturner,Project Management,rating,2024-12-06 03:45:32,5.0
+williamsonamy,UX Design Basics,view,2024-12-06 03:45:32,
+williamsonamy,UX Design Basics,rating,2024-12-06 03:45:32,4.0
+williamsonamy,Interior Design Basics,enroll,2024-12-06 03:45:32,
+williamsonamy,Interior Design Basics,rating,2024-12-06 03:45:32,1.0
+adam61,Social Media Marketing,enroll,2024-12-06 03:45:32,
+adam61,Social Media Marketing,rating,2024-12-06 03:45:32,2.0
+adam61,AI for Beginners,view,2024-12-06 03:45:32,
+adam61,AI for Beginners,rating,2024-12-06 03:45:32,5.0
+adam61,Interior Design Basics,complete,2024-12-06 03:45:32,
+adam61,Interior Design Basics,rating,2024-12-06 03:45:32,1.0
+timothy21,Finance Fundamentals,complete,2024-12-06 03:45:32,
+timothy21,Finance Fundamentals,rating,2024-12-06 03:45:32,1.0
+timothy21,Mobile App Development,complete,2024-12-06 03:45:32,
+timothy21,Mobile App Development,rating,2024-12-06 03:45:32,4.0
+timothy21,Web Development Bootcamp,view,2024-12-06 03:45:32,
+timothy21,Web Development Bootcamp,rating,2024-12-06 03:45:32,2.0
+timothy21,Fitness and Wellness,enroll,2024-12-06 03:45:32,
+timothy21,Fitness and Wellness,rating,2024-12-06 03:45:32,5.0
+timothy21,Excel for Beginners,complete,2024-12-06 03:45:32,
+timothy21,Excel for Beginners,rating,2024-12-06 03:45:32,4.0
+jennifersmith,Photography Basics,enroll,2024-12-06 03:45:32,
+jennifersmith,Photography Basics,rating,2024-12-06 03:45:32,4.0
+jennifersmith,Machine Learning,complete,2024-12-06 03:45:32,
+jennifersmith,Machine Learning,rating,2024-12-06 03:45:32,5.0
+robin96,Blockchain Basics,enroll,2024-12-06 03:45:32,
+robin96,Blockchain Basics,rating,2024-12-06 03:45:32,2.0
+robin96,Data Science 101,complete,2024-12-06 03:45:32,
+robin96,Data Science 101,rating,2024-12-06 03:45:32,3.0
+vhuynh,Web Development Bootcamp,view,2024-12-06 03:45:32,
+vhuynh,Web Development Bootcamp,rating,2024-12-06 03:45:32,3.0
+vhuynh,Social Media Marketing,enroll,2024-12-06 03:45:32,
+vhuynh,Social Media Marketing,rating,2024-12-06 03:45:32,5.0
+vhuynh,Public Speaking,view,2024-12-06 03:45:32,
+vhuynh,Public Speaking,rating,2024-12-06 03:45:32,4.0
+laceywise,Photography Basics,complete,2024-12-06 03:45:32,
+laceywise,Photography Basics,rating,2024-12-06 03:45:32,5.0
+laceywise,Graphic Design Fundamentals,view,2024-12-06 03:45:32,
+laceywise,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,1.0
+david32,Excel for Beginners,enroll,2024-12-06 03:45:32,
+david32,Excel for Beginners,rating,2024-12-06 03:45:32,2.0
+david32,Social Media Marketing,complete,2024-12-06 03:45:32,
+david32,Social Media Marketing,rating,2024-12-06 03:45:32,3.0
+david32,Project Management,view,2024-12-06 03:45:32,
+david32,Project Management,rating,2024-12-06 03:45:32,2.0
+valdezerika,SEO Strategies,view,2024-12-06 03:45:32,
+valdezerika,SEO Strategies,rating,2024-12-06 03:45:32,4.0
+valdezerika,Digital Marketing Basics,enroll,2024-12-06 03:45:32,
+valdezerika,Digital Marketing Basics,rating,2024-12-06 03:45:32,4.0
+valdezerika,Mobile App Development,enroll,2024-12-06 03:45:32,
+valdezerika,Mobile App Development,rating,2024-12-06 03:45:32,2.0
+valdezerika,UX Design Basics,complete,2024-12-06 03:45:32,
+valdezerika,UX Design Basics,rating,2024-12-06 03:45:32,3.0
+valdezerika,Game Development,view,2024-12-06 03:45:32,
+valdezerika,Game Development,rating,2024-12-06 03:45:32,3.0
+jenniferchavez,Digital Marketing Basics,complete,2024-12-06 03:45:32,
+jenniferchavez,Digital Marketing Basics,rating,2024-12-06 03:45:32,1.0
+jenniferchavez,Excel for Beginners,view,2024-12-06 03:45:32,
+jenniferchavez,Excel for Beginners,rating,2024-12-06 03:45:32,5.0
+jenniferchavez,Cybersecurity Essentials,complete,2024-12-06 03:45:32,
+jenniferchavez,Cybersecurity Essentials,rating,2024-12-06 03:45:32,4.0
+jeffery51,Advanced Java,enroll,2024-12-06 03:45:32,
+jeffery51,Advanced Java,rating,2024-12-06 03:45:32,1.0
+jeffery51,Cooking Essentials,enroll,2024-12-06 03:45:32,
+jeffery51,Cooking Essentials,rating,2024-12-06 03:45:32,3.0
+jeffery51,Ethical Hacking,complete,2024-12-06 03:45:32,
+jeffery51,Ethical Hacking,rating,2024-12-06 03:45:32,4.0
+jeffery51,Statistics for Data Science,complete,2024-12-06 03:45:32,
+jeffery51,Statistics for Data Science,rating,2024-12-06 03:45:32,4.0
+cranejody,Advanced Java,complete,2024-12-06 03:45:32,
+cranejody,Advanced Java,rating,2024-12-06 03:45:32,1.0
+cranejody,Photography Basics,view,2024-12-06 03:45:32,
+cranejody,Photography Basics,rating,2024-12-06 03:45:32,2.0
+tcortez,Social Media Marketing,enroll,2024-12-06 03:45:32,
+tcortez,Social Media Marketing,rating,2024-12-06 03:45:32,5.0
+tcortez,AI for Beginners,view,2024-12-06 03:45:32,
+tcortez,AI for Beginners,rating,2024-12-06 03:45:32,1.0
+tcortez,Advanced Java,enroll,2024-12-06 03:45:32,
+tcortez,Advanced Java,rating,2024-12-06 03:45:32,4.0
+tcortez,Project Management,complete,2024-12-06 03:45:32,
+tcortez,Project Management,rating,2024-12-06 03:45:32,1.0
+tcortez,Quantum Computing 101,enroll,2024-12-06 03:45:32,
+tcortez,Quantum Computing 101,rating,2024-12-06 03:45:32,4.0
+andrewsgeorge,Social Media Marketing,complete,2024-12-06 03:45:32,
+andrewsgeorge,Social Media Marketing,rating,2024-12-06 03:45:32,3.0
+andrewsgeorge,Ethical Hacking,view,2024-12-06 03:45:32,
+andrewsgeorge,Ethical Hacking,rating,2024-12-06 03:45:32,1.0
+jameslarson,Game Development,view,2024-12-06 03:45:32,
+jameslarson,Game Development,rating,2024-12-06 03:45:32,1.0
+jameslarson,Music Production,complete,2024-12-06 03:45:32,
+jameslarson,Music Production,rating,2024-12-06 03:45:32,3.0
+jameslarson,Public Speaking,enroll,2024-12-06 03:45:32,
+jameslarson,Public Speaking,rating,2024-12-06 03:45:32,5.0
+jameslarson,Digital Marketing Basics,view,2024-12-06 03:45:32,
+jameslarson,Digital Marketing Basics,rating,2024-12-06 03:45:32,1.0
+jameslarson,Ethical Hacking,view,2024-12-06 03:45:32,
+jameslarson,Ethical Hacking,rating,2024-12-06 03:45:32,3.0
+richardjohnson,Advanced Java,view,2024-12-06 03:45:32,
+richardjohnson,Advanced Java,rating,2024-12-06 03:45:32,4.0
+richardjohnson,SEO Strategies,enroll,2024-12-06 03:45:32,
+richardjohnson,SEO Strategies,rating,2024-12-06 03:45:32,2.0
+richardjohnson,AI for Beginners,complete,2024-12-06 03:45:32,
+richardjohnson,AI for Beginners,rating,2024-12-06 03:45:32,4.0
+richardjohnson,Quantum Computing 101,view,2024-12-06 03:45:32,
+richardjohnson,Quantum Computing 101,rating,2024-12-06 03:45:32,1.0
+richardjohnson,Public Speaking,enroll,2024-12-06 03:45:32,
+richardjohnson,Public Speaking,rating,2024-12-06 03:45:32,3.0
+nicole32,Finance Fundamentals,complete,2024-12-06 03:45:32,
+nicole32,Finance Fundamentals,rating,2024-12-06 03:45:32,2.0
+nicole32,Cloud Computing,view,2024-12-06 03:45:32,
+nicole32,Cloud Computing,rating,2024-12-06 03:45:32,1.0
+nicole32,Excel for Beginners,complete,2024-12-06 03:45:32,
+nicole32,Excel for Beginners,rating,2024-12-06 03:45:32,1.0
+michaelmiller,Blockchain Basics,enroll,2024-12-06 03:45:32,
+michaelmiller,Blockchain Basics,rating,2024-12-06 03:45:32,5.0
+michaelmiller,Machine Learning,enroll,2024-12-06 03:45:32,
+michaelmiller,Machine Learning,rating,2024-12-06 03:45:32,4.0
+michaelmiller,Graphic Design Fundamentals,view,2024-12-06 03:45:32,
+michaelmiller,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,5.0
+michaelmiller,Music Production,enroll,2024-12-06 03:45:32,
+michaelmiller,Music Production,rating,2024-12-06 03:45:32,1.0
+michaelmiller,Excel for Beginners,complete,2024-12-06 03:45:32,
+michaelmiller,Excel for Beginners,rating,2024-12-06 03:45:32,4.0
+lindsay59,Blockchain Basics,enroll,2024-12-06 03:45:32,
+lindsay59,Blockchain Basics,rating,2024-12-06 03:45:32,1.0
+lindsay59,Intro to Python,enroll,2024-12-06 03:45:32,
+lindsay59,Intro to Python,rating,2024-12-06 03:45:32,5.0
+lindsay59,Cooking Essentials,complete,2024-12-06 03:45:32,
+lindsay59,Cooking Essentials,rating,2024-12-06 03:45:32,3.0
+lindsay59,Social Media Marketing,view,2024-12-06 03:45:32,
+lindsay59,Social Media Marketing,rating,2024-12-06 03:45:32,1.0
+lindsay59,Photography Basics,complete,2024-12-06 03:45:32,
+lindsay59,Photography Basics,rating,2024-12-06 03:45:32,3.0
+jonesjulie,Photography Basics,view,2024-12-06 03:45:32,
+jonesjulie,Photography Basics,rating,2024-12-06 03:45:32,5.0
+jonesjulie,Cooking Essentials,complete,2024-12-06 03:45:32,
+jonesjulie,Cooking Essentials,rating,2024-12-06 03:45:32,2.0
+jonesjulie,Advanced Java,enroll,2024-12-06 03:45:32,
+jonesjulie,Advanced Java,rating,2024-12-06 03:45:32,3.0
+timothy09,Intro to Python,enroll,2024-12-06 03:45:32,
+timothy09,Intro to Python,rating,2024-12-06 03:45:32,3.0
+timothy09,Creative Writing,complete,2024-12-06 03:45:32,
+timothy09,Creative Writing,rating,2024-12-06 03:45:32,4.0
+timothy09,UX Design Basics,view,2024-12-06 03:45:32,
+timothy09,UX Design Basics,rating,2024-12-06 03:45:32,1.0
+timothy09,Data Science 101,enroll,2024-12-06 03:45:32,
+timothy09,Data Science 101,rating,2024-12-06 03:45:32,3.0
+reidsandra,Digital Marketing Basics,complete,2024-12-06 03:45:32,
+reidsandra,Digital Marketing Basics,rating,2024-12-06 03:45:32,1.0
+reidsandra,Statistics for Data Science,complete,2024-12-06 03:45:32,
+reidsandra,Statistics for Data Science,rating,2024-12-06 03:45:32,5.0
+ryanjacobs,Excel for Beginners,enroll,2024-12-06 03:45:32,
+ryanjacobs,Excel for Beginners,rating,2024-12-06 03:45:32,2.0
+ryanjacobs,Fitness and Wellness,complete,2024-12-06 03:45:32,
+ryanjacobs,Fitness and Wellness,rating,2024-12-06 03:45:32,4.0
+ryanjacobs,Social Media Marketing,enroll,2024-12-06 03:45:32,
+ryanjacobs,Social Media Marketing,rating,2024-12-06 03:45:32,3.0
+ryanjacobs,Quantum Computing 101,enroll,2024-12-06 03:45:32,
+ryanjacobs,Quantum Computing 101,rating,2024-12-06 03:45:32,5.0
+ryanjacobs,Cybersecurity Essentials,enroll,2024-12-06 03:45:32,
+ryanjacobs,Cybersecurity Essentials,rating,2024-12-06 03:45:32,5.0
+chavezwilliam,Finance Fundamentals,view,2024-12-06 03:45:32,
+chavezwilliam,Finance Fundamentals,rating,2024-12-06 03:45:32,1.0
+chavezwilliam,Cooking Essentials,complete,2024-12-06 03:45:32,
+chavezwilliam,Cooking Essentials,rating,2024-12-06 03:45:32,1.0
+jasminesimpson,History of Art,enroll,2024-12-06 03:45:32,
+jasminesimpson,History of Art,rating,2024-12-06 03:45:32,4.0
+jasminesimpson,Project Management,enroll,2024-12-06 03:45:32,
+jasminesimpson,Project Management,rating,2024-12-06 03:45:32,5.0
+jasminesimpson,Public Speaking,enroll,2024-12-06 03:45:32,
+jasminesimpson,Public Speaking,rating,2024-12-06 03:45:32,5.0
+jasminesimpson,Advanced Java,enroll,2024-12-06 03:45:32,
+jasminesimpson,Advanced Java,rating,2024-12-06 03:45:32,3.0
+mcclainmelanie,Mobile App Development,enroll,2024-12-06 03:45:32,
+mcclainmelanie,Mobile App Development,rating,2024-12-06 03:45:32,4.0
+mcclainmelanie,Music Production,complete,2024-12-06 03:45:32,
+mcclainmelanie,Music Production,rating,2024-12-06 03:45:32,4.0
+mcclainmelanie,Public Speaking,view,2024-12-06 03:45:32,
+mcclainmelanie,Public Speaking,rating,2024-12-06 03:45:32,3.0
+coxholly,Social Media Marketing,enroll,2024-12-06 03:45:32,
+coxholly,Social Media Marketing,rating,2024-12-06 03:45:32,2.0
+coxholly,Quantum Computing 101,view,2024-12-06 03:45:32,
+coxholly,Quantum Computing 101,rating,2024-12-06 03:45:32,3.0
+coxholly,Machine Learning,enroll,2024-12-06 03:45:32,
+coxholly,Machine Learning,rating,2024-12-06 03:45:32,5.0
+coxholly,Cloud Computing,complete,2024-12-06 03:45:32,
+coxholly,Cloud Computing,rating,2024-12-06 03:45:32,5.0
+coxholly,Fitness and Wellness,enroll,2024-12-06 03:45:32,
+coxholly,Fitness and Wellness,rating,2024-12-06 03:45:32,2.0
+igarrison,Data Science 101,enroll,2024-12-06 03:45:32,
+igarrison,Data Science 101,rating,2024-12-06 03:45:32,4.0
+igarrison,Machine Learning,enroll,2024-12-06 03:45:32,
+igarrison,Machine Learning,rating,2024-12-06 03:45:32,1.0
+igarrison,Game Development,enroll,2024-12-06 03:45:32,
+igarrison,Game Development,rating,2024-12-06 03:45:32,2.0
+joshuamcdaniel,History of Art,complete,2024-12-06 03:45:32,
+joshuamcdaniel,History of Art,rating,2024-12-06 03:45:32,1.0
+joshuamcdaniel,Excel for Beginners,view,2024-12-06 03:45:32,
+joshuamcdaniel,Excel for Beginners,rating,2024-12-06 03:45:32,5.0
+melissabates,Finance Fundamentals,enroll,2024-12-06 03:45:32,
+melissabates,Finance Fundamentals,rating,2024-12-06 03:45:32,4.0
+melissabates,Intro to Python,view,2024-12-06 03:45:32,
+melissabates,Intro to Python,rating,2024-12-06 03:45:32,2.0
+wmoore,Mobile App Development,view,2024-12-06 03:45:32,
+wmoore,Mobile App Development,rating,2024-12-06 03:45:32,1.0
+wmoore,Cybersecurity Essentials,enroll,2024-12-06 03:45:32,
+wmoore,Cybersecurity Essentials,rating,2024-12-06 03:45:32,4.0
+wmoore,Ethical Hacking,complete,2024-12-06 03:45:32,
+wmoore,Ethical Hacking,rating,2024-12-06 03:45:32,2.0
+wmoore,Music Production,view,2024-12-06 03:45:32,
+wmoore,Music Production,rating,2024-12-06 03:45:32,2.0
+wmoore,Social Media Marketing,complete,2024-12-06 03:45:32,
+wmoore,Social Media Marketing,rating,2024-12-06 03:45:32,2.0
+christy97,Quantum Computing 101,enroll,2024-12-06 03:45:32,
+christy97,Quantum Computing 101,rating,2024-12-06 03:45:32,5.0
+christy97,History of Art,view,2024-12-06 03:45:32,
+christy97,History of Art,rating,2024-12-06 03:45:32,3.0
+christy97,Creative Writing,complete,2024-12-06 03:45:32,
+christy97,Creative Writing,rating,2024-12-06 03:45:32,3.0
+christy97,AI for Beginners,view,2024-12-06 03:45:32,
+christy97,AI for Beginners,rating,2024-12-06 03:45:32,2.0
+kristinahayden,Game Development,enroll,2024-12-06 03:45:32,
+kristinahayden,Game Development,rating,2024-12-06 03:45:32,5.0
+kristinahayden,Interior Design Basics,view,2024-12-06 03:45:32,
+kristinahayden,Interior Design Basics,rating,2024-12-06 03:45:32,4.0
+richardlloyd,Finance Fundamentals,enroll,2024-12-06 03:45:32,
+richardlloyd,Finance Fundamentals,rating,2024-12-06 03:45:32,5.0
+richardlloyd,Fitness and Wellness,enroll,2024-12-06 03:45:32,
+richardlloyd,Fitness and Wellness,rating,2024-12-06 03:45:32,3.0
+richardlloyd,Digital Marketing Basics,view,2024-12-06 03:45:32,
+richardlloyd,Digital Marketing Basics,rating,2024-12-06 03:45:32,1.0
+richardlloyd,Interior Design Basics,view,2024-12-06 03:45:32,
+richardlloyd,Interior Design Basics,rating,2024-12-06 03:45:32,4.0
+kevin08,Interior Design Basics,view,2024-12-06 03:45:32,
+kevin08,Interior Design Basics,rating,2024-12-06 03:45:32,4.0
+kevin08,Graphic Design Fundamentals,view,2024-12-06 03:45:32,
+kevin08,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,2.0
+lorisnyder,UX Design Basics,complete,2024-12-06 03:45:32,
+lorisnyder,UX Design Basics,rating,2024-12-06 03:45:32,4.0
+lorisnyder,Statistics for Data Science,view,2024-12-06 03:45:32,
+lorisnyder,Statistics for Data Science,rating,2024-12-06 03:45:32,4.0
+lorisnyder,Creative Writing,view,2024-12-06 03:45:32,
+lorisnyder,Creative Writing,rating,2024-12-06 03:45:32,5.0
+lorisnyder,Web Development Bootcamp,enroll,2024-12-06 03:45:32,
+lorisnyder,Web Development Bootcamp,rating,2024-12-06 03:45:32,1.0
+lorisnyder,Advanced Java,view,2024-12-06 03:45:32,
+lorisnyder,Advanced Java,rating,2024-12-06 03:45:32,5.0
+jnelson,Graphic Design Fundamentals,view,2024-12-06 03:45:32,
+jnelson,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,3.0
+jnelson,Blockchain Basics,enroll,2024-12-06 03:45:32,
+jnelson,Blockchain Basics,rating,2024-12-06 03:45:32,3.0
+jnelson,Excel for Beginners,complete,2024-12-06 03:45:32,
+jnelson,Excel for Beginners,rating,2024-12-06 03:45:32,5.0
+evanscharles,Graphic Design Fundamentals,enroll,2024-12-06 03:45:32,
+evanscharles,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,2.0
+evanscharles,Ethical Hacking,view,2024-12-06 03:45:32,
+evanscharles,Ethical Hacking,rating,2024-12-06 03:45:32,5.0
+evanscharles,Advanced Java,complete,2024-12-06 03:45:32,
+evanscharles,Advanced Java,rating,2024-12-06 03:45:32,4.0
+evanscharles,Fitness and Wellness,complete,2024-12-06 03:45:32,
+evanscharles,Fitness and Wellness,rating,2024-12-06 03:45:32,2.0
+evanscharles,UX Design Basics,view,2024-12-06 03:45:32,
+evanscharles,UX Design Basics,rating,2024-12-06 03:45:32,5.0
+lisamoore,Music Production,complete,2024-12-06 03:45:32,
+lisamoore,Music Production,rating,2024-12-06 03:45:32,3.0
+lisamoore,Interior Design Basics,complete,2024-12-06 03:45:32,
+lisamoore,Interior Design Basics,rating,2024-12-06 03:45:32,2.0
+laura12,Cloud Computing,enroll,2024-12-06 03:45:32,
+laura12,Cloud Computing,rating,2024-12-06 03:45:32,4.0
+laura12,Finance Fundamentals,view,2024-12-06 03:45:32,
+laura12,Finance Fundamentals,rating,2024-12-06 03:45:32,2.0
+laura12,Quantum Computing 101,complete,2024-12-06 03:45:32,
+laura12,Quantum Computing 101,rating,2024-12-06 03:45:32,3.0
+karen90,History of Art,complete,2024-12-06 03:45:32,
+karen90,History of Art,rating,2024-12-06 03:45:32,5.0
+karen90,SEO Strategies,view,2024-12-06 03:45:32,
+karen90,SEO Strategies,rating,2024-12-06 03:45:32,4.0
+djackson,UX Design Basics,enroll,2024-12-06 03:45:32,
+djackson,UX Design Basics,rating,2024-12-06 03:45:32,5.0
+djackson,Cooking Essentials,enroll,2024-12-06 03:45:32,
+djackson,Cooking Essentials,rating,2024-12-06 03:45:32,3.0
+djackson,Project Management,view,2024-12-06 03:45:32,
+djackson,Project Management,rating,2024-12-06 03:45:32,2.0
+jerryroberts,Public Speaking,view,2024-12-06 03:45:32,
+jerryroberts,Public Speaking,rating,2024-12-06 03:45:32,2.0
+jerryroberts,Fitness and Wellness,enroll,2024-12-06 03:45:32,
+jerryroberts,Fitness and Wellness,rating,2024-12-06 03:45:32,3.0
+jerryroberts,Finance Fundamentals,complete,2024-12-06 03:45:32,
+jerryroberts,Finance Fundamentals,rating,2024-12-06 03:45:32,3.0
+jerryroberts,Digital Marketing Basics,complete,2024-12-06 03:45:32,
+jerryroberts,Digital Marketing Basics,rating,2024-12-06 03:45:32,5.0
+jerryroberts,Photography Basics,complete,2024-12-06 03:45:32,
+jerryroberts,Photography Basics,rating,2024-12-06 03:45:32,1.0
+josephrodriguez,Quantum Computing 101,view,2024-12-06 03:45:32,
+josephrodriguez,Quantum Computing 101,rating,2024-12-06 03:45:32,5.0
+josephrodriguez,Excel for Beginners,view,2024-12-06 03:45:32,
+josephrodriguez,Excel for Beginners,rating,2024-12-06 03:45:32,5.0
+josephrodriguez,AI for Beginners,complete,2024-12-06 03:45:32,
+josephrodriguez,AI for Beginners,rating,2024-12-06 03:45:32,3.0
+josephrodriguez,Project Management,view,2024-12-06 03:45:32,
+josephrodriguez,Project Management,rating,2024-12-06 03:45:32,2.0
+robinsonalan,UX Design Basics,enroll,2024-12-06 03:45:32,
+robinsonalan,UX Design Basics,rating,2024-12-06 03:45:32,4.0
+robinsonalan,Photography Basics,enroll,2024-12-06 03:45:32,
+robinsonalan,Photography Basics,rating,2024-12-06 03:45:32,2.0
+robinsonalan,Machine Learning,complete,2024-12-06 03:45:32,
+robinsonalan,Machine Learning,rating,2024-12-06 03:45:32,2.0
+robinsonalan,Cloud Computing,complete,2024-12-06 03:45:32,
+robinsonalan,Cloud Computing,rating,2024-12-06 03:45:32,3.0
+robinsonalan,Creative Writing,enroll,2024-12-06 03:45:32,
+robinsonalan,Creative Writing,rating,2024-12-06 03:45:32,5.0
+hunterbriana,Ethical Hacking,enroll,2024-12-06 03:45:32,
+hunterbriana,Ethical Hacking,rating,2024-12-06 03:45:32,5.0
+hunterbriana,Music Production,view,2024-12-06 03:45:32,
+hunterbriana,Music Production,rating,2024-12-06 03:45:32,4.0
+hunterbriana,Advanced Java,complete,2024-12-06 03:45:32,
+hunterbriana,Advanced Java,rating,2024-12-06 03:45:32,2.0
+hunterbriana,Quantum Computing 101,enroll,2024-12-06 03:45:32,
+hunterbriana,Quantum Computing 101,rating,2024-12-06 03:45:32,1.0
+mccormickalexandra,Quantum Computing 101,complete,2024-12-06 03:45:32,
+mccormickalexandra,Quantum Computing 101,rating,2024-12-06 03:45:32,4.0
+mccormickalexandra,Intro to Python,view,2024-12-06 03:45:32,
+mccormickalexandra,Intro to Python,rating,2024-12-06 03:45:32,3.0
+mccormickalexandra,Web Development Bootcamp,view,2024-12-06 03:45:32,
+mccormickalexandra,Web Development Bootcamp,rating,2024-12-06 03:45:32,4.0
+mccormickalexandra,Interior Design Basics,complete,2024-12-06 03:45:32,
+mccormickalexandra,Interior Design Basics,rating,2024-12-06 03:45:32,3.0
+wsanders,Mobile App Development,enroll,2024-12-06 03:45:32,
+wsanders,Mobile App Development,rating,2024-12-06 03:45:32,3.0
+wsanders,Excel for Beginners,complete,2024-12-06 03:45:32,
+wsanders,Excel for Beginners,rating,2024-12-06 03:45:32,5.0
+wsanders,Social Media Marketing,complete,2024-12-06 03:45:32,
+wsanders,Social Media Marketing,rating,2024-12-06 03:45:32,4.0
+wsanders,Finance Fundamentals,complete,2024-12-06 03:45:32,
+wsanders,Finance Fundamentals,rating,2024-12-06 03:45:32,5.0
+wsanders,Data Science 101,enroll,2024-12-06 03:45:32,
+wsanders,Data Science 101,rating,2024-12-06 03:45:32,4.0
+mrichmond,SEO Strategies,complete,2024-12-06 03:45:32,
+mrichmond,SEO Strategies,rating,2024-12-06 03:45:32,4.0
+mrichmond,Interior Design Basics,complete,2024-12-06 03:45:32,
+mrichmond,Interior Design Basics,rating,2024-12-06 03:45:32,1.0
+jessica13,Photography Basics,enroll,2024-12-06 03:45:32,
+jessica13,Photography Basics,rating,2024-12-06 03:45:32,3.0
+jessica13,Excel for Beginners,complete,2024-12-06 03:45:32,
+jessica13,Excel for Beginners,rating,2024-12-06 03:45:32,4.0
+jessica13,Data Science 101,enroll,2024-12-06 03:45:32,
+jessica13,Data Science 101,rating,2024-12-06 03:45:32,1.0
+jessica13,Game Development,view,2024-12-06 03:45:32,
+jessica13,Game Development,rating,2024-12-06 03:45:32,4.0
+tanyawilliamson,Blockchain Basics,view,2024-12-06 03:45:32,
+tanyawilliamson,Blockchain Basics,rating,2024-12-06 03:45:32,3.0
+tanyawilliamson,Game Development,enroll,2024-12-06 03:45:32,
+tanyawilliamson,Game Development,rating,2024-12-06 03:45:32,3.0
+tanyawilliamson,Finance Fundamentals,enroll,2024-12-06 03:45:32,
+tanyawilliamson,Finance Fundamentals,rating,2024-12-06 03:45:32,3.0
+cbray,UX Design Basics,complete,2024-12-06 03:45:32,
+cbray,UX Design Basics,rating,2024-12-06 03:45:32,4.0
+cbray,Project Management,view,2024-12-06 03:45:32,
+cbray,Project Management,rating,2024-12-06 03:45:32,3.0
+cbray,Statistics for Data Science,complete,2024-12-06 03:45:32,
+cbray,Statistics for Data Science,rating,2024-12-06 03:45:32,3.0
+cbray,Fitness and Wellness,complete,2024-12-06 03:45:32,
+cbray,Fitness and Wellness,rating,2024-12-06 03:45:32,5.0
+cbray,Data Science 101,enroll,2024-12-06 03:45:32,
+cbray,Data Science 101,rating,2024-12-06 03:45:32,3.0
+anthony98,Cloud Computing,complete,2024-12-06 03:45:32,
+anthony98,Cloud Computing,rating,2024-12-06 03:45:32,4.0
+anthony98,Social Media Marketing,enroll,2024-12-06 03:45:32,
+anthony98,Social Media Marketing,rating,2024-12-06 03:45:32,3.0
+anthony98,Project Management,enroll,2024-12-06 03:45:32,
+anthony98,Project Management,rating,2024-12-06 03:45:32,1.0
+anthony98,Fitness and Wellness,complete,2024-12-06 03:45:32,
+anthony98,Fitness and Wellness,rating,2024-12-06 03:45:32,5.0
+anthony98,Music Production,view,2024-12-06 03:45:32,
+anthony98,Music Production,rating,2024-12-06 03:45:32,2.0
+joan24,Ethical Hacking,complete,2024-12-06 03:45:32,
+joan24,Ethical Hacking,rating,2024-12-06 03:45:32,3.0
+joan24,Intro to Python,view,2024-12-06 03:45:32,
+joan24,Intro to Python,rating,2024-12-06 03:45:32,3.0
+joan24,Cloud Computing,complete,2024-12-06 03:45:32,
+joan24,Cloud Computing,rating,2024-12-06 03:45:32,1.0
+hernandezkenneth,SEO Strategies,enroll,2024-12-06 03:45:32,
+hernandezkenneth,SEO Strategies,rating,2024-12-06 03:45:32,2.0
+hernandezkenneth,Machine Learning,view,2024-12-06 03:45:32,
+hernandezkenneth,Machine Learning,rating,2024-12-06 03:45:32,4.0
+hernandezkenneth,Music Production,complete,2024-12-06 03:45:32,
+hernandezkenneth,Music Production,rating,2024-12-06 03:45:32,3.0
+hernandezkenneth,Cybersecurity Essentials,view,2024-12-06 03:45:32,
+hernandezkenneth,Cybersecurity Essentials,rating,2024-12-06 03:45:32,3.0
+sarah26,Game Development,complete,2024-12-06 03:45:32,
+sarah26,Game Development,rating,2024-12-06 03:45:32,5.0
+sarah26,UX Design Basics,complete,2024-12-06 03:45:32,
+sarah26,UX Design Basics,rating,2024-12-06 03:45:32,5.0
+sarah26,Social Media Marketing,enroll,2024-12-06 03:45:32,
+sarah26,Social Media Marketing,rating,2024-12-06 03:45:32,4.0
+ayalabrenda,Creative Writing,enroll,2024-12-06 03:45:32,
+ayalabrenda,Creative Writing,rating,2024-12-06 03:45:32,4.0
+ayalabrenda,History of Art,complete,2024-12-06 03:45:32,
+ayalabrenda,History of Art,rating,2024-12-06 03:45:32,1.0
+andreawoodward,Data Science 101,enroll,2024-12-06 03:45:32,
+andreawoodward,Data Science 101,rating,2024-12-06 03:45:32,2.0
+andreawoodward,Blockchain Basics,complete,2024-12-06 03:45:32,
+andreawoodward,Blockchain Basics,rating,2024-12-06 03:45:32,1.0
+andreawoodward,Cloud Computing,view,2024-12-06 03:45:32,
+andreawoodward,Cloud Computing,rating,2024-12-06 03:45:32,2.0
+andreawoodward,Machine Learning,enroll,2024-12-06 03:45:32,
+andreawoodward,Machine Learning,rating,2024-12-06 03:45:32,3.0
+williamadams,Photography Basics,enroll,2024-12-06 03:45:32,
+williamadams,Photography Basics,rating,2024-12-06 03:45:32,2.0
+williamadams,Music Production,enroll,2024-12-06 03:45:32,
+williamadams,Music Production,rating,2024-12-06 03:45:32,3.0
+dana21,History of Art,view,2024-12-06 03:45:32,
+dana21,History of Art,rating,2024-12-06 03:45:32,4.0
+dana21,SEO Strategies,enroll,2024-12-06 03:45:32,
+dana21,SEO Strategies,rating,2024-12-06 03:45:32,5.0
+dana21,Finance Fundamentals,view,2024-12-06 03:45:32,
+dana21,Finance Fundamentals,rating,2024-12-06 03:45:32,1.0
+kcastro,Advanced Java,complete,2024-12-06 03:45:32,
+kcastro,Advanced Java,rating,2024-12-06 03:45:32,4.0
+kcastro,Fitness and Wellness,view,2024-12-06 03:45:32,
+kcastro,Fitness and Wellness,rating,2024-12-06 03:45:32,3.0
+kcastro,UX Design Basics,enroll,2024-12-06 03:45:32,
+kcastro,UX Design Basics,rating,2024-12-06 03:45:32,5.0
+kcastro,Social Media Marketing,complete,2024-12-06 03:45:32,
+kcastro,Social Media Marketing,rating,2024-12-06 03:45:32,4.0
+lfranklin,Project Management,complete,2024-12-06 03:45:32,
+lfranklin,Project Management,rating,2024-12-06 03:45:32,4.0
+lfranklin,Advanced Java,complete,2024-12-06 03:45:32,
+lfranklin,Advanced Java,rating,2024-12-06 03:45:32,1.0
+lfranklin,Social Media Marketing,complete,2024-12-06 03:45:32,
+lfranklin,Social Media Marketing,rating,2024-12-06 03:45:32,5.0
+angela88,Graphic Design Fundamentals,view,2024-12-06 03:45:32,
+angela88,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,4.0
+angela88,Interior Design Basics,complete,2024-12-06 03:45:32,
+angela88,Interior Design Basics,rating,2024-12-06 03:45:32,3.0
+angela88,History of Art,view,2024-12-06 03:45:32,
+angela88,History of Art,rating,2024-12-06 03:45:32,1.0
+danaking,SEO Strategies,view,2024-12-06 03:45:32,
+danaking,SEO Strategies,rating,2024-12-06 03:45:32,2.0
+danaking,Excel for Beginners,view,2024-12-06 03:45:32,
+danaking,Excel for Beginners,rating,2024-12-06 03:45:32,2.0
+danaking,UX Design Basics,enroll,2024-12-06 03:45:32,
+danaking,UX Design Basics,rating,2024-12-06 03:45:32,2.0
+danaking,Creative Writing,enroll,2024-12-06 03:45:32,
+danaking,Creative Writing,rating,2024-12-06 03:45:32,5.0
+michaelyoung,Creative Writing,enroll,2024-12-06 03:45:32,
+michaelyoung,Creative Writing,rating,2024-12-06 03:45:32,5.0
+michaelyoung,Graphic Design Fundamentals,complete,2024-12-06 03:45:32,
+michaelyoung,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,1.0
+michaelyoung,Interior Design Basics,complete,2024-12-06 03:45:32,
+michaelyoung,Interior Design Basics,rating,2024-12-06 03:45:32,3.0
+michaelyoung,Game Development,complete,2024-12-06 03:45:32,
+michaelyoung,Game Development,rating,2024-12-06 03:45:32,5.0
+michaelyoung,Fitness and Wellness,enroll,2024-12-06 03:45:32,
+michaelyoung,Fitness and Wellness,rating,2024-12-06 03:45:32,3.0
+zmooney,Data Science 101,enroll,2024-12-06 03:45:32,
+zmooney,Data Science 101,rating,2024-12-06 03:45:32,2.0
+zmooney,Statistics for Data Science,enroll,2024-12-06 03:45:32,
+zmooney,Statistics for Data Science,rating,2024-12-06 03:45:32,4.0
+zmooney,Game Development,complete,2024-12-06 03:45:32,
+zmooney,Game Development,rating,2024-12-06 03:45:32,2.0
+zmooney,Intro to Python,complete,2024-12-06 03:45:32,
+zmooney,Intro to Python,rating,2024-12-06 03:45:32,4.0
+zmooney,Creative Writing,complete,2024-12-06 03:45:32,
+zmooney,Creative Writing,rating,2024-12-06 03:45:32,3.0
+wjones,Graphic Design Fundamentals,enroll,2024-12-06 03:45:32,
+wjones,Graphic Design Fundamentals,rating,2024-12-06 03:45:32,5.0
+wjones,Game Development,complete,2024-12-06 03:45:32,
+wjones,Game Development,rating,2024-12-06 03:45:32,1.0
+wjones,Photography Basics,complete,2024-12-06 03:45:32,
+wjones,Photography Basics,rating,2024-12-06 03:45:32,4.0
