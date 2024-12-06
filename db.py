@@ -419,7 +419,20 @@ class db_ops:
 
         #returns a course name
         return results
+    def get_course_ID(self, Name):
 
+        query = '''
+            SELECT CourseID
+            FROM Course
+            WHERE CourseName = %s;
+            '''
+        
+        self.cursor.execute(query, (Name,))
+
+        results = self.cursor.fetchone()
+
+        #returns a course name
+        return results
     def get_courses(self, keyword=None):
         """
         Fetches all courses, optionally filtered by a keyword in the CourseName.
@@ -519,11 +532,12 @@ class db_ops:
         return list_results
     
     #add interaction
-    def add_interaction(self, interaction_type, userID, courseID, rating=None):
+    def add_interaction(self, interaction_type, username, password, courseName, rating=None):
         '''
         Valid interaction types - register, view, rate, favorite
         '''
-        
+        userID = self.get_userID(username, password)
+        courseID = self.get_course_ID(courseName)
         #check for valid interaction type
         valid_interactions = ('register', 'view', 'rate', 'favorite')
         if interaction_type not in valid_interactions:
