@@ -4,8 +4,9 @@ from db import db_ops
 # Initialize Database Operations
 db = db_ops()
 
-# db.create_tables()
-# db.populate()
+#db.delete_everything()
+db.create_tables()
+db.populate()
 
 # Global variables for username and password
 global_username = None

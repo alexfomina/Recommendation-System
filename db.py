@@ -633,7 +633,7 @@ class db_ops:
         self.populate_topic('topics.csv')
         self.populate_coursetopic('coursetopic.csv')
         self.populate_user_interests('UserInterests.csv')
-        self.populate_user_item_interaction('')
+        self.populate_user_item_interaction('UserItemInteractions.csv')
 
 
     
@@ -659,7 +659,7 @@ class db_ops:
 
     def populate_user_interests(self, csv_file):
         query = '''
-            INSERT INTO UserInterests (UserID,TopicID,InterestLevel)
+            INSERT INTO UserInterests (InterestLevel, UserID,TopicID)
             VALUES (%s,%s,%s);
             '''
         
