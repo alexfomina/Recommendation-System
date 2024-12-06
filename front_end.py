@@ -4,7 +4,10 @@ from db import db_ops
 # Initialize Database Operations
 db = db_ops()
 
-# Global variables for username, password, and selected course
+# db.create_tables()
+# db.populate()
+
+# Global variables for username and password
 global_username = None
 global_password = None
 global_course_name = None
