@@ -534,12 +534,12 @@ class db_ops:
     #add interaction
     def add_interaction(self, interaction_type, username, password, courseName, rating=None):
         '''
-        Valid interaction types - register, view, rate, favorite
+        Valid interaction types - 'enroll', 'view', 'complete', 'rate'
         '''
         userID = self.get_userID(username, password)
         courseID = self.get_course_ID(courseName)
         #check for valid interaction type
-        valid_interactions = ('register', 'view', 'rate', 'favorite')
+        valid_interactions = ('enroll', 'view', 'complete', 'rate')
         if interaction_type not in valid_interactions:
             raise ValueError(f"Invalid interaction type: {interaction_type}")
 
@@ -632,8 +632,8 @@ class db_ops:
         self.populate_users('users_data.csv')
         self.populate_topic('topics.csv')
         self.populate_coursetopic('coursetopic.csv')
-        self.populate_user_interests('UserInterests.csv') #incomplete only has 106/250 users
-        #db_ops.populate_user_item_interaction('')
+        self.populate_user_interests('UserInterests.csv')
+        self.populate_user_item_interaction('')
 
 
     
