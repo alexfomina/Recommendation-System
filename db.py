@@ -12,7 +12,7 @@ class db_ops:
             # Initialize database connection here
             cls._instance.connection = mysql.connector.connect(host = 'localhost',
                                                                 user = 'root',
-                                                                password =  'CPSC408!', #CPSC408!
+                                                                password =  'HenryCPSC408', #CPSC408!
                                                                 auth_plugin = 'mysql_native_password',
                                                                 database = 'RecommendationApp')
             cls._instance.cursor = cls._instance.connection.cursor()
