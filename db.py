@@ -617,8 +617,8 @@ class db_ops:
         self.populate_courses('courses.csv')
         self.populate_users('users_data.csv')
         self.populate_topic('topics.csv')
-        #db_ops.populate_coursetopic('coursetopic.csv')
-        #db_ops.populate_user_interests('UserInterests.csv') #incomplete only has 106/250 users
+        self.populate_coursetopic('coursetopic.csv')
+        self.populate_user_interests('UserInterests.csv') #incomplete only has 106/250 users
         #db_ops.populate_user_item_interaction('')
 
 
