@@ -752,3 +752,30 @@ class db_ops:
         # batch commit
         self.connection.commit()
         print("Ingested your courses!")
+
+    def get_recommendations_for_user(self, user_id):
+        query = """
+        SELECT CourseID, PredictedRating
+        FROM Recommendations
+        WHERE UserID = %s
+        ORDER BY PredictedRating DESC
+        """
+        self.cursor.execute(query, (user_id,))
+        return self.cursor.fetchall()
+
+    def get_course_details(self, course_id):
+        query = """
+        SELECT CourseName, Description, Category, AverageRating
+        FROM Courses
+        WHERE CourseID = %s
+        """
+        self.cursor.execute(query, (course_id,))
+        result = self.cursor.fetchone()
+        if result:
+            return {
+                "name": result[0],
+                "description": result[1],
+                "category": result[2],
+                "rating": result[3],
+            }
+        return None
