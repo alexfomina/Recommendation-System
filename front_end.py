@@ -307,10 +307,6 @@ from db import db_ops
 # Initialize Database Operations
 db = db_ops()
 
-#db.delete_everything()
-# db.create_tables()
-# db.populate()
-
 # Global variables for username and password
 global_username = None
 global_password = None
@@ -427,4 +423,3 @@ def gradio_app():
 if __name__ == "__main__":
     app = gradio_app()
     app.launch()
-
