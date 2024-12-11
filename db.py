@@ -640,7 +640,7 @@ class db_ops:
     
     def populate_user_item_interaction(self, csv_file):
         query = '''
-            INSERT INTO UserInterests (UserID,CourseID,InteractionType,Timestamp,Rating)
+            INSERT INTO UserInterests (InteractionType,Timestamp,UserID,CourseID,Value)
             VALUES (%s,%s,%s,%s,%s);
             '''
         
