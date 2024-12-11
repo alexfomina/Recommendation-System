@@ -307,14 +307,10 @@ from db import db_ops
 # Initialize Database Operations
 db = db_ops()
 
-#db.delete_everything()
-db.create_tables()
-db.populate()
-
 # Global variables for username and password
 global_username = None
 global_password = None
-global_course_name = None
+
 
 def handle_action(action, username, password, name=None, profile=None):
     """
@@ -334,12 +330,14 @@ def handle_action(action, username, password, name=None, profile=None):
     elif action == "Log In":
         try:
             if db.check_user_account(username, password):
+                global_username = username
+                global_password = password
                 user_id = db.get_user_id(username)  # Retrieve the user ID from the database
                 recommendations = db.get_recommendations_for_user(user_id)  # Fetch recommendations
 
                 # Format recommendations for display
                 formatted_recommendations = "\n\n".join([
-                    f"**Course ID:** {course_id}\n**Predicted Rating:** {rating}"
+                    f"**Course ID:** {course_id}\n**Predicted Rating:** {rating:.2f}"
                     for course_id, rating in recommendations
                 ])
 
@@ -348,6 +346,7 @@ def handle_action(action, username, password, name=None, profile=None):
                 return "❌ Invalid username or password.", None
         except Exception as e:
             return f"❌ Error during log-in: {e}", None
+
 
 def my_account(username):
     """
@@ -362,6 +361,7 @@ def my_account(username):
     except Exception as e:
         return f"❌ Error fetching account details: {e}"
 
+
 def view_courses():
     """
     Displays available courses.
@@ -370,13 +370,14 @@ def view_courses():
         courses = db.get_all_courses()
         if courses:
             return "\n\n".join([
-                f"**Course ID:** {course['id']}\n**Name:** {course['name']}\n**Category:** {course['category']}\n**Rating:** {course['rating']}"
+                f"**Course ID:** {course['id']}\n**Name:** {course['name']}\n**Category:** {course['category']}\n**Rating:** {course['rating']:.2f}"
                 for course in courses
             ])
         else:
             return "⚠️ No courses available."
     except Exception as e:
         return f"❌ Error fetching courses: {e}"
+
 
 # Gradio Interface
 def gradio_app():
@@ -389,7 +390,8 @@ def gradio_app():
             login_button = gr.Button("Login")
             login_output = gr.Textbox(label="Login Status", interactive=False)
 
-            login_button.click(lambda username, password: handle_action("Log In", username, password), [username, password], login_output)
+            login_button.click(lambda username, password: handle_action("Log In", username, password),
+                               [username, password], login_output)
 
         with gr.Tab("Sign Up"):
             username = gr.Textbox(label="Username")
@@ -399,7 +401,8 @@ def gradio_app():
             sign_up_button = gr.Button("Sign Up")
             sign_up_output = gr.Textbox(label="Sign-Up Status", interactive=False)
 
-            sign_up_button.click(lambda username, password, name, profile: handle_action("Sign Up", username, password, name, profile), [username, password, name, profile], sign_up_output)
+            sign_up_button.click(lambda username, password, name, profile: handle_action("Sign Up", username, password, name, profile),
+                                  [username, password, name, profile], sign_up_output)
 
         with gr.Tab("My Account"):
             account_username = gr.Textbox(label="Enter Username")
@@ -416,6 +419,8 @@ def gradio_app():
 
     return app
 
+
 if __name__ == "__main__":
     app = gradio_app()
     app.launch()
+
