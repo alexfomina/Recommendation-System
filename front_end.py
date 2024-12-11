@@ -201,6 +201,18 @@ def select_course(course_name):
     global_course_name = course_name  # Set the global course name
     return "Interaction"  # Navigate to Interaction page
 
+def show_recommendations(user_id):
+    recommendations = db.get_recommendations_for_user(user_id)
+    if not recommendations:
+        return "No recommendations available at the moment."
+
+    courses = [db.get_course_details(course_id) for course_id, _ in recommendations]
+    recommendations_text = "\n\n".join([
+        f"**{course['name']}**\nRating: {course['rating']}\n{course['description']}"
+        for course in courses if course
+    ])
+    return recommendations_text
+
 # Gradio interface setup
 with gr.Blocks() as app:
     current_page = gr.State("Login")
