@@ -5,8 +5,8 @@ from db import db_ops
 db = db_ops()
 
 #db.delete_everything()
-db.create_tables()
-db.populate()
+# db.create_tables()
+# db.populate()
 
 # Global variables for username and password
 global_username = None
